@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+src/bootstrap*
+src/.eslintrc
+.env
 
 # testing
 /coverage
