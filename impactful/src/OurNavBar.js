@@ -12,6 +12,7 @@ function OurNavBar() {
     <Nav className="mr-auto">
       <Nav.Link href="#opportunites">Opportunites</Nav.Link>
       <Nav.Link href="#pricing">Community</Nav.Link>
+      <Nav.Link href="#about">Community</Nav.Link>
     </Nav>
   </Navbar>
   )
