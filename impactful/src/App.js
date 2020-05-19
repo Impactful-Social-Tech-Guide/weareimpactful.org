@@ -12,16 +12,32 @@ function App() {
     <div className="App">
 
       <header className="App-header">
+      <h1> Impactful </h1>
+      </header>
 
+      <header className="App-about">
       <About></About>
+      </header>
 
+      <header className="App-jobOpp">
       <JobOpp></JobOpp>
+      </header>
 
+      <header className="App-organizations">
       <Organizations></Organizations>
+      </header>
 
+      <header className="App-reccs">
       <Reccs></Reccs>
+      </header>
+
+      <header className="App-footer">
+      <h1> Footercontents </h1>
 
       </header>
+
+
+
     </div>
   );
 }
