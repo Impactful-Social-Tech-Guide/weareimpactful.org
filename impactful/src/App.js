@@ -1,31 +1,25 @@
 import React from 'react';
 import './App.css';
-import Iframe from 'react-iframe'
 import About from './components/about'
+import JobOpp from './components/jobOpp.jsx'
+import Organizations from './components/organizations.jsx'
+import Reccs from './components/reccs.jsx'
+
 
 function App() {
   return (
-    
+
     <div className="App">
-ß
+
       <header className="App-header">
+
       <About></About>
 
-      <span>&nbsp;&nbsp;</span>
-      <h style={{fontSize:60}}> Job Opportunities </h>
-      <Iframe class="airtable-embed" src="https://airtable.com/embed/shrYHEJU5lTBOA7rk?backgroundColor=orange&layout=card&viewControls=on"
-      frameborder="0" onmousewheel="" width="60%" height="533" style={{background: "transparent", border:" 1 solid #ccc"}}></Iframe>
+      <JobOpp></JobOpp>
 
-       <span>&nbsp;&nbsp;</span>
-       <h style={{fontSize:60}}> Organizations </h>
-       <Iframe class="airtable-embed" src="https://airtable.com/embed/shrKrkfBWYL8KtAkV?backgroundColor=orange&layout=card&viewControls=on"
-       frameborder="0" onmousewheel="" width="60%" height="533" style={{background: "transparent", border:" 1 solid #ccc"}}></Iframe>
+      <Organizations></Organizations>
 
-       <span>&nbsp;&nbsp;</span>
-       <h style={{fontSize:60}}> Our Reccomendations </h>
-       <Iframe class="airtable-embed" src="https://airtable.com/embed/shrEICZt0M8cLf80j?backgroundColor=orange&layout=card&viewControls=on"
-        frameborder="0" onmousewheel="" width="60%" height="533" style={{background: "transparent", border:" 1 solid #ccc"}}></Iframe>
-        <span>&nbsp;&nbsp;</span>
+      <Reccs></Reccs>
 
       </header>
     </div>
