@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./img/green_city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+
+.bg-no-overlay {
+    background: url("./img/green_city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: middle;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
