@@ -5,10 +5,12 @@ import About from './components/about'
 
 function App() {
   return (
-    <About></About>
     
     <div className="App">
+ß
       <header className="App-header">
+      <About></About>
+
       <span>&nbsp;&nbsp;</span>
       <h style={{fontSize:60}}> Job Opportunities </h>
       <Iframe class="airtable-embed" src="https://airtable.com/embed/shrYHEJU5lTBOA7rk?backgroundColor=orange&layout=card&viewControls=on"
