@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
 import Iframe from 'react-iframe'
+import About from './components/about'
 
 function App() {
   return (
+    <About></About>
+    
     <div className="App">
       <header className="App-header">
       <span>&nbsp;&nbsp;</span>
