@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import './App.css';
 import UserJoin from './UserJoin';
 import OrgsJoin from './OrgsJoin';
+import About from './components/about'
 
 import userImage from './img/woman_with_laptop_take_4.png';
 import companyImage from './img/silicon_valley.jpg';
@@ -14,7 +15,7 @@ function Join() {
   	<div className="jumbotron fluid" id="join">
   		<Carousel>
 		  <Carousel.Item>
-		    <img 
+			<img 
 		      className="d-block fluid carousel-img"
 		      src={userImage}
 		      alt="For Techies"
@@ -42,7 +43,13 @@ function Join() {
 		      <br/><br/>
 		    </Carousel.Caption>
 		  </Carousel.Item>
-		  
+
+			<Carousel.Item>
+				<About></About>
+				<Carousel.Caption>
+					<br /><br />
+				</Carousel.Caption>
+			</Carousel.Item>
 		</Carousel>
   	</div>
   )

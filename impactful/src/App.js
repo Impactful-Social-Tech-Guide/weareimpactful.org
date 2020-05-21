@@ -4,7 +4,6 @@ import IntroSlide from './IntroSlide'
 import Join from './Join';
 
 import './App.css';
-import About from './components/about'
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
 import Recs from './components/recs.jsx'
@@ -24,7 +23,6 @@ function App() {
 
       <header className="App-header">
 
-      <About></About>
       <Opportunities/>
       </header>
 
