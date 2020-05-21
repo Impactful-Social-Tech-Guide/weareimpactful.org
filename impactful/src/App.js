@@ -7,7 +7,7 @@ import './App.css';
 import About from './components/about'
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
-// import Recs from './components/recs.jsx'
+import Recs from './components/recs.jsx'
 
 
 function App() {
@@ -31,6 +31,15 @@ function App() {
 
 
       </header>
+      <header className="App-recs">
+      <Recs></Recs>
+      </header>
+
+      <header className="App-footer">
+      <h1> Footer Contents </h1>
+
+      </header>
+
     </div>
   );
 }

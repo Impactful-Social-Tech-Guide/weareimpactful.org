@@ -12,7 +12,7 @@ export default class jobOpp extends Component {
             </div>
 
             <div  style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}   className="airtable-embed">
-            <Iframe class="airtable-embed" src="https://airtable.com/embed/shrYHEJU5lTBOA7rk?backgroundColor=orange&layout=card&viewControls=on"
+            <Iframe class="airtable-embed" src="https://airtable.com/embed/shrUY2UUvj3qsSI8N?backgroundColor=orange&viewControls=on"
             frameborder="0" onmousewheel="" width="900" height="533" style={{background: "transparent", border:" 1 solid #ccc"}}></Iframe>
             </div>
 
