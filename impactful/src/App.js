@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/about'
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
-import Reccs from './components/reccs.jsx'
+import Reccs from './components/recs.jsx'
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
       <Organizations></Organizations>
       </header>
 
-      <header className="App-reccs">
+      <header className="App-recs">
       <Reccs></Reccs>
       </header>
 
@@ -35,8 +35,6 @@ function App() {
       <h1> Footercontents </h1>
 
       </header>
-
-
 
     </div>
   );
