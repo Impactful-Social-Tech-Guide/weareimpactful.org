@@ -1,4 +1,5 @@
 {
+  "homepage": "https://impactful-social-tech-guide.github.io/Website",
   "name": "impactful",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
   },
   "eslintConfig": {
     "extends": "react-app"
