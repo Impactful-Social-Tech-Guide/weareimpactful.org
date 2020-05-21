@@ -111,3 +111,7 @@
     height: 450px;
     padding-top: 50px;
 }
+
+.carousel-img {
+    max-height: 760px; 
+}

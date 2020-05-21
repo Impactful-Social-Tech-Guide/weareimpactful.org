@@ -6,21 +6,21 @@ import './App.css';
 import UserJoin from './UserJoin';
 import OrgsJoin from './OrgsJoin';
 
-import userImage from './img/woman_with_laptop.jpg';
-import companyImage from './img/siliconValley2.jpeg'
+import userImage from './img/woman_with_laptop_take_4.png';
+import companyImage from './img/silicon_valley.jpg';
 
 function Join() {
   return (
   	<div className="jumbotron fluid" id="join">
   		<Carousel>
 		  <Carousel.Item>
-		    <img
-		      className="d-block fluid"
+		    <img 
+		      className="d-block fluid carousel-img"
 		      src={userImage}
 		      alt="For Techies"
 		    />
 		    <Carousel.Caption>
-		      <h1>Want to do more with your tech skills?</h1>
+		      <h1> Techie <br/><br/> Want to do more with your tech skills?</h1>
 		      <br/><br/>
 		      <h2>Sign up to join our community.</h2>
 		      <br/><br/>
@@ -36,7 +36,7 @@ function Join() {
 		    />
 
 		    <Carousel.Caption>
-		      <h1>Company? <br/><br/> You're here to hire. <br/><br/> We're here to help.</h1>
+		      <h1>Company <br/><br/> You're here to hire. <br/><br/> We're here to help.</h1>
 		      <br/><br/><br/><br/>
 		      <Button size="lg" href="#">Post a job opening.</Button>
 		      <br/><br/>
