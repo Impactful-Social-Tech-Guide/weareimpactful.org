@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.558fe2f2.chunk.js",
-    "main.js.map": "/static/js/main.558fe2f2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.7652e11b.chunk.js": "/static/js/2.7652e11b.chunk.js",
-    "static/js/2.7652e11b.chunk.js.map": "/static/js/2.7652e11b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.739e8e47e9d91e91893a417dfb8caa44.js": "/precache-manifest.739e8e47e9d91e91893a417dfb8caa44.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.7652e11b.chunk.js.LICENSE.txt": "/static/js/2.7652e11b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Website/static/css/main.6b4a2e10.chunk.css",
+    "main.js": "/Website/static/js/main.ef4b0a8f.chunk.js",
+    "main.js.map": "/Website/static/js/main.ef4b0a8f.chunk.js.map",
+    "runtime-main.js": "/Website/static/js/runtime-main.8740473b.js",
+    "runtime-main.js.map": "/Website/static/js/runtime-main.8740473b.js.map",
+    "static/js/2.77c2fa32.chunk.js": "/Website/static/js/2.77c2fa32.chunk.js",
+    "static/js/2.77c2fa32.chunk.js.map": "/Website/static/js/2.77c2fa32.chunk.js.map",
+    "index.html": "/Website/index.html",
+    "precache-manifest.2e7a44b1e572b7e27d652092851d280c.js": "/Website/precache-manifest.2e7a44b1e572b7e27d652092851d280c.js",
+    "service-worker.js": "/Website/service-worker.js",
+    "static/css/main.6b4a2e10.chunk.css.map": "/Website/static/css/main.6b4a2e10.chunk.css.map",
+    "static/js/2.77c2fa32.chunk.js.LICENSE.txt": "/Website/static/js/2.77c2fa32.chunk.js.LICENSE.txt",
+    "static/media/green_city.jpg": "/Website/static/media/green_city.d29989dc.jpg",
+    "static/media/silicon_valley.jpg": "/Website/static/media/silicon_valley.8167bade.jpg",
+    "static/media/techgood-evil-796x530.jpg": "/Website/static/media/techgood-evil-796x530.a4a3a417.jpg",
+    "static/media/woman_with_laptop_take_4.png": "/Website/static/media/woman_with_laptop_take_4.ce2aea27.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.7652e11b.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.558fe2f2.chunk.js"
+    "static/js/runtime-main.8740473b.js",
+    "static/js/2.77c2fa32.chunk.js",
+    "static/css/main.6b4a2e10.chunk.css",
+    "static/js/main.ef4b0a8f.chunk.js"
   ]
 }
