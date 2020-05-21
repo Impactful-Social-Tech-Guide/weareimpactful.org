@@ -7,7 +7,7 @@ import './App.css';
 import About from './components/about'
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
-import Recs from './components/recs.jsx'
+// import Recs from './components/recs.jsx'
 
 
 function App() {
@@ -29,7 +29,6 @@ function App() {
 
       <Organizations></Organizations>
 
-      <Recs></Recs>
 
       </header>
     </div>
