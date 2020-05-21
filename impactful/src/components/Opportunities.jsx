@@ -1,15 +1,14 @@
 import React from 'react';
-import './App.css';
-import About from './components/about'
-import JobOpp from './components/jobOpp.jsx'
-import Organizations from './components/organizations.jsx'
-import Recss from './components/recs.jsx'
+import About from './about.jsx'
+import JobOpp from './jobOpp.jsx'
+import Organizations from './organizations.jsx'
+import Recs from './recs.jsx'
 
 
 function Opportunities() {
   return (
 
-    <div className="App">
+    <div className="App" id="opportunities">
 
       <header className="App-header">
 

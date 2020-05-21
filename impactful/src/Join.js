@@ -11,7 +11,7 @@ import companyImage from './img/siliconValley2.jpeg'
 
 function Join() {
   return (
-  	<div className="jumbotron fluid">
+  	<div className="jumbotron fluid" id="join">
   		<Carousel>
 		  <Carousel.Item>
 		    <img

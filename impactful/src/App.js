@@ -8,6 +8,7 @@ import About from './components/about'
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
 import Recs from './components/recs.jsx'
+import Opportunities from './components/Opportunities.jsx'
 
 
 function App() {
@@ -24,16 +25,9 @@ function App() {
       <header className="App-header">
 
       <About></About>
-
-      <JobOpp></JobOpp>
-
-      <Organizations></Organizations>
-
-
+      <Opportunities/>
       </header>
-      <header className="App-recs">
-      <Recs></Recs>
-      </header>
+
 
       <header className="App-footer">
       <h1> Footer Contents </h1>

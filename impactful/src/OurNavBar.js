@@ -7,12 +7,12 @@ import './App.css';
 
 function OurNavBar() {
   return(
-  <Navbar bg="primary" variant="dark">
+  <Navbar bg="primary" variant="dark" id="ourNavBar">
     <Navbar.Brand href="#home">Impactful</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#opportunites">Opportunites</Nav.Link>
-      <Nav.Link href="#pricing">Community</Nav.Link>
-      <Nav.Link href="#about">Community</Nav.Link>
+      <Nav.Link href="#opportunities">Opportunities</Nav.Link>
+      <Nav.Link href="#join">Community</Nav.Link>
+      <Nav.Link href="#about">About Us</Nav.Link>
     </Nav>
   </Navbar>
   )

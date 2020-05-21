@@ -6,7 +6,7 @@ import Iframe from 'react-iframe'
 export default class jobOpp extends Component {
     render() {
         return (
-            <div>
+            <div id="recs">
 
             <div className="airtable-title">
             <h1> Our Recommendations</h1>

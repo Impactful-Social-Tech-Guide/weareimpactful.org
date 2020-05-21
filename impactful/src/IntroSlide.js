@@ -7,7 +7,7 @@ import './App.css';
 
 function IntroSlide() {
   return (
-  	<div className="IntroSlide">
+  	<div id="introSlide">
 	  <div className="container bg-no-overlay text-center"  fluid>
 	    <h1 className="text-dark"><br/> Do Better <br/><br/> In Tech</h1>
 	    <br/> <br/><br/>

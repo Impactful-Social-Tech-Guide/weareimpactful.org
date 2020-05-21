@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class About extends Component {
     render() {
         return (
-            <div>
+            <div id="about">
                 <h1>About</h1>
                 <div className="about-site">
                     <h2>About the Website</h2>
