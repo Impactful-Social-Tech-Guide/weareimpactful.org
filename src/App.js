@@ -23,6 +23,7 @@ function App() {
       {/* <header className="App-header">
 
       </header> */}
+      soft β launch
       <OurNavBar />
 
       <div>
