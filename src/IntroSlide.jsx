@@ -12,13 +12,11 @@ function IntroSlide() {
 		<div id="intro slide" className="jumbotron fluid text-dark" class="container border-top pt-4 ">
 		<br></br>
 
-		<h1>we are Impactful.</h1>
-		<h1>your space for tech + social impact.</h1>
-		<h2><br/>Find career opportunities <br/>
-			+ community.
-		</h2>
+		<h1><b>we are Impactful.</b></h1>
+		<h2>your space for tech + social impact.</h2>
+		<h3>career opportunities + community.</h3>
 
-				<br></br>
+				<br/><br/>
 
 				<div class="row d-flex justify-content-center">
 					<div class="col" >

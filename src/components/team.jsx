@@ -10,7 +10,7 @@ import LinkedIn from '../img/linkedin.svg';
 export default class Footer extends Component {
     render() {
         return (
-            <div class="text-center pt-4 border-top container ">
+            <div class="text-center pt-4 border-top container " id="team">
                 <h1>meet the team.</h1>
                 
                 <br></br>

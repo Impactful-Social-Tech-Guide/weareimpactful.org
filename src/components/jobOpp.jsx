@@ -6,9 +6,9 @@ export default class jobOpp extends Component {
     render() {
         return (
 
-            <div  className="App-jobOpp">
+            <div  className="App-jobOpp" id="opportunities">
             <br/>
-            <h1 > Jobs + Fellowships + Research </h1>
+            <h1 > jobs + fellowships + research </h1>
             <br/> 
 
             <div className="airtable-title">

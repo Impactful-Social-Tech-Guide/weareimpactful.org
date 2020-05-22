@@ -8,7 +8,7 @@ import ConferenceCall from '../img/illustrations/undraw_conference_call_b0w6.svg
 export default class Footer extends Component {
     render() {
         return (
-            <div  className="jumbotron fluid text-dark" class="container border-top pt-4 ">
+            <div  className="jumbotron fluid text-dark" class="container border-top pt-4 " id="community">
                 
                 <h1>join our community.</h1>
                 <br/><br/>
@@ -32,7 +32,6 @@ export default class Footer extends Component {
                         <br/><br/>
                         <div >
                             <a href="https://airtable.com/shrHRVGAqiv3fVXCH" class="btn btn-default btn-primary btn-lg">sign up here</a>
-
                         </div>
                     </div>
                 </div>

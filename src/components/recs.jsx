@@ -9,7 +9,7 @@ export default class jobOpp extends Component {
             <div className="App-reccs">
             <br/>
             <div className="airtable-title">
-            <h1> Our Recommendations</h1>
+            <h1> our recommendations</h1>
             <br/> 
             </div>
 
