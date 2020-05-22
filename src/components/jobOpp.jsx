@@ -8,7 +8,7 @@ export default class jobOpp extends Component {
 
             <div  className="App-jobOpp" id="opportunities">
             <br/>
-            <h1 > jobs + fellowships + research </h1>
+                <h1 style={{ color: "white" }} > jobs + fellowships + research </h1>
             <br/> 
 
             <div className="airtable-title">
