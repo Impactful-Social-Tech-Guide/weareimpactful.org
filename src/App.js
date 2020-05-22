@@ -27,7 +27,6 @@ function App() {
 
       <div>
         <IntroSlide />
-        <br></br>
         <JobOpp></JobOpp>
         <About></About>
         <Join />
