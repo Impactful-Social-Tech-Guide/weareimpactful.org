@@ -43,8 +43,8 @@ export default class About extends Component {
                 <div class="row d-flex justify-content-center">
                     <div class="col">
                         <div class="text-center">
-                            <h5>Want to get involved? Or have any questions/comments/concerns?</h5>
-                            <p>Email us any of us at larissa.h.nguyen [at] gmail.com, nithmails1 [at] gmail.com, ivonneaguzmanl [at] gmail.com </p>
+                            <h5><b>Want to get involved? Have Feedback? Questions?</b></h5>
+                            <p>Email us any of us at <b>impactful.tech@gmail.com</b> :)!</p>
                         </div> 
 
                     </div>
