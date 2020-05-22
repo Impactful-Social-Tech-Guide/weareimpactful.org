@@ -20,7 +20,7 @@ function IntroSlide() {
 
 						<div class="col" >
 
-								<div className="intro-site" >
+					<div className="intro-site" class="text-left" >
 										<p >
 												We want to make it easy for technologists at any level of experience to do socially impactful work.
 						</p>
