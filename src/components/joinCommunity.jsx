@@ -9,9 +9,9 @@ export default class Footer extends Component {
     render() {
         return (
             <div  className="jumbotron fluid text-dark" class="container border-top pt-4 ">
-                <br></br>
+                
                 <h1>join our community.</h1>
-                <br></br>
+                <br/><br/>
 
                 <div class="row d-flex justify-content-center">
                     <div class="col text-right">
@@ -24,11 +24,12 @@ export default class Footer extends Component {
 
                     <div class="col">
 
-                        <div className="community-blurb" class="text-left">
+                        <div className="community-blurb" class="text-center">
+                            <br/><br/><br/><br/>
                             <p>We are curating a network of technologists who care about tackling the world's most pressing issues</p>
                             <p>Here you share resources, form project groups, engage in meaningful conversation, or whatever you want, really!</p>
                         </div>
-                        <br></br><br></br>
+                        <br/><br/>
                         <div >
                             <a href="https://airtable.com/shrHRVGAqiv3fVXCH" class="btn btn-default btn-primary btn-lg">sign up here</a>
 
@@ -39,7 +40,7 @@ export default class Footer extends Component {
                 <div class="row d-flex justify-content-center">
                     <div class="col">
                         <div class="text-center">
-                            <h5><b>Want to get involved? Have Feedback? Questions?</b></h5>
+                            <h5><br/><b>Want to get involved? Have Feedback? Questions?</b></h5>
                             <p>Email us at <b>impactful.tech@gmail.com</b> :)!</p>
                         </div>
 

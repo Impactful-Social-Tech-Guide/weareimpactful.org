@@ -28,7 +28,7 @@ export default class Footer extends Component {
                         </div>
                         <h4 class="font-weight-bold dark-grey-text my-4">Larissa</h4>
                         <p>CS @ Yale</p>
-                        <p>Software Engineer Loves to dance, play board games, and garden</p>
+                        <p>Developer • Loves to dance, play board games, and garden</p>
 
                     </div>
 
@@ -40,7 +40,7 @@ export default class Footer extends Component {
                         </div>
                         <h4 class="font-weight-bold dark-grey-text my-4">Ivonne</h4>
                         <p>CS @ Cal Poly SLO 2019</p>
-                        <p>Software Engineer • Loves birds, visual storytelling, & social impact</p>
+                        <p>Developer • Loves birds, visual storytelling, & social impact</p>
                     </div>
 
                     <div class="col-md-3">
@@ -50,7 +50,7 @@ export default class Footer extends Component {
                         </div>
                         <h4 class="font-weight-bold dark-grey-text my-4">Nithi</h4>
                         <p>Electrical engineer @ Cooper Union 2020</p>
-                        <p>developer; loves dancing, traveling, and social impact</p>
+                        <p>Developer • Loves dancing, traveling, and social impact</p>
                     </div>
 
                 </div>

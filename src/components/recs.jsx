@@ -10,6 +10,7 @@ export default class jobOpp extends Component {
             <br/>
             <div className="airtable-title">
             <h1> Our Recommendations</h1>
+            <br/> 
             </div>
 
             <div  style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}   className="airtable-embed">

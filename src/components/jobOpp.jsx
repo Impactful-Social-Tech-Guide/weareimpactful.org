@@ -8,7 +8,8 @@ export default class jobOpp extends Component {
 
             <div  className="App-jobOpp">
             <br/>
-            <h1 > Jobs, Fellowships, Research Opportunties, ... </h1>
+            <h1 > Jobs + Fellowships + Research </h1>
+            <br/> 
 
             <div className="airtable-title">
 

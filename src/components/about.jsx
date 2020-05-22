@@ -14,13 +14,13 @@ export default class About extends Component {
             <div id="about" className="jumbotron fluid text-dark" class="container border-top pt-4 ">
             <br></br>
                 <h1>your space for tech + social impact.</h1>
-                <br></br>
+                <br/><br/>
 
                 <div class="row d-flex justify-content-center">
 
                     <div class="col">
 
-                        <div className="about-site">
+                        <div className="about-site text-center">
 
                             <p>
                                 Whether you're an (aspiring) engineer, designer, PM, etc, and you’re looking for your next job, meaningful projects to contribute to, or a community of like-minded technologists, Impactful has the information and resources you need to make it possible.
@@ -34,7 +34,7 @@ export default class About extends Component {
 
                         </div>
                     </div>
-                    <div class="col text-right">
+                    <div class="col text-center">
                         <img style = {{maxWidth:"330px"}}
                             class="img-fluid"
                             src={AboutImage}

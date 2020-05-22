@@ -12,32 +12,35 @@ function IntroSlide() {
 		<div id="intro slide" className="jumbotron fluid text-dark" class="container border-top pt-4 ">
 		<br></br>
 
-		<h1>We are Impactful.</h1>
+		<h1>we are Impactful.</h1>
 		<h1>your space for tech + social impact.</h1>
+		<h2><br/>Find career opportunities <br/>
+			+ community.
+		</h2>
+
 				<br></br>
 
 				<div class="row d-flex justify-content-center">
 
-						<div class="col" >
+					<div class="col" >
 
-								<div className="intro-site" >
-										<p >
-												We want to make it easy for technologists at any level of experience to do socially impactful work.
-						</p>
-										<p>
-												<b>Impactful</b> is a platform for technologists to develop their careers in social good by connecting them with socially-impactful opportunities and with other impact-driven technologists.
+						<div className="intro-site" >
+								<p >
+										We want to make it easy for technologists at any level of experience to do socially impactful work.
+								</p>
+								<p>
+										<b>Impactful</b> is a platform for technologists to develop their careers in social good by connecting them with socially-impactful opportunities and with other impact-driven technologists.
+								</p>
 
-						</p>
+							</div>
+					</div>
 
-								</div>
-						</div>
-
-						<div class="col text-right ">
-								<img style = {{ textAlign: "center;",maxWidth:"300px"}}
-										class="img-fluid"
-										src={Image1}
-										alt="For Companies"
-								/>
+					<div class="col text-right ">
+							<img style = {{ textAlign: "center;",maxWidth:"300px"}}
+									class="img-fluid"
+									src={Image1}
+									alt="For Companies"
+							/>
 						</div>
 
 				</div>

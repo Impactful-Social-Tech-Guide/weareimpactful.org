@@ -9,7 +9,7 @@ export default class forCompanies extends Component {
     render() {
         return (
             <div className="jumbotron fluid text-dark" class="container border-top pt-4 ">
-                <br></br>
+                <br/>
                 <h1>is your company hiring?</h1>
                 <br></br>
 
@@ -21,10 +21,12 @@ export default class forCompanies extends Component {
                             <p>Is your company/organization working on socially impactful work and looking for talented and passionate people? </p>
                             <p>Share any openings you have with us here! We will share them on our site.</p>
                         </div>
-                        <br></br><br></br>
+                        <br/>
                         <div >
-                            <a href="https://airtable.com/shrVNKcOkg25ndQT0" class="btn btn-default btn-primary btn-lg">share job opening</a>
+                            <a href="https://airtable.com/shrMuN5t9SWMLGSiF" class="btn btn-default btn-primary btn-lg mr-5">join our org database</a>
 
+                            <a href="https://airtable.com/shrVNKcOkg25ndQT0" class="btn btn-default btn-primary btn-lg mr-5">share a job opening</a>
+                            <br/> <br/>
                         </div>
                     </div>
                 </div>
