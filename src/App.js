@@ -10,6 +10,7 @@ import About from './components/about'
 import Team from './components/team'
 import Footer from './components/footer'
 import JoinCommunity from './components/joinCommunity'
+import ForCompanies from './components/forCompanies'
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
@@ -29,6 +30,7 @@ function App() {
         <JobOpp></JobOpp>
         <About></About>
         <JoinCommunity></JoinCommunity>
+        <ForCompanies></ForCompanies>
         <Organizations></Organizations>
         <Team></Team>s
 

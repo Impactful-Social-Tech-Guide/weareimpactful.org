@@ -28,7 +28,7 @@ export default class About extends Component {
                       <p>
                       <br>
                       </br>
-                      If you'd like to join our mailing list please fill out the form bellow!
+                      If you'd like to join our mailing list please fill out the form below!
                         </p>
                         <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">Mailing List.</Button>
 
