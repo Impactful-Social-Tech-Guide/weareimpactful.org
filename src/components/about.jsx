@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../App.css';
+import Button from 'react-bootstrap/Button';
+
 import '../css/styles.css';
 import AboutImage from '../img/illustrations/undraw_online_connection_6778.svg';
 import CollabImage from '../img/illustrations/undraw_shared_workspace_hwky.svg';
@@ -19,16 +21,23 @@ export default class About extends Component {
                     <div class="col">
 
                         <div className="about-site">
-                            <p>
-                                We want to make it easy for technologists at any level of experience to do socially impactful work.
-                    </p>
-                            <p>
-                                <b>Impactful</b> is a platform for technologists to develop their careers in social good by connecting them with socially-impactful opportunities and with other impact-driven technologists.
 
-                    </p>
                             <p>
                                 Whether you're an (aspiring) engineer, designer, PM, etc, and you’re looking for your next job, meaningful projects to contribute to, or a community of like-minded technologists, Impactful has the information and resources you need to make it possible.
                     </p>
+                      <p>
+                      <br>
+                      </br>
+                      If you'd like to join our mailing list please fill out the form bellow!
+                        </p>
+                        <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">Mailing List.</Button>
+                        <p>
+                        <br>
+                        </br>
+                        If you'd like to join our slack page for discussions on technology and social impact, fill out this application here!
+                          </p>
+
+                          <Button size="lg" href="https://airtable.com/shrHRVGAqiv3fVXCH" >Slack Community.</Button>
                         </div>
                     </div>
                     <div class="col text-right">

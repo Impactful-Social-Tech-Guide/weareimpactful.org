@@ -1,7 +1,7 @@
 import React from 'react';
 import OurNavBar from './OurNavBar';
-import IntroSlide from './IntroSlide'
-import Join from './Join';
+import IntroSlide from './IntroSlide.jsx'
+// import Join from './Join';
 
 import './App.css';
 import JobOpp from './components/jobOpp.jsx'
@@ -30,7 +30,6 @@ function App() {
         <br></br>
         <JobOpp></JobOpp>
         <About></About>
-        <Join />
         <Organizations></Organizations>
         <Team></Team>
 
