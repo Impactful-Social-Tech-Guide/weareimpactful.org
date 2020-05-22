@@ -33,6 +33,27 @@ h1{
   border-radius: 50%;
 }
 
-.circular--portrait img {
 
+#content
+{
+display: block;
+margin: 0px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+}
+
+.services-section img {
+
+    margin: auto;    
+    display: block;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #CC978E !important;
+    border-color:  #CC978E !important;
 }
