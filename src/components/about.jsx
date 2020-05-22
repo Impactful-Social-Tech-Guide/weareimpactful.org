@@ -20,7 +20,7 @@ export default class About extends Component {
 
                     <div class="col">
 
-                        <div className="about-site">
+                        <div className="about-site" class="text-left">
 
                             <p>
                                 Whether you're an (aspiring) engineer, designer, PM, etc, and you’re looking for your next job, meaningful projects to contribute to, or a community of like-minded technologists, Impactful has the information and resources you need to make it possible.
@@ -30,7 +30,7 @@ export default class About extends Component {
                       </br>
                       If you'd like to join our mailing list please fill out the form below!
                         </p>
-                        <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">Mailing List.</Button>
+                        <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">mailing list</Button>
 
                         </div>
                     </div>

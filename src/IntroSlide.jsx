@@ -12,7 +12,7 @@ function IntroSlide() {
 		<div id="intro slide" className="jumbotron fluid text-dark" class="container border-top pt-4 ">
 		<br></br>
 
-		<h1>We are Impactful.</h1>
+		<h1>We are Impactful,</h1>
 		<h1>your space for tech + social impact.</h1>
 				<br></br>
 
@@ -20,7 +20,7 @@ function IntroSlide() {
 
 						<div class="col" >
 
-								<div className="intro-site" >
+					<div className="intro-site" class="text-left" >
 										<p >
 												We want to make it easy for technologists at any level of experience to do socially impactful work.
 						</p>
