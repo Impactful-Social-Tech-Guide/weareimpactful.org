@@ -35,6 +35,7 @@ export default class Footer extends Component {
                             <img border="0"
                                 class=" img-fluid"
                              alt="LinkedIn Logo"  src={LinkedIn} width="10%" height="10%"></img>
+                        </a>
 
                     </div>
 
