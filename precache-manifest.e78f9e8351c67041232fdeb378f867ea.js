@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e40c5d25d09ac562d90fc768ebd5e7f1",
+    "revision": "3a7f1cee440f9351a15d7aa241e94af8",
     "url": "/index.html"
   },
   {
-    "revision": "7eccd9487f996afac3c2",
-    "url": "/static/css/main.d4c36749.chunk.css"
+    "revision": "b1cb630e9ddfc1798817",
+    "url": "/static/css/main.c27a0afa.chunk.css"
   },
   {
-    "revision": "8e6d6be619206ac5f3fd",
-    "url": "/static/js/2.42f812c4.chunk.js"
+    "revision": "494478940a09e8d7f7fd",
+    "url": "/static/js/2.6149627f.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.42f812c4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6149627f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7eccd9487f996afac3c2",
-    "url": "/static/js/main.b7f839ea.chunk.js"
+    "revision": "b1cb630e9ddfc1798817",
+    "url": "/static/js/main.116630e8.chunk.js"
   },
   {
     "revision": "b17457f05973c0e67538",
     "url": "/static/js/runtime-main.4fa04a44.js"
-  },
-  {
-    "revision": "d29989dcd8aea7eed7df66840b5885be",
-    "url": "/static/media/green_city.d29989dc.jpg"
   },
   {
     "revision": "541a4ae246c7fb37b0255a21f1b3ba00",
