@@ -10,6 +10,7 @@ export default class About extends Component {
     render() {
         return (
             <div id="about" className="jumbotron fluid text-dark" class="container border-top pt-4 ">
+            <br></br>
                 <h1>your space for tech + social impact.</h1>
                 <br></br>
 

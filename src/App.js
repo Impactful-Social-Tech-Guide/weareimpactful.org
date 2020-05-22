@@ -26,13 +26,15 @@ function App() {
       <OurNavBar />
 
       <div>
-
         <IntroSlide />
         <br></br>
+        <JobOpp></JobOpp>
         <About></About>
         <Join />
-        <Opportunities />
+        <Organizations></Organizations>
         <Team></Team>
+
+        <Recs></Recs>
 
       </div>
 

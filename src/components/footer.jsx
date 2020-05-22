@@ -6,7 +6,7 @@ import '../css/styles.css';
 export default class Footer extends Component {
     render() {
         return (
-            <footer class="pt-4 border-top">
+            <footer class="pt-4 border-top" style = {{backgroundColor: "#294126"}}>
                 <div class="row">
                     <div class="col-4 col-md">
                         <h2 >Impactful</h2>

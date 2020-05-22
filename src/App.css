@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #251F47;
+  background-color: #CC978E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-about {
-  background-color: #404E7C;
+  background-color: #E0DEC7;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -36,10 +36,10 @@
 }
 
 .App-jobOpp {
-  background-color: #71B48D;
+  background-color: #CC978E;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -47,10 +47,10 @@
 }
 
 .App-organizations {
-  background-color: #8C8A93;
+  background-color: #CC978E;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -58,10 +58,10 @@
 }
 
 .App-reccs {
-  background-color: #86CB92;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #CC978E;
+  min-height: 70vh;
+  /* display: flex; */
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -69,7 +69,7 @@
 }
 
 .App-footer {
-  background-color: #260F26;
+  background-color: #294126;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@
 }
 
 .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./img/green_city.jpg");
+    /* background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./img/green_city.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -102,7 +102,7 @@
 }
 
 .bg-no-overlay {
-    background: url("./img/green_city.jpg");
+    /* background: url("./img/green_city.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -113,5 +113,5 @@
 }
 
 .carousel-img {
-    max-height: 760px; 
+    max-height: 760px;
 }

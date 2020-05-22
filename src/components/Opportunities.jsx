@@ -10,15 +10,7 @@ function Opportunities() {
 
     <div className="App" id="opportunities">
 
-      <header className="App-header">
-
-      <JobOpp></JobOpp>
-
-      <Organizations></Organizations>
-
-      <Recs></Recs>
-
-      </header>
+      
     </div>
   );
 }
