@@ -1,8 +1,6 @@
 import React from 'react';
 import OurNavBar from './OurNavBar';
 import IntroSlide from './IntroSlide.jsx'
-// import Join from './Join';
-
 import './App.css';
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
@@ -30,13 +28,9 @@ function App() {
         <IntroSlide />
         <JobOpp></JobOpp>
         <About></About>
-<<<<<<< HEAD
-=======
         <JoinCommunity></JoinCommunity>
-        <Join />
->>>>>>> 64f76d392d8579f504c80b6261b3d51719af161a
         <Organizations></Organizations>
-        <Team></Team>
+        <Team></Team>s
 
         <Recs></Recs>
 

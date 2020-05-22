@@ -31,17 +31,11 @@ export default class About extends Component {
                       If you'd like to join our mailing list please fill out the form bellow!
                         </p>
                         <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">Mailing List.</Button>
-                        <p>
-                        <br>
-                        </br>
-                        If you'd like to join our slack page for discussions on technology and social impact, fill out this application here!
-                          </p>
 
-                          <Button size="lg" href="https://airtable.com/shrHRVGAqiv3fVXCH" >Slack Community.</Button>
                         </div>
                     </div>
                     <div class="col text-right">
-                        <img
+                        <img style = {{maxWidth:"330px"}}
                             class="img-fluid"
                             src={AboutImage}
                             alt="For Companies"
@@ -50,16 +44,7 @@ export default class About extends Component {
                 </div>
                 <br></br>
 
-                <div class="row d-flex justify-content-center">
-                    <div class="col">
-                        <div class="text-center">
-                            <h5><b>Want to get involved? Have Feedback? Questions?</b></h5>
-                            <p>Email us at <b>impactful.tech@gmail.com</b> :)!</p>
-                        </div>
 
-                    </div>
-
-                </div>
 
 
                 {/* <div className="about-team">

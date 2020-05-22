@@ -15,7 +15,7 @@ export default class Footer extends Component {
 
                 <div class="row d-flex justify-content-center">
                     <div class="col text-right">
-                        <img
+                        <img 
                             class="img-fluid"
                             src={ConferenceCall}
                             alt="For Companies"
@@ -30,14 +30,25 @@ export default class Footer extends Component {
                         </div>
                         <br></br><br></br>
                         <div >
-                            <a href="#" class="btn btn-default btn-primary btn-lg">sign up here</a>
+                            <a href="https://airtable.com/shrHRVGAqiv3fVXCH" class="btn btn-default btn-primary btn-lg">sign up here</a>
 
                         </div>
                     </div>
                 </div>
                 <br></br>
+                <div class="row d-flex justify-content-center">
+                    <div class="col">
+                        <div class="text-center">
+                            <h5><b>Want to get involved? Have Feedback? Questions?</b></h5>
+                            <p>Email us at <b>impactful.tech@gmail.com</b> :)!</p>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
-           
+
+
         )
     }
 
