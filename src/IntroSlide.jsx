@@ -21,9 +21,7 @@ function IntroSlide() {
 				<br></br>
 
 				<div class="row d-flex justify-content-center">
-
 					<div class="col" >
-
 						<div className="intro-site" >
 								<p >
 										We want to make it easy for technologists at any level of experience to do socially impactful work.
@@ -36,12 +34,12 @@ function IntroSlide() {
 					</div>
 
 					<div class="col text-right ">
-							<img style = {{ textAlign: "center;",maxWidth:"300px"}}
-									class="img-fluid"
-									src={Image1}
-									alt="For Companies"
-							/>
-						</div>
+						<img style = {{ textAlign: "center;",maxWidth:"300px"}}
+								class="img-fluid"
+								src={Image1}
+								alt="For Companies"
+						/>
+					</div>
 
 				</div>
 				<br></br>

@@ -19,7 +19,6 @@ export default class About extends Component {
                 <div class="row d-flex justify-content-center">
 
                     <div class="col">
-
                         <div className="about-site text-center">
 
                             <p>
@@ -30,7 +29,7 @@ export default class About extends Component {
                       </br>
                       If you'd like to join our mailing list please fill out the form below!
                         </p>
-                        <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">Mailing List.</Button>
+                        <Button size="lg" href="https://airtable.com/shrz6v3BtuOsJuQbR">mailing list</Button>
 
                         </div>
                     </div>
