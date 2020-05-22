@@ -9,29 +9,19 @@ import Image2 from './img/illustrations/intro2.svg';
 
 function IntroSlide() {
 	return (
-		<div id="intro slide" className="jumbotron fluid text-dark" class="container border-top pt-4 " style = {{maxwidth:"1700px"}}>
+		<div id="intro slide" className="jumbotron fluid text-dark" class="container border-top pt-4 ">
 		<br></br>
 
 		<h1>We are Impactful.</h1>
 		<h1>your space for tech + social impact.</h1>
 				<br></br>
 
-				<div class="row d-flex justify-content-center"  style = {{width:"75%;"}}>
-				<div class="col text-left ">
-						<img style = {{maxWidth:"230px"}}
-								class="img-fluid"
-								src={Image2}
-								alt="For Companies"
-						/>
-				</div>
+				<div class="row d-flex justify-content-center">
 
 						<div class="col" >
 
-
-
-
-								<div className="intro-site" style= {{ textAlign: "left;", maxHeight:"300px"}}>
-										<p style={{textAlign: "left;"}}>
+								<div className="intro-site" >
+										<p >
 												We want to make it easy for technologists at any level of experience to do socially impactful work.
 						</p>
 										<p>
