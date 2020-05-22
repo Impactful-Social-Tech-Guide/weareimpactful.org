@@ -11,6 +11,7 @@ import Opportunities from './components/Opportunities.jsx'
 import About from './components/about'
 import Team from './components/team'
 import Footer from './components/footer'
+import JoinCommunity from './components/joinCommunity'
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
@@ -29,6 +30,7 @@ function App() {
         <IntroSlide />
         <JobOpp></JobOpp>
         <About></About>
+        <JoinCommunity></JoinCommunity>
         <Join />
         <Organizations></Organizations>
         <Team></Team>

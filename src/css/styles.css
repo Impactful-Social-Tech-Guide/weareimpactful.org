@@ -52,3 +52,8 @@ overflow-x:auto;
     margin: auto;    
     display: block;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #CC978E !important;
+    border-color:  #CC978E !important;
+}
