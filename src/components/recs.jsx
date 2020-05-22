@@ -18,6 +18,7 @@ export default class jobOpp extends Component {
              frameborder="0" onmousewheel="" width="75%" height="533" style={{background: "transparent", border:" 1 solid #ccc"}}></Iframe>
              <span>&nbsp;&nbsp;</span>
              </div>
+                <br></br>
 
             </div>
         )
