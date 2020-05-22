@@ -32,7 +32,7 @@ function App() {
         <JoinCommunity></JoinCommunity>
         <ForCompanies></ForCompanies>
         <Organizations></Organizations>
-        <Team></Team>s
+        <Team></Team>
 
         <Recs></Recs>
 

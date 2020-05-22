@@ -5,6 +5,7 @@ import '../css/styles.css';
 import Larissa from '../img/larissa.jpg';
 import Ivonne from '../img/ivonne.JPG';
 import Nithi from '../img/nithi.jpg';
+import LinkedIn from '../img/linkedin.svg';
 
 export default class Footer extends Component {
     render() {
@@ -29,6 +30,12 @@ export default class Footer extends Component {
                         <h4 class="font-weight-bold dark-grey-text my-4">Larissa</h4>
                         <p>CS @ Yale</p>
                         <p>Software Engineer Loves to dance, play board games, and garden</p>
+                        <a href="https://www.linkedin.com/in/larissanguyen/">
+                            <img border="0"
+                                class=" img-fluid"
+                             alt="LinkedIn Logo"  src={LinkedIn} width="10%" height="10%"></img>
+</a>
+
 
                     </div>
 
@@ -41,6 +48,9 @@ export default class Footer extends Component {
                         <h4 class="font-weight-bold dark-grey-text my-4">Ivonne</h4>
                         <p>CS @ Cal Poly SLO 2019</p>
                         <p>Software Engineer • Loves birds, visual storytelling, & social impact</p>
+                        <a href="https://www.linkedin.com/in/iguzmanl/">
+                            <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                        </a>
                     </div>
 
                     <div class="col-md-3">
@@ -51,6 +61,9 @@ export default class Footer extends Component {
                         <h4 class="font-weight-bold dark-grey-text my-4">Nithi</h4>
                         <p>Electrical engineer @ Cooper Union 2020</p>
                         <p>developer; loves dancing, traveling, and social impact</p>
+                        <a href="https://www.linkedin.com/in/nithi-subbaian/">
+                            <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                        </a>
                     </div>
 
                 </div>
