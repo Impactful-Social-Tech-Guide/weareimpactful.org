@@ -4,3 +4,8 @@ div #about {
 h1{
     text-align: center;
 }
+.footer{
+  border-top: .5px solid hsla(0,0%,100%,.2);
+}
+#element1 {display:inline-block;margin-right:10px; width:200px;} 
+#element2 {display:inline-block; width:200px; } 

@@ -8,29 +8,31 @@ import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
 import Recs from './components/recs.jsx'
 import Opportunities from './components/Opportunities.jsx'
+import About from './components/about'
+import Footer from './components/footer'
 
 
 function App() {
   return (
 
     <div className="App">
+      {/* <header className="App-header">
+
+      </header> */}
+      <OurNavBar/>
+
       <div>
-        <OurNavBar/>
+
         <IntroSlide/>
+        <br></br>
+        <About></About>
         <Join/>
+        <Opportunities/>
+
       </div>
 
 
-      <header className="App-header">
-
-      <Opportunities/>
-      </header>
-
-
-      <header className="App-footer">
-      <h1> Footer Contents </h1>
-
-      </header>
+      <Footer></Footer>
 
     </div>
   );

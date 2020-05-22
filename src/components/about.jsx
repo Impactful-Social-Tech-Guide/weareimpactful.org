@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../App.css';
 import '../css/styles.css';
-import AboutImage from '../img/undraw_online_connection_6778.svg';
+import AboutImage from '../img/illustrations/undraw_online_connection_6778.svg';
+import CollabImage from '../img/illustrations/undraw_shared_workspace_hwky.svg';
 
 
 export default class About extends Component {
