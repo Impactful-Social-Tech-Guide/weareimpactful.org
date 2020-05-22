@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6347bdbd.chunk.css",
-    "main.js": "/static/js/main.1c44e583.chunk.js",
-    "main.js.map": "/static/js/main.1c44e583.chunk.js.map",
+    "main.css": "/static/css/main.5c29935b.chunk.css",
+    "main.js": "/static/js/main.4a524744.chunk.js",
+    "main.js.map": "/static/js/main.4a524744.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.4bfe564f.chunk.js": "/static/js/2.4bfe564f.chunk.js",
-    "static/js/2.4bfe564f.chunk.js.map": "/static/js/2.4bfe564f.chunk.js.map",
+    "static/js/2.c34bb68f.chunk.js": "/static/js/2.c34bb68f.chunk.js",
+    "static/js/2.c34bb68f.chunk.js.map": "/static/js/2.c34bb68f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5ece45c7abffb789186fd1c36e04d855.js": "/precache-manifest.5ece45c7abffb789186fd1c36e04d855.js",
+    "precache-manifest.dd8ceef0a394c88f2920292facbc34fe.js": "/precache-manifest.dd8ceef0a394c88f2920292facbc34fe.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6347bdbd.chunk.css.map": "/static/css/main.6347bdbd.chunk.css.map",
-    "static/js/2.4bfe564f.chunk.js.LICENSE.txt": "/static/js/2.4bfe564f.chunk.js.LICENSE.txt",
+    "static/css/main.5c29935b.chunk.css.map": "/static/css/main.5c29935b.chunk.css.map",
+    "static/js/2.c34bb68f.chunk.js.LICENSE.txt": "/static/js/2.c34bb68f.chunk.js.LICENSE.txt",
     "static/media/intro1.svg": "/static/media/intro1.3b4ec332.svg",
     "static/media/intro2.svg": "/static/media/intro2.5b0ca5f1.svg",
     "static/media/ivonne.JPG": "/static/media/ivonne.541a4ae2.JPG",
     "static/media/larissa.jpg": "/static/media/larissa.035d2967.jpg",
+    "static/media/linkedin.svg": "/static/media/linkedin.9e36c8fd.svg",
     "static/media/nithi.jpg": "/static/media/nithi.160ab2bf.jpg",
     "static/media/undraw_conference_call_b0w6.svg": "/static/media/undraw_conference_call_b0w6.046547ea.svg",
     "static/media/undraw_online_connection_6778.svg": "/static/media/undraw_online_connection_6778.f57c5c67.svg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.4bfe564f.chunk.js",
-    "static/css/main.6347bdbd.chunk.css",
-    "static/js/main.1c44e583.chunk.js"
+    "static/js/2.c34bb68f.chunk.js",
+    "static/css/main.5c29935b.chunk.css",
+    "static/js/main.4a524744.chunk.js"
   ]
 }
