@@ -9,6 +9,7 @@ import Organizations from './components/organizations.jsx'
 import Recs from './components/recs.jsx'
 import Opportunities from './components/Opportunities.jsx'
 import About from './components/about'
+import Team from './components/team'
 import Footer from './components/footer'
 
 
@@ -19,15 +20,16 @@ function App() {
       {/* <header className="App-header">
 
       </header> */}
-      <OurNavBar/>
+      <OurNavBar />
 
       <div>
 
-        <IntroSlide/>
+        <IntroSlide />
         <br></br>
         <About></About>
-        <Join/>
-        <Opportunities/>
+        <Join />
+        <Opportunities />
+        <Team></Team>
 
       </div>
 

@@ -6,17 +6,17 @@ import './App.css';
 
 
 function IntroSlide() {
-  return (
-  	<div id="introSlide">
-	  <div className="container bg-no-overlay text-center"  fluid>
-	    <h1 className="text-dark"><br/> Do Better <br/><br/> In Tech</h1>
-	    <br/> <br/><br/>
-	    <h2 className="text-light">
-	      Welcome to Impactful.
-	    </h2> 
-	  </div>
-  	</div>
-  )
+	return (
+		<div id="introSlide">
+			<div className="container bg-no-overlay text-center" fluid>
+				<h1 className="text-dark"><br /> Do Better <br /><br /> In Tech</h1>
+				<br /> <br /><br />
+				<h2 className="text-light">
+					Welcome to Impactful.
+	    </h2>
+			</div>
+		</div>
+	)
 }
 
 export default IntroSlide;

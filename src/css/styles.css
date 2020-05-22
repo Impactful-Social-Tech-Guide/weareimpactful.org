@@ -9,3 +9,30 @@ h1{
 }
 #element1 {display:inline-block;margin-right:10px; width:200px;} 
 #element2 {display:inline-block; width:200px; } 
+
+.circular--landscape {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.circular--landscape img {
+  width: 200px;
+  height: 200px;
+}
+
+.circular--portrait {
+  display: inline-block;
+
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+
+}
