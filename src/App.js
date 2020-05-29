@@ -20,13 +20,13 @@ function App() {
   return (
 
     <div className="App">
-      {/* <header className="App-header">
-
-      </header> */}
-      soft β launch
+      <div id="ourHeaderNav">
+        soft β launch
       <OurNavBar />
+      </div>
 
-      <div>
+
+      <div id="mainContent"> 
         <IntroSlide />
         <JobOpp></JobOpp>
         <About></About>
