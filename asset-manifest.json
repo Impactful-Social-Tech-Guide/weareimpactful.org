@@ -1,31 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bd36065.chunk.css",
-    "main.js": "/static/js/main.1b5783f3.chunk.js",
-    "main.js.map": "/static/js/main.1b5783f3.chunk.js.map",
+    "main.css": "/static/css/main.7ccf0e99.chunk.css",
+    "main.js": "/static/js/main.754bda8b.chunk.js",
+    "main.js.map": "/static/js/main.754bda8b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.c34bb68f.chunk.js": "/static/js/2.c34bb68f.chunk.js",
-    "static/js/2.c34bb68f.chunk.js.map": "/static/js/2.c34bb68f.chunk.js.map",
+    "static/js/2.21d0a503.chunk.js": "/static/js/2.21d0a503.chunk.js",
+    "static/js/2.21d0a503.chunk.js.map": "/static/js/2.21d0a503.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9daeee4168831c5571e06d4bc6bdcc8b.js": "/precache-manifest.9daeee4168831c5571e06d4bc6bdcc8b.js",
+    "precache-manifest.10cdcb8bfef056fbc3c142fe802dbc42.js": "/precache-manifest.10cdcb8bfef056fbc3c142fe802dbc42.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0bd36065.chunk.css.map": "/static/css/main.0bd36065.chunk.css.map",
-    "static/js/2.c34bb68f.chunk.js.LICENSE.txt": "/static/js/2.c34bb68f.chunk.js.LICENSE.txt",
+    "static/css/main.7ccf0e99.chunk.css.map": "/static/css/main.7ccf0e99.chunk.css.map",
+    "static/js/2.21d0a503.chunk.js.LICENSE.txt": "/static/js/2.21d0a503.chunk.js.LICENSE.txt",
     "static/media/intro1.svg": "/static/media/intro1.3b4ec332.svg",
-    "static/media/intro2.svg": "/static/media/intro2.5b0ca5f1.svg",
     "static/media/ivonne.JPG": "/static/media/ivonne.541a4ae2.JPG",
     "static/media/larissa.jpg": "/static/media/larissa.035d2967.jpg",
     "static/media/linkedin.svg": "/static/media/linkedin.9e36c8fd.svg",
     "static/media/nithi.jpg": "/static/media/nithi.160ab2bf.jpg",
     "static/media/undraw_conference_call_b0w6.svg": "/static/media/undraw_conference_call_b0w6.046547ea.svg",
-    "static/media/undraw_online_connection_6778.svg": "/static/media/undraw_online_connection_6778.f57c5c67.svg",
-    "static/media/undraw_shared_workspace_hwky.svg": "/static/media/undraw_shared_workspace_hwky.a749c697.svg"
+    "static/media/undraw_online_connection_6778.svg": "/static/media/undraw_online_connection_6778.f57c5c67.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.c34bb68f.chunk.js",
-    "static/css/main.0bd36065.chunk.css",
-    "static/js/main.1b5783f3.chunk.js"
+    "static/js/2.21d0a503.chunk.js",
+    "static/css/main.7ccf0e99.chunk.css",
+    "static/js/main.754bda8b.chunk.js"
   ]
 }
