@@ -35,8 +35,19 @@
   color: black;
 }
 
+.App-landing {
+  background-color: #20c997;
+  min-height: 20vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
 .App-jobOpp {
-  background-color: #CC978E;
+  background-color: #20c997;
   min-height: 100vh;
   /* display: flex; */
   /* flex-direction: column; */
@@ -47,7 +58,7 @@
 }
 
 .App-organizations {
-  background-color: #CC978E;
+  background-color: #20c997;
   min-height: 100vh;
   /* display: flex; */
   /* flex-direction: column; */
@@ -58,7 +69,7 @@
 }
 
 .App-reccs {
-  background-color: #CC978E;
+  background-color: #20c997;
   min-height: 70vh;
   /* display: flex; */
   /* flex-direction: column; */

@@ -7,8 +7,8 @@ h1{
 .footer{
   border-top: .5px solid hsla(0,0%,100%,.2);
 }
-#element1 {display:inline-block;margin-right:10px; width:200px;} 
-#element2 {display:inline-block; width:200px; } 
+#element1 {display:inline-block;margin-right:10px; width:200px;}
+#element2 {display:inline-block; width:200px; }
 
 .circular--landscape {
   display: inline-block;
@@ -24,7 +24,7 @@ h1{
   z-index:10;
   width:100%;
   background-color: white;
-} 
+}
 
 .circular--landscape img {
   width: 200px;
@@ -58,12 +58,12 @@ overflow-x:auto;
   /*max-width:95%;*/
   margin:0 auto;
   /*  100px clears header  */
-  padding:100px 20px;   
+  padding:50px 0px 0px 0px;
 }
 
 .services-section img {
 
-    margin: auto;    
+    margin: auto;
     display: block;
 }
 

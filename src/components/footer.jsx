@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../App.css';
 import '../css/styles.css';
 
@@ -13,10 +12,10 @@ export default class Footer extends Component {
                         <small class="d-block mb-3 text-muted">© 2020</small>
                         <p>
 
-                            <a href="#" class="btn btn-default btn-info">Back to top</a>
+                            <a href="#mainContent" class="btn btn-default btn-info">Back to top</a>
                         </p>
                     </div>
-{/* {/* 
+{/* {/*
                     <div class="col-4 col-md">
                         <h5>Resources</h5>
                         <ul class="list-unstyled text-small">
@@ -34,7 +33,7 @@ export default class Footer extends Component {
                             <li><a class="text-light" href="https://airtable.com/shrVNKcOkg25ndQT0">add a job opening</a></li>
                             <li><a class="text-light" href="https://airtable.com/shrMuN5t9SWMLGSiF">add an organization</a></li>
                         </ul>
-                    </div> 
+                    </div>
 
                     <div class="col-4 col-md">
                         <h3 style={{ color: "white" }}>our supporters ♥</h3>
@@ -43,7 +42,7 @@ export default class Footer extends Component {
                             <li><a class="text-light" href="https://builders.mozilla.community/">mozilla builders</a></li>
 
                         </ul>
-                    </div> 
+                    </div>
                 </div>
 
             </footer>
