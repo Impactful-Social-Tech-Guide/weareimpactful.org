@@ -13,6 +13,8 @@ import Recs from './components/recs.jsx'
 import About from './components/about'
 import Team from './components/team'
 import JoinCommunity from './components/joinCommunity'
+import Image1 from './img/illustrations/intro1.svg';
+
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -25,7 +27,7 @@ function App() {
             <title>IMPACTFUL</title>
             <meta name="description" content="Community and Sources for Tech + Social Impact" />
             <meta property="og:title" content="Impactful Community" />
-            <meta property="og:image" content="%PUBLIC_URL%/intro1.jpg" />
+        <meta property="og:image" content={Image1} />
           </MetaTags>
 
       <div id="ourHeaderNav">
