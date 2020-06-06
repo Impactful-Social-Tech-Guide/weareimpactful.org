@@ -6,10 +6,11 @@ import JobOpp from './components/jobOpp.jsx'
 import LandingButtons from './components/landingButtons.jsx'
 
 import Organizations from './components/organizations.jsx'
+import FooterMinimal from './components/footerMinimal.jsx'
+
 import Recs from './components/recs.jsx'
 import About from './components/about'
 import Team from './components/team'
-import Footer from './components/footer'
 import JoinCommunity from './components/joinCommunity'
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
@@ -19,11 +20,15 @@ function App() {
   return (
 
     <div className="App">
+
       <div id="ourHeaderNav">
+
       <OurNavBar />
+
       </div>
 
       <div id="mainContent">
+
         <IntroSlide />
 
         <LandingButtons></LandingButtons>
@@ -35,10 +40,11 @@ function App() {
         <Team></Team>
         <Recs></Recs>
 
+
       </div>
 
 
-      <Footer></Footer>
+      <FooterMinimal></FooterMinimal>
 
     </div>
   );

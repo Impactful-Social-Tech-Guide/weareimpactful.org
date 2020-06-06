@@ -7,6 +7,7 @@ export default class Footer extends Component {
   render() {
     return (<div className="jumbotron fluid text-dark" class="container border-top pt-4 " id="community">
       <br></br>
+      <br></br>
       <h1>join our community.</h1>
       <br/><br/>
 
@@ -32,9 +33,8 @@ export default class Footer extends Component {
         <div class="col">
           <div class="text-center">
             <h5><br/>
-              <b>Want to get involved? Have Feedback? Questions?</b>
-              Email us at<b>
-                impactful.tech@gmail.com</b>
+              <b>Want to get involved? Have Feedback? Questions? </b>
+              Email us at <b>impactful.tech@gmail.com</b>
             </h5>
           </div>
 

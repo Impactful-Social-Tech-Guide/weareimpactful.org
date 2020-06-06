@@ -10,11 +10,12 @@ export default class Footer extends Component {
     render() {
         return (
             <div class="text-center pt-4 border-top container " id="team">
+              <br></br>
                 <h1>meet the team.</h1>
 
                 <br></br>
                 <p>We are 3 women of color in tech who spent our college careers wanting to do good by using tech to tackle climate change issues, empower marginalized communities, and help nonprofits, NGOs, etc. work smarter & faster.</p>
-                <p> Now, we’re making <b>Impactful</b>, a platform that makes it easier for us, and college students like us, to tackle issues that matter. We're compiling a list of open career opportunities in social impact technology and building an online community of impact-driven tech folks.</p>
+                <p> Now, we’re making <b>Impactful</b>, a platform that makes it easier for us, and college students like us, to tackle issues that matter. We are compiling a list of open career opportunities in social impact technology and building an online community of impact-driven tech folks.</p>
                 <br></br>
 
                 <div class="row text-center justify-content-center">

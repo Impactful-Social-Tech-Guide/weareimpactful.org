@@ -4,8 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 function OurNavBar() {
-  return(
-  <Navbar bg="primary" variant="dark" id="ourNavBar">
+  return (
+// <Container>
+    <Navbar bg="primary" variant="dark" id="ourNavBar">
     <Navbar.Brand href="#">Impactful</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#opportunities">Opportunities</Nav.Link>
@@ -13,7 +14,8 @@ function OurNavBar() {
       <Nav.Link href="#team">About Us</Nav.Link>
     </Nav>
   </Navbar>
-  )
+// </Container>
+)
 }
 
 export default OurNavBar;

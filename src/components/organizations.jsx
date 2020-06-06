@@ -23,8 +23,7 @@ export default class jobOpp extends Component {
           }}></Iframe>
       </div>
       <br></br>
-      <h1>Want to add an organization to our database? 
-        <a href="https://airtable.com/shrMuN5t9SWMLGSiF" class="btn btn-default btn-primary btn-lg mr-5">Add Organization</a>
+      <h1>Want to add an organization to our database? <a href="https://airtable.com/shrMuN5t9SWMLGSiF" class="btn btn-default btn-primary btn-lg mr-5">Add Organization</a>
       </h1>
 
       <br></br>
