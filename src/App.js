@@ -7,6 +7,7 @@ import LandingButtons from './components/landingButtons.jsx'
 
 import Organizations from './components/organizations.jsx'
 import FooterMinimal from './components/footerMinimal.jsx'
+import MetaTags from 'react-meta-tags';
 
 import Recs from './components/recs.jsx'
 import About from './components/about'
@@ -20,6 +21,12 @@ function App() {
   return (
 
     <div className="App">
+      <MetaTags>
+            <title>IMPACTFUL</title>
+            <meta name="description" content="Community and Sources for Tech + Social Impact" />
+            <meta property="og:title" content="Impactful Community" />
+            <meta property="og:image" content="./src/img/illustrations/intro1.svg" />
+          </MetaTags>
 
       <div id="ourHeaderNav">
 
