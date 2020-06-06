@@ -38,7 +38,7 @@ export default class About extends Component {
         <div class="col-md-6">
           <img style={{
               maxWidth: "330px"
-            }} class="img-fluid" src={AboutImage} alt="For Companies"/>
+            }}  src={AboutImage} style = {{ width:"75%",  height:"auto" }} alt="For Companies"/>
         </div>
       </div>
 
