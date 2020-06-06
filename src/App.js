@@ -27,7 +27,7 @@ function App() {
             <title>IMPACTFUL</title>
             <meta name="og:description" content="Community and Sources for Tech + Social Impact" />
             <meta property="og:title" content="Impactful Community" />
-        <meta property="og:image" content="http://weareimpactful.org/static/media/intro1.3b4ec332.svg" />
+        <meta property="og:image" content="http://weareimpactful.org/intro1.jpg" />
           </MetaTags>
 
       <div id="ourHeaderNav">
