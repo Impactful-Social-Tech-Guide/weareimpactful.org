@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import '../css/styles.css';
 import AboutImage from '../img/illustrations/undraw_online_connection_6778.svg';
@@ -10,10 +11,10 @@ export default class About extends Component {
       <br></br>
       <h1>your space for tech + social impact.</h1>
       <br/><br/>
+<Container>
+      <div class="row align-items-center">
 
-      <div class="row d-flex justify-content-center">
-
-        <div class="col">
+        <div class="col-md-6">
             <p>
               <b>Impactful </b>
               is a platform for technologists to develop their careers in social good by connecting them with socially-impactful opportunities and with other impact-driven technologists.
@@ -24,16 +25,24 @@ export default class About extends Component {
             <p>
               <br></br>
               <b>If you'd like to join our mailing list please fill out the form below!</b>
-            </p>
-            <a href="https://airtable.com/shrz6v3BtuOsJuQbR" class="btn btn-default btn-primary btn-lg mr-5">Join Mailing List</a>
+                <br></br>
+                </p>
+              <p>
+              <a href="https://airtable.com/shrz6v3BtuOsJuQbR" class="btn btn-default btn-primary btn-lg mr-5">Join Mailing List</a>
+
+
+          </p>
+
 
         </div>
-        <div class="col text-center">
+        <div class="col-md-6">
           <img style={{
               maxWidth: "330px"
             }} class="img-fluid" src={AboutImage} alt="For Companies"/>
         </div>
       </div>
+
+      </Container>
       <br></br>
 
       {/* <div className="about-team">
