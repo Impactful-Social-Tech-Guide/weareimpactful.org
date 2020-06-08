@@ -1,77 +1,77 @@
 import React, { Component } from 'react';
+import { Container, Row, Col} from 'react-bootstrap';
+
 import '../App.css';
 import '../css/styles.css';
-import Larissa from '../img/larissa.jpg';
-import Ivonne from '../img/ivonne.JPG';
-import Nithi from '../img/nithi.jpg';
+import Larissa from '../img/LarissaCircle.png';
+import Ivonne from '../img/IvonneCircle.png';
+import Nithi from '../img/NithiCircle.png';
+import Ivy from '../img/IvyCircle.png';
 import LinkedIn from '../img/linkedin.svg';
 
 export default class Footer extends Component {
     render() {
         return (
-            <div class="text-center pt-4 border-top container " id="team">
-              <br></br>
-                <h1>meet the team.</h1>
+            <div>
+                <Container id="landing">    
+                <h3 id="teamTitle">about the team</h3><br></br>
+                    <Row className="justify-content-md-center">
+                        <Col sm={3}>
+                            <div class="circular--landscape">
+                                <img src={Larissa}
+                                    class="rounded img-fluid"
+                                    alt="Larissa"></img>
+                            </div>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Larissa</h4>
+                            <p>Developer • Loves to dance, play board games, and garden</p>
 
-                <br></br>
-                <p>We are 3 women of color in tech who spent our college careers wanting to do good by using tech to tackle climate change issues, empower marginalized communities, and help nonprofits, NGOs, etc. work smarter & faster.</p>
-                <p> Now, we’re making <b>Impactful</b>, a platform that makes it easier for us, and college students like us, to tackle issues that matter. We are compiling a list of open career opportunities in social impact technology and building an online community of impact-driven tech folks.</p>
-                <br></br>
+                            <a href="https://www.linkedin.com/in/larissanguyen/">
+                                <img border="0"
+                                    class=" img-fluid"
+                                    alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                            </a>
+                        </Col>
+                        <Col sm={3}>
+                            <div class="circular--portrait">
+                                <img src={Ivonne}
+                                    class="rounded center img-fluid"
+                                    alt="Ivonne"></img>
+                            </div>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Ivonne</h4>
+                            <p>Developer • Loves birds, visual storytelling, & social impact</p>
+                            <a href="https://www.linkedin.com/in/iguzmanl/">
+                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                            </a>
+                        </Col>
+                        <Col sm={3}>
+                            <div class="circular--portrait">
+                                <img src={Nithi}
+                                    class="rounded img-fluid" alt="Nithi"></img>
+                            </div>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Nithi</h4>
+                            <p>Developer • Loves dancing, traveling, and social impact</p>
+                            <a href="https://www.linkedin.com/in/nithi-subbaian/">
+                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                            </a>
 
-                <div class="row text-center justify-content-center">
+                        </Col>
 
+                        <Col sm={3}>
+                            <div class="circular--portrait">
+                                <img src={Ivy}
+                                    class="rounded img-fluid" alt="Ivy"></img>
+                            </div>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Ivy</h4>
+                            <p>Designer • etc. </p>
+                            <a href="https://www.linkedin.com/in/ivy-l-82214983/">
+                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                            </a>
 
-                    <div class="col-md-3">
-                        <div class="circular--landscape">
-                            <img src={Larissa}
-                                class="rounded img-fluid"
-                                alt="Larissa"></img>
-                        </div>
-                        <h4 class="font-weight-bold dark-grey-text my-4">Larissa</h4>
-                        <p>CS @ Yale</p>
-                        <p>Developer • Loves to dance, play board games, and garden</p>
-
-                        <a href="https://www.linkedin.com/in/larissanguyen/">
-                            <img border="0"
-                                class=" img-fluid"
-                             alt="LinkedIn Logo"  src={LinkedIn} width="10%" height="10%"></img>
-                        </a>
-
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="circular--portrait">
-                            <img src={Ivonne}
-                                class="rounded center img-fluid"
-                                 alt="Ivonne"></img>
-                        </div>
-                        <h4 class="font-weight-bold dark-grey-text my-4">Ivonne</h4>
-                        <p>CS @ Cal Poly SLO 2019</p>
-                        <p>Developer • Loves birds, visual storytelling, & social impact</p>
-                        <a href="https://www.linkedin.com/in/iguzmanl/">
-                            <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
-                        </a>
-                    </div>
-
-                    <div class="col-md-3">
-                <div class="circular--portrait">
-                            <img src={Nithi}
-                                class="rounded img-fluid" alt="Nithi"></img>
-                        </div>
-                        <h4 class="font-weight-bold dark-grey-text my-4">Nithi</h4>
-                        <p>Electrical engineer @ Cooper Union 2020</p>
-                        <p>Developer • Loves dancing, traveling, and social impact</p>
-                        <a href="https://www.linkedin.com/in/nithi-subbaian/">
-                            <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
-                        </a>
-                    </div>
-
-                </div>
-                <br></br>
-
+                        </Col>
+                    </Row>
+                    <br></br>
+                </Container>
             </div>
-
-
         )
     }
 

@@ -1,8 +1,14 @@
 div #about {
   text-align: left;
 }
+div #landing{
+  max-width: 75%;
+}
 h1{
     text-align: center;
+}
+#teamTitle{
+  text-align: left;
 }
 .footer{
   border-top: .5px solid hsla(0,0%,100%,.2);
