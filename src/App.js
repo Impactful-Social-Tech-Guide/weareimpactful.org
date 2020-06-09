@@ -6,7 +6,7 @@ import JobOpp from './components/jobOpp.jsx'
 import LandingButtons from './components/landingButtons.jsx'
 
 import Organizations from './components/organizations.jsx'
-import FooterMinimal from './components/footerMinimal.jsx'
+import Footer from './components/footerMinimal.jsx'
 import MetaTags from 'react-meta-tags';
 
 import Recs from './components/recs.jsx'
@@ -32,12 +32,13 @@ function App() {
         <meta property="og:image" content="http://weareimpactful.org/intro1.jpg" />
       </MetaTags>
 
-      <div>
+      <div className = "MainPage">
         <br></br><br></br>
         <LandinigPage></LandinigPage>
         <JobOpp></JobOpp>
 
         <Team></Team>
+        <Footer></Footer>
 
 
         {/* <IntroSlide />

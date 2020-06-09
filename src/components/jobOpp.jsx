@@ -9,7 +9,7 @@ export default class jobOpp extends Component {
             <div>
                 <Container id="landing">
                     <h3 id="teamTitle" >jobs and opportunities </h3>
-                    <Figure.Caption id="teamTitle"> open website in incognito Mode if opportunities don't display</Figure.Caption>
+                    <p  id="teamTitle" >  open website in incognito Mode if opportunities don't display</p>
                     <br></br>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">
                         <Iframe class="airtable-embed" src="https://airtable.com/embed/shrUY2UUvj3qsSI8N?backgroundColor=orange&viewControls=on"
@@ -17,7 +17,7 @@ export default class jobOpp extends Component {
                     </div>
                 </Container>
 
-                
+
                 {/* <h2>Want to add an opportunity to our database?   <a href="https://airtable.com/shrVNKcOkg25ndQT0" class="btn btn-default btn-primary btn-lg mr-5">Add Opportunity</a></h2> */}
             <br></br>
             </div>
