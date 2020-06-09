@@ -36,6 +36,7 @@ function App() {
         <br></br><br></br>
         <LandinigPage></LandinigPage>
         <JobOpp></JobOpp>
+        <Organizations></Organizations>
 
         <Team></Team>
 
@@ -46,7 +47,6 @@ function App() {
         <About></About>
 
         <JoinCommunity></JoinCommunity>
-        <Organizations></Organizations>
         <Recs></Recs> */}
 
 
