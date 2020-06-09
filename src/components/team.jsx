@@ -13,7 +13,10 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <Container id="landing">    
+                <Container id="landing" style={{
+                    paddingTop: 55,
+                    paddingBottom: 55
+                  }}>
                 <h3 id="teamTitle">about the team</h3><br></br>
                     <Row className="justify-content-md-center">
                         <Col sm={3}>

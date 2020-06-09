@@ -7,15 +7,15 @@ export default class jobOpp extends Component {
     render() {
         return (
             <div>
-                <Container id="landing">
-<<<<<<< HEAD
-                    <h3 id="teamTitle" >jobs and opportunities </h3>
-                    <p  id="teamTitle" >  open website in incognito Mode if opportunities don't display</p>
-=======
+                <Container id="landing" style={{
+                    paddingTop: 55,
+                    paddingBottom: 55
+                  }}>
+
                     <Row>
                         <Col>
-                            <h3 id="teamTitle" >jobs and opportunities </h3>
-
+                          <h3 id="teamTitle" >jobs and opportunities </h3>
+                          <p id="teamTitle" >open website in incognito Mode if opportunities don't display </p>
                         </Col>
                         <Col>
                         <OverlayTrigger
@@ -24,15 +24,11 @@ export default class jobOpp extends Component {
                             overlay={renderTooltip}
                         >
                             <a class="float-right" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
-                                <Button variant="info">+</Button>
+                                <Button bsClass="flat" size="lg">+</Button>
                             </a>
                         </OverlayTrigger>
                         </Col>
                     </Row>
-
-
-                    <Figure.Caption id="teamTitle"> open website in incognito mdde if results don't display</Figure.Caption>
->>>>>>> 4e559dff389753394a949b54cd167026fd2bcf4d
                     <br></br>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">
                         <Iframe class="airtable-embed" src="https://airtable.com/embed/shrUY2UUvj3qsSI8N?backgroundColor=orange&viewControls=on"
