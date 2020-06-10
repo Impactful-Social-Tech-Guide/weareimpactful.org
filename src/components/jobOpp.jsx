@@ -15,7 +15,6 @@ export default class jobOpp extends Component {
                     <Row>
                         <Col>
                           <h3 id="teamTitle" >Jobs and opportunities </h3>
-                          <p id="teamTitle" >open website in incognito Mode if opportunities don't display </p>
                         </Col>
                         <Col>
                         <OverlayTrigger
@@ -29,6 +28,8 @@ export default class jobOpp extends Component {
                         </OverlayTrigger>
                         </Col>
                     </Row>
+                    <p id="teamTitle" >open website in incognito Mode if opportunities don't display </p>
+
                     <br></br>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">
                         <Iframe class="airtable-embed" src="https://airtable.com/embed/shrUY2UUvj3qsSI8N?backgroundColor=orange&viewControls=on"

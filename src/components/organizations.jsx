@@ -13,7 +13,6 @@ export default class jobOpp extends Component {
           <Row>
             <Col>
               <h3 id="teamTitle" >Socially impactful organizations</h3>
-                <p id="teamTitle" >open website in incognito mode if results don't display</p>
 
             </Col>
             <Col>
@@ -28,6 +27,8 @@ export default class jobOpp extends Component {
               </OverlayTrigger>
             </Col>
           </Row>
+          <p id="teamTitle" >open website in incognito mode if results don't display</p>
+
           <br></br>
 
           <div style={{
