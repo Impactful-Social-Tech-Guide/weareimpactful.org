@@ -17,7 +17,7 @@ export default class Footer extends Component {
                     paddingTop: 55,
                     paddingBottom: 55
                   }}>
-                <h3 id="teamTitle">about the team</h3><br></br>
+                <h3 id="teamTitle">About the team</h3><br></br>
                     <Row className="justify-content-md-center">
                         <Col sm={3}>
                             <div class="circular--landscape">

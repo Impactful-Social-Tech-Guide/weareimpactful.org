@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('CircularStd Black'),
+    local('CircularStd-Black'),
+    url(./fonts/CircularStd-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: italic;
+  font-weight: normal;
+  src:
+    local('CircularStd BlackItalic'),
+    local('CircularStd-BlackItalic'),
+    url(./fonts/CircularStd-BlackItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local('CircularStd Bold'),
+    local('CircularStd Bold'),
+    url(./fonts/CircularStd-Bold.otf) format('opentype');
+}
+
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: italic;
+  font-weight: bold;
+  src:
+    local('CircularStd BoldItalic'),
+    local('CircularStd-BoldItalic'),
+    url(./fonts/CircularStd-BoldItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: book;
+  font-weight: 600;
+  src:
+    local('CircularStd Book'),
+    local('CircularStd-Book'),
+    url(./fonts/CircularStd-Book.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: italic;
+  font-weight: 600;
+  src:
+    local('CircularStd BookItalic'),
+    local('CircularStd-BookItalic'),
+    url(./fonts/CircularStd-BookItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('CircularStd Medium'),
+    local('CircularStd-Medium'),
+    url(./fonts/CircularStd-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  font-style: italic;
+  font-weight: 600;
+  src:
+    local('CircularStd MediumItalic'),
+    local('CircularStd-MediumItalic'),
+    url(./fonts/CircularStd-MediumItalic.otf) format('opentype');
+}

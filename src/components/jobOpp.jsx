@@ -14,7 +14,7 @@ export default class jobOpp extends Component {
 
                     <Row>
                         <Col>
-                          <h3 id="teamTitle" >jobs and opportunities </h3>
+                          <h3 id="teamTitle" >Jobs and opportunities </h3>
                           <p id="teamTitle" >open website in incognito Mode if opportunities don't display </p>
                         </Col>
                         <Col>

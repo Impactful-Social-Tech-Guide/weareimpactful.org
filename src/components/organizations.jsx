@@ -12,7 +12,7 @@ export default class jobOpp extends Component {
           }}>
           <Row>
             <Col>
-              <h3 id="teamTitle" >socially impactful organizations</h3>
+              <h3 id="teamTitle" >Socially impactful organizations</h3>
                 <p id="teamTitle" >open website in incognito mode if results don't display</p>
 
             </Col>

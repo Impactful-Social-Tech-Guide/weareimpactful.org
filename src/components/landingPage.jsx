@@ -8,18 +8,18 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div >
-      <h1>impactful</h1>
+      <h1 >impactful.</h1>
       <br></br>
       <br></br>
       <Container id="landing">
         <Row className="justify-content-md-center">
           <Col id="about" sm={8}>
-            <h3>want to use your tech skills to create social impact?</h3>
+            <h3>Want to use your tech skills to create social impact?</h3>
             <br></br>
-            <p>
+            <p style = {{ fontFamily: "CircularStd", fontStyle: "Book"}}>
               Impactful is a platform for technologists to develop their careers in social good by connecting them with socially-impactful opportunities and with other impact-driven technologists.
             </p>
-            <p>
+            <p style = {{ fontFamily: "CircularStd"}}>
               Whether you're an (aspiring) engineer, designer, PM, etc, and you’re looking for your next job, meaningful projects to contribute to, or a community of like-minded technologists, Impactful has the information and resources you need to make it possible.
             </p>
           </Col>
