@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import Image1 from '../img/illustrations/intro1.svg';
+import Image1 from '../img/girl_world.svg';
 import Iframe from 'react-iframe';
 
 export default class LandingPage extends Component {
@@ -14,6 +14,8 @@ export default class LandingPage extends Component {
       <Container id="landing">
         <Row className="justify-content-md-center">
           <Col id="about" sm={8}>
+            <br></br>
+            <br></br>
             <h3>Want to use your tech skills to create social impact?</h3>
             <br></br>
             <p style = {{ fontFamily: "CircularStd", fontStyle: "Book"}}>
@@ -24,10 +26,16 @@ export default class LandingPage extends Component {
             </p>
           </Col>
           <Col sm={4}>
+            <img style = {{ textAlign: "center;",maxHeight:"150px"}}
+								class="img-fluid"
+								src={Image1}
+								alt="For Companies"
+						/>
+            <br></br>
+            
             <h4>join our slack community</h4>
             <a href='https://airtable.com/shrHRVGAqiv3fVXCH'>
               <Button bsClass="flat" size="lg">Apply</Button>{}</a>
-            <br></br>
             <br></br>
             <br></br>
             <h4>join our mailing list</h4>
