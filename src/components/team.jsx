@@ -65,7 +65,7 @@ export default class Footer extends Component {
                                     class="rounded img-fluid" alt="Ivy"></img>
                             </div>
                             <h4 class="font-weight-bold dark-grey-text my-4">Ivy</h4>
-                            <p>Designer • etc. </p>
+                            <p>Designer </p>
                             <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                             </a>
