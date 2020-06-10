@@ -1,8 +1,14 @@
 div #about {
   text-align: left;
 }
+div #landing{
+  max-width: 75%;
+}
 h1{
     text-align: center;
+}
+#teamTitle{
+  text-align: left;
 }
 .footer{
   border-top: .5px solid hsla(0,0%,100%,.2);
@@ -68,6 +74,6 @@ overflow-x:auto;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #CC978E !important;
-    border-color:  #CC978E !important;
+    background-color: #ada0d9 !important;
+    border-color:  #ada0d9 !important;
 }

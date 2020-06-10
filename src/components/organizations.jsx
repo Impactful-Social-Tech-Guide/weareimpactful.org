@@ -1,34 +1,61 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Iframe from 'react-iframe'
+import { Container, Row, Col, Figure, OverlayTrigger, Button, Tooltip } from 'react-bootstrap';
 
 export default class jobOpp extends Component {
   render() {
-    return (<div className="App-organizations">
-      <br/>
-      <div className="airtable-title">
-        <h1 style={{
-            color: "white"
-          }}>organizations</h1>
-        <br/>
+    return (
+      <div>
+        <Container id="landing"  style={{
+            paddingTop: 55,
+            paddingBottom: 55
+          }}>
+          <Row>
+            <Col>
+              <h3 id="teamTitle" >Socially impactful organizations</h3>
+
+            </Col>
+            <Col>
+              <OverlayTrigger
+                placement="left"
+                delay={{ show: 250, hide: 250 }}
+                overlay={renderTooltip}
+              >
+                <a class="float-right" href="https://airtable.com/shrMuN5t9SWMLGSiF" target="_blank">
+                  <Button bsClass="flat" size="lg">+</Button>
+                </a>
+              </OverlayTrigger>
+            </Col>
+          </Row>
+          <p id="teamTitle" >open website in incognito mode if results don't display</p>
+
+          <br></br>
+
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }} className="airtable-embed">
+          <Iframe class="airtable-embed"
+              src="https://airtable.com/embed/shrKrkfBWYL8KtAkV?backgroundColor=orange&layout=card&viewControls=on"
+              frameborder="0" onmousewheel="" width="100%" height="800" style={{
+              background: "transparent",
+              border: " 1 solid #ccc"
+            }}></Iframe>
+          </div>
+
+        </Container>
+        <br></br>
       </div>
-
-      <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center'
-        }} className="airtable-embed">
-        <Iframe class="airtable-embed" src="https://airtable.com/embed/shrjElLGi3TuooVVf?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" width="75%" height="800" style={{
-            background: "transparent",
-            border: " 1 solid #ccc"
-          }}></Iframe>
-      </div>
-      <br></br>
-      <h2>Want to add an organization to our database? <a href="https://airtable.com/shrMuN5t9SWMLGSiF" class="btn btn-default btn-primary btn-lg mr-5">Add Organization</a>
-      </h2>
-
-      <br></br>
-
-    </div>)
+    )
   }
 
+}
+
+function renderTooltip(props) {
+  return (
+    <Tooltip id="button-tooltip" {...props}>
+      add an organization
+    </Tooltip>
+  );
 }

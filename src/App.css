@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  background-color: blue;
+  color: white;
+
+}
+
+.MainPage {
+  text-align: center;
+  background-color: #8a2be2;
+  color: white;
+  font-family: CircularStd;
+  font-weight: Bold
+
 }
 
 .App-logo {
@@ -80,7 +92,7 @@
 }
 
 .App-footer {
-  background-color: #294126;
+  background-color: #ada0d9;
   min-height: 10vh;
   display: flex;
   flex-direction: column;

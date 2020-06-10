@@ -6,11 +6,13 @@ import JobOpp from './components/jobOpp.jsx'
 import LandingButtons from './components/landingButtons.jsx'
 
 import Organizations from './components/organizations.jsx'
-import FooterMinimal from './components/footerMinimal.jsx'
+import Footer from './components/footerMinimal.jsx'
 import MetaTags from 'react-meta-tags';
 
 import Recs from './components/recs.jsx'
 import About from './components/about'
+import NavBarNew from './components/navBarNew'
+import LandinigPage from './components/landingPage'
 import Team from './components/team'
 import JoinCommunity from './components/joinCommunity'
 import Image1 from './img/illustrations/intro1.svg';
@@ -24,36 +26,35 @@ function App() {
 
     <div className="App">
       <MetaTags>
-            <title>IMPACTFUL</title>
-            <meta name="og:description" content="Community and Sources for Tech + Social Impact" />
-            <meta property="og:title" content="Impactful Community" />
+        <title>impactful</title>
+        <meta name="og:description" content="Community and Sources for Tech + Social Impact" />
+        <meta property="og:title" content="Impactful Community" />
         <meta property="og:image" content="http://weareimpactful.org/intro1.jpg" />
-          </MetaTags>
+      </MetaTags>
 
-      <div id="ourHeaderNav">
+      <div className = "MainPage">
+        <br></br><br></br>
+        <LandinigPage></LandinigPage>
+        <JobOpp></JobOpp>
+        <Organizations></Organizations>
 
-      <OurNavBar />
+        <Team></Team>
+        <Footer></Footer>
 
-      </div>
 
-      <div id="mainContent">
-
-        <IntroSlide />
+        {/* <IntroSlide />
 
         <LandingButtons></LandingButtons>
         <About></About>
 
-        <JobOpp></JobOpp>
         <JoinCommunity></JoinCommunity>
-        <Organizations></Organizations>
-        <Team></Team>
-        <Recs></Recs>
+        <Recs></Recs> */}
 
 
       </div>
 
 
-      <FooterMinimal></FooterMinimal>
+      {/* <FooterMinimal></FooterMinimal> */}
 
     </div>
   );
