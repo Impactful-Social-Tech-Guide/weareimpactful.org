@@ -18,9 +18,9 @@ export default class About extends Component {
                 fontSize: 20
               }}>
               CONTACT US</h4>
-
-            <p class="text-light" style={{
-                fontSize: 20}} > hello@weareimpactful.org </p>
+                <a class="text-light" style={{
+                    fontSize: 20
+                  }} href="mailto:hello@weareimpactful.org">hello@weareimpactful.org</a>
 
           </div>
           <div class="col-md-4 justify-content-center">
