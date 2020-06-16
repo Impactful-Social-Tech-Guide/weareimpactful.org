@@ -26,7 +26,7 @@ export default class LandingPage extends Component {
               Whether you're an (aspiring) engineer, designer, PM, etc, and you’re looking for your next job, meaningful projects to contribute to, or a community of like-minded technologists, Impactful has the information and resources you need to make it possible.
             </p>
           </Col>
-          <Col sm={4}>
+          <Col  style = {{ paddingTop:30, paddingBottom: 40  }} sm={4}>
             <img style = {{ textAlign: "center;",maxHeight:"150px",
                 paddingBottom: 25
               }}
@@ -42,7 +42,7 @@ export default class LandingPage extends Component {
             <br></br>
             <br></br>
             <h4>join our mailing list</h4>
-              < a href = "https://airtable.com/shrz6v3BtuOsJuQbR" > <Button bsClass="flat" size="lg">Subscribe</Button></a>
+              <a href = "https://airtable.com/shrz6v3BtuOsJuQbR" > <Button bsClass="flat" size="lg">Subscribe</Button></a>
                 {''}
 
             </Col>

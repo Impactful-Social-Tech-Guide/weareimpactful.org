@@ -21,7 +21,9 @@ export default class Footer extends Component {
                   }}>
                 <h3 id="teamTitle">About the team</h3><br></br>
                     <Row className="justify-content-md-center">
-                        <Col sm={3}>
+                        <Col sm={3} style={{
+                            paddingBottom: 25,
+                          }}>
                             <div class="circular--landscape">
                                 <img src={Larissa}
                                     class="rounded img-fluid"
@@ -37,13 +39,16 @@ export default class Footer extends Component {
                             </a>
                             <a style={{
                                 paddingLeft: 10,
+                                paddingBottom: 25,
                               }} href="mailto:larissa@weareimpactful.org">
                                 <img border="0"
                                     class=" img-fluid"
                                     alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                             </a>
                         </Col>
-                        <Col sm={3}>
+                        <Col sm={3} style={{
+                            paddingBottom: 25,
+                          }}>
                             <div class="circular--portrait">
                                 <img src={Ivonne}
                                     class="rounded center img-fluid"
@@ -64,7 +69,9 @@ export default class Footer extends Component {
                             </a>
 
                         </Col>
-                        <Col sm={3}>
+                        <Col sm={3} style={{
+                            paddingBottom: 25,
+                          }}>
                             <div class="circular--portrait">
                                 <img src={Nithi}
                                     class="rounded img-fluid" alt="Nithi"></img>
@@ -76,6 +83,7 @@ export default class Footer extends Component {
                             </a>
                             <a style={{
                                 paddingLeft: 10,
+                                paddingBottom: 25,
                               }} href="mailto:nithi@weareimpactful.org">
                                 <img border="0"
                                     class=" img-fluid"
@@ -96,6 +104,7 @@ export default class Footer extends Component {
                             </a>
                             <a style={{
                                 paddingLeft: 10,
+                                paddingBottom: 25,
                               }} href="mailto:ivy@weareimpactful.org">
                                 <img border="0"
                                     class=" img-fluid"
