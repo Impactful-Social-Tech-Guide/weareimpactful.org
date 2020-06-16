@@ -3,6 +3,7 @@ import '../App.css';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import Image1 from '../img/girl_world.svg';
 import Iframe from 'react-iframe';
+import Image2 from '../img/newglobe.svg';
 
 export default class LandingPage extends Component {
   render() {
@@ -26,13 +27,15 @@ export default class LandingPage extends Component {
             </p>
           </Col>
           <Col sm={4}>
-            <img style = {{ textAlign: "center;",maxHeight:"150px"}}
+            <img style = {{ textAlign: "center;",maxHeight:"150px",
+                paddingBottom: 25
+              }}
 								class="img-fluid"
-								src={Image1}
+								src={Image2}
 								alt="For Companies"
 						/>
             <br></br>
-            
+
             <h4>join our slack community</h4>
             <a href='https://airtable.com/shrHRVGAqiv3fVXCH'>
               <Button bsClass="flat" size="lg">Apply</Button>{}</a>

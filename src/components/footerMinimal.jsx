@@ -13,8 +13,17 @@ export default class About extends Component {
           paddingBottom: 10
         }}>
         <div class="row">
-          <div class="col-md-3 justify-content-center"></div>
-          <div class="col-md-3 justify-content-center">
+          <div class="col-md-4 justify-content-center">
+            <h4 style={{
+                fontSize: 20
+              }}>
+              CONTACT US</h4>
+                <a class="text-light" style={{
+                    fontSize: 20
+                  }} href="mailto:hello@weareimpactful.org">hello@weareimpactful.org</a>
+
+          </div>
+          <div class="col-md-4 justify-content-center">
             <h4 style={{
                 fontSize: 20
               }}>
@@ -28,7 +37,7 @@ export default class About extends Component {
                 }} href="https://builders.mozilla.community/">mozilla builders</a>
 
           </div>
-          <div class="col-md-3 justify-content-center">
+          <div class="col-md-4 justify-content-center">
             <h4 style={{
                 fontSize: 20
               }}>

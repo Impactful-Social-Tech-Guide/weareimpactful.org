@@ -8,6 +8,8 @@ import Ivonne from '../img/IvonneCircle.png';
 import Nithi from '../img/NithiCircle.png';
 import Ivy from '../img/IvyCircle.png';
 import LinkedIn from '../img/linkedin.svg';
+import Mail from '../img/mail.svg';
+
 
 export default class Footer extends Component {
     render() {
@@ -33,6 +35,13 @@ export default class Footer extends Component {
                                     class=" img-fluid"
                                     alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                             </a>
+                            <a style={{
+                                paddingLeft: 10,
+                              }} href="mailto:larissa@weareimpactful.org">
+                                <img border="0"
+                                    class=" img-fluid"
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
+                            </a>
                         </Col>
                         <Col sm={3}>
                             <div class="circular--portrait">
@@ -45,6 +54,15 @@ export default class Footer extends Component {
                             <a href="https://www.linkedin.com/in/iguzmanl/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                             </a>
+
+                            <a style={{
+                                paddingLeft: 10,
+                              }} href="mailto:ivonne@weareimpactful.org">
+                                <img border="0"
+                                    class=" img-fluid"
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
+                            </a>
+
                         </Col>
                         <Col sm={3}>
                             <div class="circular--portrait">
@@ -55,6 +73,13 @@ export default class Footer extends Component {
                             <p>Developer • Loves dancing, traveling, and social impact</p>
                             <a href="https://www.linkedin.com/in/nithi-subbaian/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                            </a>
+                            <a style={{
+                                paddingLeft: 10,
+                              }} href="mailto:nithi@weareimpactful.org">
+                                <img border="0"
+                                    class=" img-fluid"
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                             </a>
 
                         </Col>
@@ -68,6 +93,13 @@ export default class Footer extends Component {
                             <p>Designer •  Loves typefaces, kimchi, and triangles</p>
                             <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                            </a>
+                            <a style={{
+                                paddingLeft: 10,
+                              }} href="mailto:ivy@weareimpactful.org">
+                                <img border="0"
+                                    class=" img-fluid"
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                             </a>
 
                         </Col>

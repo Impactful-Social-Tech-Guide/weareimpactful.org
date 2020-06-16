@@ -16,6 +16,8 @@ import LandinigPage from './components/landingPage'
 import Team from './components/team'
 import JoinCommunity from './components/joinCommunity'
 import Image1 from './img/illustrations/intro1.svg';
+import { Container } from 'react-bootstrap';
+
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
