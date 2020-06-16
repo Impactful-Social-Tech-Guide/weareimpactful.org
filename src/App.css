@@ -14,6 +14,13 @@
 
 }
 
+.App-landing {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,16 +54,6 @@
   color: black;
 }
 
-.App-landing {
-  background-color: #20c997;
-  min-height: 20vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
 
 .App-jobOpp {
   background-color: #20c997;
