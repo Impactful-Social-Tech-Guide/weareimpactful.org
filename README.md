@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# To Deploy
+Run sudo npm run deploy
+enter github credentials
+then go to settings in the repo and make sure a theme is selected, and the url is weareimpactful.org
