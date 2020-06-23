@@ -50,7 +50,7 @@ export default class LandingPage extends Component {
           <br></br>
           <Row className="justify-content-md-center">
             <Col>
-              <h4>explore opportunities</h4>
+              <h4>explore opportunities & organizations</h4>
             </Col>
           </Row>
           <Row className="justify-content-md-center">
