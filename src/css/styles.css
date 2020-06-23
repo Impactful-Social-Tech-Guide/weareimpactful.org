@@ -25,11 +25,13 @@ h1{
 
 }
 #ourHeaderNav {
-  /*  fix to top of page  */
-  position:fixed;
-  z-index:10;
+  padding: 20px 1px 5px 1px;
   width:100%;
-  background-color: white;
+  background-color:	#00bfa6;
+}
+#phlink {
+  color: white;
+  text-decoration: underline;
 }
 
 .circular--landscape img {

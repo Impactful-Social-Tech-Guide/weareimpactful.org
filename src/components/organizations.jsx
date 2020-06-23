@@ -27,7 +27,7 @@ export default class jobOpp extends Component {
               </OverlayTrigger>
             </Col>
           </Row>
-          <p id="teamTitle" >open website in incognito mode if results don't display</p>
+          <p id="teamTitle" >filter results on desktop</p>
 
           <br></br>
 

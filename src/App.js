@@ -35,7 +35,8 @@ function App() {
       </MetaTags>
 
       <div className = "MainPage">
-        <br></br><br></br>
+        <NavBarNew></NavBarNew>
+        <br></br>
         <LandinigPage></LandinigPage>
         <JobOpp></JobOpp>
         <Organizations></Organizations>
