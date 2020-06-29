@@ -69,6 +69,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 # To Deploy
-Run sudo npm run deploy
+
+Run sudo npm run deploy, this places the build file in the gh-pages repository
+
 enter github credentials
+
 then go to settings in the repo and make sure a theme is selected, and the url is weareimpactful.org
