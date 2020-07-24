@@ -23,7 +23,7 @@ export default class jobOpp extends Component {
                             overlay={renderTooltip}
                         >
                             <a class="float-right" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
-                                <Button bsClass="flat" size="lg">+</Button>
+                                <Button bsClass="flat" size="lg">add an opportunity</Button>
                             </a>
                         </OverlayTrigger>
                         </Col>

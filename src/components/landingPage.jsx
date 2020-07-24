@@ -37,12 +37,12 @@ export default class LandingPage extends Component {
             <br></br>
 
             <h4>join our slack community</h4>
-            <a href='https://airtable.com/shrHRVGAqiv3fVXCH'>
+            <a href='https://airtable.com/shrHRVGAqiv3fVXCH'target="_blank">
               <Button bsClass="flat" size="lg">Apply</Button>{}</a>
             <br></br>
             <br></br>
             <h4>join our mailing list</h4>
-              <a href = "https://airtable.com/shrz6v3BtuOsJuQbR" > <Button bsClass="flat" size="lg">Subscribe</Button></a>
+              <a href = "https://airtable.com/shrz6v3BtuOsJuQbR" target="_blank" > <Button bsClass="flat" size="lg">Subscribe</Button></a>
                 {''}
 
             </Col>
