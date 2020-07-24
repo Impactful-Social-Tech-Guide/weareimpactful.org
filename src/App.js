@@ -29,9 +29,9 @@ function App() {
     <div className="App">
       <MetaTags>
         <title>impactful</title>
-        <meta name="og:description" content="Community and Sources for Tech + Social Impact" />
-        <meta property="og:title" content="Impactful Community" />
-        <meta property="og:image" content="http://weareimpactful.org/intro1.jpg" />
+        <meta name="og:description" content="Browse internships, jobs, and projects at the intersection of tech and social impact. Join our invite-only community to network and engage in discussions about ethics, equity, and justice in tech." />
+        <meta property="og:title" content="Impactful: Tech + Social Good" />
+        <meta property="og:image" content="src/img/Impactful_Logo_Front.png" />
       </MetaTags>
 
       <div className = "MainPage">
