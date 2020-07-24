@@ -17,6 +17,7 @@ import Team from './components/team'
 import JoinCommunity from './components/joinCommunity'
 import Image1 from './img/illustrations/intro1.svg';
 import { Container } from 'react-bootstrap';
+import Logo from './img/Impactful_Logo_Front.png';
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
@@ -30,7 +31,7 @@ function App() {
         <title>impactful</title>
         <meta name="og:description" content="Browse internships, jobs, and projects at the intersection of tech and social impact. Join our invite-only community to network and engage in discussions about ethics, equity, and justice in tech." />
         <meta property="og:title" content="Impactful: Tech + Social Good" />
-        <meta property="og:image" content="img/Impactful_Logo_Front.png" />
+        <meta property="og:image" content="https://builders.mozilla.community/assets/showcase/Impactful.png"/>
       </MetaTags>
 
       <div className = "MainPage">
@@ -42,8 +43,6 @@ function App() {
 
         <Team></Team>
         <Footer></Footer>
-
-
         {/* <IntroSlide />
 
         <LandingButtons></LandingButtons>
