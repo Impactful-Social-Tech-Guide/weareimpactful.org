@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43854b1393e70594cdc95cd7151e162b",
+    "revision": "b9ec5cfd16473708cd73da870a688005",
     "url": "/index.html"
   },
   {
-    "revision": "c471e6f152fed556d028",
+    "revision": "45f7f4960aa23f5d1731",
     "url": "/static/css/main.f08d2f3d.chunk.css"
   },
   {
-    "revision": "17726e1a73fd13cd42eb",
-    "url": "/static/js/2.49f14a57.chunk.js"
+    "revision": "caefe4db8c60233c732b",
+    "url": "/static/js/2.27d50331.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.49f14a57.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.27d50331.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c471e6f152fed556d028",
-    "url": "/static/js/main.0e0e9536.chunk.js"
+    "revision": "45f7f4960aa23f5d1731",
+    "url": "/static/js/main.f19f8151.chunk.js"
   },
   {
     "revision": "b17457f05973c0e67538",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dcb304fd3cf40dbdd46bd67ccc43d6fd",
     "url": "/static/media/CircularStd-MediumItalic.dcb304fd.otf"
+  },
+  {
+    "revision": "10408a57920d75839b7012c438e0158e",
+    "url": "/static/media/Impactful_Logo_Front.10408a57.png"
   },
   {
     "revision": "21852a70e7d5259171ee7e56a3f983e4",

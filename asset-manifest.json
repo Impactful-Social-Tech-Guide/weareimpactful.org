@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f08d2f3d.chunk.css",
-    "main.js": "/static/js/main.0e0e9536.chunk.js",
-    "main.js.map": "/static/js/main.0e0e9536.chunk.js.map",
+    "main.js": "/static/js/main.f19f8151.chunk.js",
+    "main.js.map": "/static/js/main.f19f8151.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.49f14a57.chunk.js": "/static/js/2.49f14a57.chunk.js",
-    "static/js/2.49f14a57.chunk.js.map": "/static/js/2.49f14a57.chunk.js.map",
+    "static/js/2.27d50331.chunk.js": "/static/js/2.27d50331.chunk.js",
+    "static/js/2.27d50331.chunk.js.map": "/static/js/2.27d50331.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.430a20d0b0e759ab857e8d3fc6138790.js": "/precache-manifest.430a20d0b0e759ab857e8d3fc6138790.js",
+    "precache-manifest.958a2cd720722606d5e5d36030c0f41f.js": "/precache-manifest.958a2cd720722606d5e5d36030c0f41f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f08d2f3d.chunk.css.map": "/static/css/main.f08d2f3d.chunk.css.map",
-    "static/js/2.49f14a57.chunk.js.LICENSE.txt": "/static/js/2.49f14a57.chunk.js.LICENSE.txt",
+    "static/js/2.27d50331.chunk.js.LICENSE.txt": "/static/js/2.27d50331.chunk.js.LICENSE.txt",
     "static/media/CircularStd-Black.otf": "/static/media/CircularStd-Black.7f42d848.otf",
     "static/media/CircularStd-BlackItalic.otf": "/static/media/CircularStd-BlackItalic.0cda47fe.otf",
     "static/media/CircularStd-Bold.otf": "/static/media/CircularStd-Bold.6baed2bf.otf",
@@ -20,6 +20,7 @@
     "static/media/CircularStd-BookItalic.otf": "/static/media/CircularStd-BookItalic.f1e69e38.otf",
     "static/media/CircularStd-Medium.otf": "/static/media/CircularStd-Medium.4fcdd97f.otf",
     "static/media/CircularStd-MediumItalic.otf": "/static/media/CircularStd-MediumItalic.dcb304fd.otf",
+    "static/media/Impactful_Logo_Front.png": "/static/media/Impactful_Logo_Front.10408a57.png",
     "static/media/IvonneCircle.png": "/static/media/IvonneCircle.21852a70.png",
     "static/media/IvyCircle.png": "/static/media/IvyCircle.e8f9c9c2.png",
     "static/media/LarissaCircle.png": "/static/media/LarissaCircle.cda8626a.png",
@@ -34,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.49f14a57.chunk.js",
+    "static/js/2.27d50331.chunk.js",
     "static/css/main.f08d2f3d.chunk.css",
-    "static/js/main.0e0e9536.chunk.js"
+    "static/js/main.f19f8151.chunk.js"
   ]
 }
