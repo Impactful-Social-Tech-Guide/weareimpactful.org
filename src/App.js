@@ -12,6 +12,9 @@ import MetaTags from 'react-meta-tags';
 import Recs from './components/recs.jsx'
 import About from './components/about'
 import NavBarNew from './components/navBarNew'
+import Landing from './components/landing'
+import OurCommunity from './components/ourcommunity'
+import AboutUs from './components/aboutUs'
 import LandinigPage from './components/landingPage'
 import Team from './components/team'
 import JoinCommunity from './components/joinCommunity'
@@ -35,28 +38,12 @@ function App() {
       </MetaTags>
 
       <div className = "MainPage">
-        <NavBarNew></NavBarNew>
-        <br></br>
-        <LandinigPage></LandinigPage>
+        <Landing></Landing>
         <JobOpp></JobOpp>
         <Organizations></Organizations>
-
-        <Team></Team>
-        <Footer></Footer>
-        {/* <IntroSlide />
-
-        <LandingButtons></LandingButtons>
-        <About></About>
-
-        <JoinCommunity></JoinCommunity>
-        <Recs></Recs> */}
-
-
+        <OurCommunity></OurCommunity>
+        <AboutUs></AboutUs>
       </div>
-
-
-      {/* <FooterMinimal></FooterMinimal> */}
-
     </div>
   );
 }

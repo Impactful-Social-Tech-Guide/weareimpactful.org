@@ -5,29 +5,29 @@ import { Container, Row, Col, Figure, OverlayTrigger, Button, Tooltip } from 're
 export default class jobOpp extends Component {
   render() {
     return (
-      <div>
+      <div className="airtTableContent">
         <Container id="landing"  style={{
             paddingTop: 55,
             paddingBottom: 55
           }}>
           <Row>
             <Col>
-              <h3 id="teamTitle" >Socially impactful organizations</h3>
+              <h3 id="teamTitle" >ORGANIZATIONS</h3>
+              <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
+              If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list. 
+              </p>
 
             </Col>
             <Col>
-              <OverlayTrigger
-                placement="left"
-                delay={{ show: 250, hide: 250 }}
-                overlay={renderTooltip}
-              >
-                <a class="float-right" href="https://airtable.com/shrMuN5t9SWMLGSiF" target="_blank">
-                  <Button bsClass="flat" size="lg">+</Button>
+            <p style={{fontSize:"24px", marginTop:"40px", textAlign: "left"}}>
+            If you would like to publicize an organization on impactful, submit a posting here:
+              </p>
+
+                <a class="float-left" href="https://airtable.com/shrMuN5t9SWMLGSiF" target="_blank">
+                  <Button bsClass="flat" size="lg">Submit organization</Button>
                 </a>
-              </OverlayTrigger>
             </Col>
           </Row>
-          <p id="teamTitle" >filter results on desktop</p>
 
           <br></br>
 
@@ -50,12 +50,4 @@ export default class jobOpp extends Component {
     )
   }
 
-}
-
-function renderTooltip(props) {
-  return (
-    <Tooltip id="button-tooltip" {...props}>
-      add an organization
-    </Tooltip>
-  );
 }

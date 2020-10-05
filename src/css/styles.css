@@ -69,6 +69,31 @@ overflow-x:auto;
   padding:50px 0px 0px 0px;
 }
 
+.airtTableContent{
+  background-color: #E6E6E6;
+  color: #1D00B5;
+}
+
+.landingLink{
+  font-size: 35px;
+  color: white;
+  text-decoration: underline;
+}
+
+#landingLink:hover { /*todo: ask ivy if the color should change on hover*/
+  color: white;
+}
+
+.footerLink{
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+}
+
+#footerLink:hover { /*todo: ask ivy if the color should change on hover*/
+  color: white;
+}
+
 .services-section img {
 
     margin: auto;
@@ -76,6 +101,6 @@ overflow-x:auto;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #ada0d9 !important;
-    border-color:  #ada0d9 !important;
+    background-color: #1D00B5 !important;
+    border-color:  #1D00B5 !important;
 }

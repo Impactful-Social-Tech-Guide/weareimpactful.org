@@ -6,30 +6,23 @@ import { Container, Row, Col, Figure, OverlayTrigger, Button, Tooltip } from 're
 export default class jobOpp extends Component {
     render() {
         return (
-            <div>
+            <div className="airtTableContent" id="jobOpportunities">
                 <Container id="landing" style={{
                     paddingTop: 55,
                     paddingBottom: 55
                   }}>
-
                     <Row>
-                        <Col>
-                          <h3 id="teamTitle" >Jobs and opportunities </h3>
+                        <Col >
+                          <h3 id="teamTitle" >JOBS AND OPPORTUNITIES </h3>
+                          <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>Whether you're just starting out or are looking for your next job, we have opportunities for engineers, designers, and product managers.</p>
                         </Col>
-                        <Col>
-                        <OverlayTrigger
-                            placement="left"
-                            delay={{ show: 250, hide: 250 }}
-                            overlay={renderTooltip}
-                        >
-                            <a class="float-right" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
-                                <Button bsClass="flat" size="lg">+</Button>
+                        <Col >
+                        <p style={{fontSize:"24px", marginTop:"40px", textAlign: "left"}}>If you are an organization or business looking for talent, submit a posting here: </p>
+                            <a class="float-left" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
+                                <Button style={{ boxShadow: "5px", padding:"10px"}}  bsClass="flat" size="lg">Submit opportunity</Button>
                             </a>
-                        </OverlayTrigger>
                         </Col>
                     </Row>
-                    <p id="teamTitle" >filter results on desktop</p>
-
                     <br></br>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">
                         <Iframe class="airtable-embed" src="https://airtable.com/embed/shrUY2UUvj3qsSI8N?backgroundColor=orange&viewControls=on"
@@ -44,12 +37,4 @@ export default class jobOpp extends Component {
         )
     }
 
-}
-
-function renderTooltip(props) {
-    return (
-        <Tooltip id="button-tooltip" {...props}>
-            add a job opportunity
-        </Tooltip>
-    );
 }
