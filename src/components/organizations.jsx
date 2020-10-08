@@ -12,9 +12,9 @@ export default class jobOpp extends Component {
           }}>
           <Row>
             <Col>
-              <h3 id="teamTitle" >ORGANIZATIONS</h3>
+              <h3 id="teamTitleThree" >ORGANIZATIONS</h3>
               <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
-              If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list. 
+              If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list.
               </p>
 
             </Col>
