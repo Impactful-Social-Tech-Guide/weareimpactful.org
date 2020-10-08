@@ -128,6 +128,14 @@ overflow-x:auto;
   box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.25);
 }
 
+#titleWithLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
 
 #one {
   width: 437px;

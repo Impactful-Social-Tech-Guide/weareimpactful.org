@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
         <Row className="justify-content-md-center">
         <br></br><br></br>
         <img
-        style={{marginTop:"50px", marginBottom: "50px"}}
+        style={{marginLeft:"15px", marginTop:"50px", marginBottom: "50px"}}
         class="titleWithLogo" // Todo: add styling, remove need for br tag
         src={TitleWithLogo}
         />
