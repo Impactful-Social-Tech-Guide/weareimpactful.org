@@ -2,29 +2,31 @@ import React, { Component } from 'react';
 import Iframe from 'react-iframe'
 import { Container, Row, Col, Figure, OverlayTrigger, Button, Tooltip } from 'react-bootstrap';
 
-export default class jobOpp extends Component {
+export default class LandingPage extends Component {
   render() {
     return (
-      <div id="joinCommunity">
-        <Container id="landing"  style={{
+      <div className="rectangle-2"  >
+        <Container id="rectangle-2"  style={{
             paddingTop: 55,
-            paddingBottom: 55
+            paddingBottom: 55,
+            paddingLeft: 55,
+            paddingRight: 55
           }}>
           <Row>
             <Col>
-            <h5 id="teamTitle" >ABOUT US</h5>
-              <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
+            <h5 id="aboutUs" >ABOUT US</h5>
+              <p id = "one" style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
               Impactful bridges the gap between job-seekers and opportunities in public interest technology, and brings together a group of like-minded thinkers interested in exploring and learning more about technology and social impact.
               </p>
 
-              <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
+              <p id = "one" style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
               Founded in 2020, we are backed by Mozilla's Spring MVP Lab and The New America Foundation.
               </p>
 
             </Col>
             <Col>
-              <p style={{ fontSize:"24px", marginTop:"40px", textAlign: "left"}}>
-              Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at 
+              <p id = "one" style={{ fontSize:"24px", marginTop:"40px", textAlign: "left"}}>
+              Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at
               <a style={{color:"white"}} href="mailto:hello@weareimpactful.org"> hello@weareimpactful.org</a>
 
               </p>

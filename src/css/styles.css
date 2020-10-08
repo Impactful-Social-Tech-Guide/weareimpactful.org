@@ -7,9 +7,53 @@ div #landing{
 h1{
     text-align: center;
 }
+
 #teamTitle{
   text-align: left;
+  height: 53.7px;
+  width: 340px;
+  color: #1D00B5;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0.86px;
+  line-height: 61px;
 }
+
+
+#teamTitleTwo{
+  text-align: left;
+  height: 53.7px;
+  width: 340px;
+  color: #1D00B5;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.86px;
+  line-height: 61px;
+}
+
+#aboutUs{
+  text-align: left;
+  height: 53.7px;
+  width: 340px;
+  color: 000000;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 0.86px;
+  line-height: 61px;
+}
+
+#ourCommunity{
+  height: 40px;
+  width: 221px;
+  color: #1D00B5;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+
+}
+
+
 .footer{
   border-top: .5px solid hsla(0,0%,100%,.2);
 }
@@ -72,6 +116,25 @@ overflow-x:auto;
 .airtTableContent{
   background-color: #E6E6E6;
   color: #1D00B5;
+  box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.16);
+
+}
+
+.rectangle-2 {
+  height: 800px;
+  /* width: 1280px; */
+  padding-top: 30px;
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+  box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.25);
+}
+
+
+#one {
+  width: 437px;
+/* font-family: CircularStd-Medium; */
+font-family: "CircularStd";
+ font-style: "Book";
+
 }
 
 .landingLink{

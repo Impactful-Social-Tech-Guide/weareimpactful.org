@@ -12,10 +12,14 @@ export default class jobOpp extends Component {
           }}>
           <Row>
             <Col>
-            <h5 id="teamTitle" >OUR COMMUNITY</h5>
+              <Row>            <h5 id="ourCommunity" >OUR COMMUNITY</h5>
+
+              </Row>
+              <Row>
             <h3 id="teamTitle" >Slack Channel</h3>
+            </Row>
               <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
-              Apply to join our active Slack channel where members share resources and discuss social impact and technology. 
+              Apply to join our active Slack channel where members share resources and discuss social impact and technology.
               </p>
 
               <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
@@ -26,7 +30,12 @@ export default class jobOpp extends Component {
               </a>
             </Col>
             <Col>
+              <Row>
+                <h5><br></br></h5>
+              </Row>
+              <Row>
             <h3 id="teamTitle" >Mailing List</h3>
+            </Row>
               <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
               Sign-up to receive updates about the impactful website and news about social impact opportunites.
               </p>
@@ -34,7 +43,7 @@ export default class jobOpp extends Component {
 Anyone can subscribe for free, and you can unsubscribe at any time.
 
               </p>
-              <a  class="float-left"  href="https://airtable.com/shrz6v3BtuOsJuQbR" target="_blank"> 
+              <a  class="float-left"  href="https://airtable.com/shrz6v3BtuOsJuQbR" target="_blank">
               <Button bsClass="flat" size="lg">Subscribe</Button>
               </a>
 

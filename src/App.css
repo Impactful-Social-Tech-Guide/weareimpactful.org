@@ -1,17 +1,19 @@
 .App {
   text-align: center;
-  background-color: blue;
+  /* background-color: blue; */
   color: white;
-
+  background:linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
 }
 
 .MainPage {
   text-align: center;
-  background-color: #8a2be2;
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+  /* box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.25); */
   color: white;
   font-family: CircularStd;
-  font-weight: Bold
-
+  font-weight: Bold;
+  height: 100vh;
+  /* width: 1280px; */
 }
 
 .App-landing {
@@ -20,10 +22,29 @@
   font-size: calc(10px + 2vmin);
 }
 
+.App-rectangle-2 {
+  /* height: 860px; */
+  width: 1280px;
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+  box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.25);
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.impactful-is-your-pl p{
+  height: 202px;
+  width: 595px;
+  opacity: 0.9;
+  color: #FFF;
+  font-family: "Circular Std";
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 1.15px;
+  line-height: 58px;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -12,7 +12,7 @@ export default class LandingPage extends Component {
       <h1 >impactful.</h1>
       <br></br>
       <br></br>
-      <Container id="landing">
+      <Container id="rectangle-2">
         <Row className="justify-content-md-center">
           <Col id="about" sm={8}>
             <br></br>

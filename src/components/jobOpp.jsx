@@ -13,7 +13,7 @@ export default class jobOpp extends Component {
                   }}>
                     <Row>
                         <Col >
-                          <h3 id="teamTitle" >JOBS AND OPPORTUNITIES </h3>
+                          <h3 id="teamTitlewo" >JOBS AND OPPORTUNITIES </h3>
                           <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>Whether you're just starting out or are looking for your next job, we have opportunities for engineers, designers, and product managers.</p>
                         </Col>
                         <Col >
