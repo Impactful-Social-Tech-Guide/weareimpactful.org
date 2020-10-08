@@ -21,7 +21,19 @@ export default class LandingPage extends Component {
 
           </Row>
           <Row  className="justify-content-md-center">
-            <p style = {{ fontFamily: "CircularStd", fontStyle: "Book",  width: "595px", marginLeft:"50px", marginRight:"50px", marginTop: "130px", marginBottom:"130px", fontSize:"36px"}}>
+            <p style = {{ fontFamily: "CircularStd",
+               fontStyle: "Book",
+                marginLeft:"50px", marginRight:"50px", marginTop: "130px", marginBottom:"130px", fontSize:"36px",
+                height: "202px",
+                width: "595px",
+                opacity: 0.9,
+                color: "#FFF",
+                fontSize: "42px",
+                fontWeight: 300,
+                letterSpacing: "1.15px",
+                lineHeight: "58px",
+                textAlign: "center",
+              }}>
                   impactful is your place to search for opportunities in social impact technology.
                   </p></Row>
           <Row className="justify-content-md-center" style={{marginBottom:"190px"}}>
