@@ -24,7 +24,7 @@ export default class LandingPage extends Component {
             <p style = {{ fontFamily: "CircularStd",
                fontStyle: "Book",
                 marginLeft:"50px", marginRight:"50px", marginTop: "130px", marginBottom:"130px", fontSize:"36px",
-                height: "202px",
+                // height: "202px",
                 width: "595px",
                 opacity: 0.9,
                 color: "#FFF",
