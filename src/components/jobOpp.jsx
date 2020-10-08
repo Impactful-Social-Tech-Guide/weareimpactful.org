@@ -12,16 +12,20 @@ export default class jobOpp extends Component {
                     paddingBottom: 55
                   }}>
                     <Row>
-                        <Col >
                           <h3 id="teamTitleTwo" >JOBS AND OPPORTUNITIES </h3>
-                          <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>Whether you're just starting out or are looking for your next job, we have opportunities for engineers, designers, and product managers.</p>
-                        </Col>
-                        <Col>
-                        <p style={{fontSize:"24px", marginTop:"40px", textAlign: "left"}}>If you are an organization or business looking for talent, submit a posting here: </p>
-                            <a class="float-left" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
-                                <Button style={{ boxShadow: "5px", padding:"10px"}}  bsClass="flat" size="lg">Submit opportunity</Button>
-                            </a>
-                        </Col>
+
+                    </Row>
+
+                    <Row>
+                      <Col>
+                        <p style={{ fontSize:"24px", textAlign: "left"}}>Whether you're just starting out or are looking for your next job, we have opportunities for engineers, designers, and product managers.</p>
+                      </Col>
+                      <Col>
+                      <p style={{fontSize:"24px", textAlign: "left"}}>If you are an organization or business looking for talent, submit a posting here: </p>
+                          <a class="float-left" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
+                              <Button style={{ boxShadow: "5px", padding:"10px"}}  bsClass="flat" size="lg">Submit opportunity</Button>
+                          </a>
+                      </Col>
                     </Row>
                     <br></br>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">

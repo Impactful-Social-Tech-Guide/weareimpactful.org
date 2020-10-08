@@ -11,15 +11,17 @@ export default class jobOpp extends Component {
             paddingBottom: 55
           }}>
           <Row>
+            <h3 id="teamTitleThree" >ORGANIZATIONS</h3>
+          </Row>
+          <Row>
             <Col>
-              <h3 id="teamTitleThree" >ORGANIZATIONS</h3>
-              <p style={{ fontSize:"24px", marginTop:"20px", textAlign: "left"}}>
+              <p style={{ fontSize:"24px", textAlign: "left"}}>
               If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list.
               </p>
 
             </Col>
             <Col>
-            <p style={{fontSize:"24px", marginTop:"40px", textAlign: "left"}}>
+            <p style={{fontSize:"24px", textAlign: "left"}}>
             If you would like to publicize an organization on impactful, submit a posting here:
               </p>
 
