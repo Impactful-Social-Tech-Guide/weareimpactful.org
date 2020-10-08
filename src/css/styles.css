@@ -9,13 +9,18 @@ div #landing{
   min-width: auto;
 }
 
+#landing .col{
+  min-width: auto;
+  padding-bottom: 50px;
+}
+
 h1{
     text-align: center;
 }
 
 #teamTitle{
   text-align: left;
-  height: 95.7px;
+  /* height: 95.7px; */
   /* width: 340px; */
   color: #1D00B5;
   font-size: 48px;
@@ -32,10 +37,10 @@ h1{
   height: 95.7px;
   /* width: 340px; */
   color: #1D00B5;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 500;
   letter-spacing: 0.86px;
-  line-height: 61px;
+  /* line-height: 61px; */
 }
 
 #teamTitleThree{
