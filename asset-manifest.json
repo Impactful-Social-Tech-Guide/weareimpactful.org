@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd6bbaae.chunk.css",
-    "main.js": "/static/js/main.31b74178.chunk.js",
-    "main.js.map": "/static/js/main.31b74178.chunk.js.map",
+    "main.css": "/static/css/main.a8722d78.chunk.css",
+    "main.js": "/static/js/main.1702042e.chunk.js",
+    "main.js.map": "/static/js/main.1702042e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.fc933052.chunk.js": "/static/js/2.fc933052.chunk.js",
-    "static/js/2.fc933052.chunk.js.map": "/static/js/2.fc933052.chunk.js.map",
+    "static/js/2.95466601.chunk.js": "/static/js/2.95466601.chunk.js",
+    "static/js/2.95466601.chunk.js.map": "/static/js/2.95466601.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72dfc9421cfb8d0d3fdd1227b6012ed2.js": "/precache-manifest.72dfc9421cfb8d0d3fdd1227b6012ed2.js",
+    "precache-manifest.c920649f61d31e0a4bc196dceebf6d6c.js": "/precache-manifest.c920649f61d31e0a4bc196dceebf6d6c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fd6bbaae.chunk.css.map": "/static/css/main.fd6bbaae.chunk.css.map",
-    "static/js/2.fc933052.chunk.js.LICENSE.txt": "/static/js/2.fc933052.chunk.js.LICENSE.txt",
+    "static/css/main.a8722d78.chunk.css.map": "/static/css/main.a8722d78.chunk.css.map",
+    "static/js/2.95466601.chunk.js.LICENSE.txt": "/static/js/2.95466601.chunk.js.LICENSE.txt",
     "static/media/CircularStd-Black.otf": "/static/media/CircularStd-Black.7f42d848.otf",
     "static/media/CircularStd-BlackItalic.otf": "/static/media/CircularStd-BlackItalic.0cda47fe.otf",
     "static/media/CircularStd-Bold.otf": "/static/media/CircularStd-Bold.6baed2bf.otf",
@@ -25,12 +25,16 @@
     "static/media/Icon_LinkedIn.svg": "/static/media/Icon_LinkedIn.a4315000.svg",
     "static/media/Icon_Mail-03.svg": "/static/media/Icon_Mail-03.55b080b2.svg",
     "static/media/Icon_Twitter.svg": "/static/media/Icon_Twitter.a6eb2457.svg",
+    "static/media/IvonneCircle.png": "/static/media/IvonneCircle.21852a70.png",
+    "static/media/IvyCircle.png": "/static/media/IvyCircle.e8f9c9c2.png",
+    "static/media/LarissaCircle.png": "/static/media/LarissaCircle.cda8626a.png",
+    "static/media/NithiCircle.png": "/static/media/NithiCircle.9612c08c.png",
     "static/media/title_with_logo.svg": "/static/media/title_with_logo.d2067744.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.fc933052.chunk.js",
-    "static/css/main.fd6bbaae.chunk.css",
-    "static/js/main.31b74178.chunk.js"
+    "static/js/2.95466601.chunk.js",
+    "static/css/main.a8722d78.chunk.css",
+    "static/js/main.1702042e.chunk.js"
   ]
 }
