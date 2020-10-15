@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5054a5a.chunk.css",
-    "main.js": "/static/js/main.fbf4212d.chunk.js",
-    "main.js.map": "/static/js/main.fbf4212d.chunk.js.map",
+    "main.css": "/static/css/main.fd6bbaae.chunk.css",
+    "main.js": "/static/js/main.22a0b342.chunk.js",
+    "main.js.map": "/static/js/main.22a0b342.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.f6f19ce0.chunk.js": "/static/js/2.f6f19ce0.chunk.js",
-    "static/js/2.f6f19ce0.chunk.js.map": "/static/js/2.f6f19ce0.chunk.js.map",
+    "static/js/2.fc933052.chunk.js": "/static/js/2.fc933052.chunk.js",
+    "static/js/2.fc933052.chunk.js.map": "/static/js/2.fc933052.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.809cab477d7f1f889f6f7acc33f73755.js": "/precache-manifest.809cab477d7f1f889f6f7acc33f73755.js",
+    "precache-manifest.0f1fc2db66c02070ea6136895a762ef8.js": "/precache-manifest.0f1fc2db66c02070ea6136895a762ef8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a5054a5a.chunk.css.map": "/static/css/main.a5054a5a.chunk.css.map",
-    "static/js/2.f6f19ce0.chunk.js.LICENSE.txt": "/static/js/2.f6f19ce0.chunk.js.LICENSE.txt",
+    "static/css/main.fd6bbaae.chunk.css.map": "/static/css/main.fd6bbaae.chunk.css.map",
+    "static/js/2.fc933052.chunk.js.LICENSE.txt": "/static/js/2.fc933052.chunk.js.LICENSE.txt",
     "static/media/CircularStd-Black.otf": "/static/media/CircularStd-Black.7f42d848.otf",
     "static/media/CircularStd-BlackItalic.otf": "/static/media/CircularStd-BlackItalic.0cda47fe.otf",
     "static/media/CircularStd-Bold.otf": "/static/media/CircularStd-Bold.6baed2bf.otf",
@@ -20,23 +20,17 @@
     "static/media/CircularStd-BookItalic.otf": "/static/media/CircularStd-BookItalic.f1e69e38.otf",
     "static/media/CircularStd-Medium.otf": "/static/media/CircularStd-Medium.4fcdd97f.otf",
     "static/media/CircularStd-MediumItalic.otf": "/static/media/CircularStd-MediumItalic.dcb304fd.otf",
-    "static/media/Impactful_Logo_Front.png": "/static/media/Impactful_Logo_Front.10408a57.png",
-    "static/media/IvonneCircle.png": "/static/media/IvonneCircle.21852a70.png",
-    "static/media/IvyCircle.png": "/static/media/IvyCircle.e8f9c9c2.png",
-    "static/media/LarissaCircle.png": "/static/media/LarissaCircle.cda8626a.png",
-    "static/media/NithiCircle.png": "/static/media/NithiCircle.9612c08c.png",
-    "static/media/girl_world.svg": "/static/media/girl_world.9f1076b5.svg",
-    "static/media/intro1.svg": "/static/media/intro1.3b4ec332.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.9e36c8fd.svg",
-    "static/media/mail.svg": "/static/media/mail.f6844b85.svg",
-    "static/media/newglobe.svg": "/static/media/newglobe.f64ececb.svg",
-    "static/media/undraw_conference_call_b0w6.svg": "/static/media/undraw_conference_call_b0w6.046547ea.svg",
-    "static/media/undraw_online_connection_6778.svg": "/static/media/undraw_online_connection_6778.f57c5c67.svg"
+    "static/media/Icon_Facebook.svg": "/static/media/Icon_Facebook.5233c877.svg",
+    "static/media/Icon_Instagram.svg": "/static/media/Icon_Instagram.36a55180.svg",
+    "static/media/Icon_LinkedIn.svg": "/static/media/Icon_LinkedIn.a4315000.svg",
+    "static/media/Icon_Mail-03.svg": "/static/media/Icon_Mail-03.55b080b2.svg",
+    "static/media/Icon_Twitter.svg": "/static/media/Icon_Twitter.a6eb2457.svg",
+    "static/media/title_with_logo.svg": "/static/media/title_with_logo.d2067744.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.f6f19ce0.chunk.js",
-    "static/css/main.a5054a5a.chunk.css",
-    "static/js/main.fbf4212d.chunk.js"
+    "static/js/2.fc933052.chunk.js",
+    "static/css/main.fd6bbaae.chunk.css",
+    "static/js/main.22a0b342.chunk.js"
   ]
 }
