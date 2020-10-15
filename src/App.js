@@ -1,26 +1,12 @@
 import React from 'react';
-import OurNavBar from './OurNavBar';
-import IntroSlide from './IntroSlide.jsx'
 import './App.css';
 import JobOpp from './components/jobOpp.jsx'
-import LandingButtons from './components/landingButtons.jsx'
-
 import Organizations from './components/organizations.jsx'
-import Footer from './components/footerMinimal.jsx'
 import MetaTags from 'react-meta-tags';
-
-import Recs from './components/recs.jsx'
-import About from './components/about'
-import NavBarNew from './components/navBarNew'
 import Landing from './components/landing'
 import OurCommunity from './components/ourcommunity'
 import AboutUs from './components/aboutUs'
-import LandinigPage from './components/landingPage'
-import Team from './components/team'
-import JoinCommunity from './components/joinCommunity'
-import Image1 from './img/illustrations/intro1.svg';
-import { Container } from 'react-bootstrap';
-import Logo from './img/Impactful_Logo_Front.png';
+// import Team from './components/team'
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');

@@ -2,49 +2,62 @@
   text-align: center;
   /* background-color: blue; */
   color: white;
-  background:linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
+  background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
 }
 
-.MainPage {
+.landing {
   text-align: center;
   background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
-  /* box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.25); */
   color: white;
   font-family: CircularStd;
   font-weight: Bold;
-  height: 1250px;
-  /* width: 1280px; */
+  height: auto;
+  padding-top:55px;
 }
 
-.App-landing {
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.jobOpportunities {
+  /* height: 1310px; */
+  background-color: #E6E6E6;
+  box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
 }
 
-.App-rectangle-2 {
-  /* height: 860px; */
-  width: 1280px;
+.organizations {
+  /* height: 1081px; */
+  background-color: #E6E6E6;
+  box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
+}
+
+.community {
+  /* height: 665px; */
+  background-color: #E6E6E6;
+  box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
+}
+
+.aboutUs {
   background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
-  box-shadow: 7px 7px 30px 0 rgba(0,0,0,0.25);
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.16);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.group-1 {
+  /* padding-top: 300px; */
+  /* height: 42px; */
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
-.impactful-is-your-pl p{
-  height: 202px;
-  width: 595px;
-  opacity: 0.9;
-  color: #FFF;
-  font-family: "Circular Std";
-  font-size: 42px;
-  font-weight: 300;
-  letter-spacing: 1.15px;
-  line-height: 58px;
-  text-align: center;
+.landinglogo {
+  padding-top: 70px;
+  height: 71px;
+  width: 371px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -53,106 +66,6 @@
   }
 }
 
-.App-header {
-  background-color: #CC978E;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-about {
-  background-color: #E0DEC7;
-  min-height: 70vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-
-.App-jobOpp {
-  background-color: #20c997;
-  min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-organizations {
-  background-color: #20c997;
-  min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-reccs {
-  background-color: #20c997;
-  min-height: 70vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-footer {
-  background-color: #ada0d9;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.bg-overlay {
-    /* background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./img/green_city.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    height: 450px;
-    padding-top: 50px;
-}
-
-.bg-no-overlay {
-    /* background: url("./img/green_city.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    vertical-align: middle;
-    color: #fff;
-    height: 450px;
-    padding-top: 50px;
-}
-
-.carousel-img {
-    max-height: 760px;
 }
