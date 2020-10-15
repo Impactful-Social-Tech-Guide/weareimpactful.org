@@ -6,7 +6,6 @@ import MetaTags from 'react-meta-tags';
 import Landing from './components/landing'
 import OurCommunity from './components/ourcommunity'
 import AboutUs from './components/aboutUs'
-// import Team from './components/team'
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');

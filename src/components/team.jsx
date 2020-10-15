@@ -3,12 +3,12 @@ import { Container, Row, Col} from 'react-bootstrap';
 
 import '../App.css';
 import '../css/styles.css';
-import Larissa from '../img/LarissaCircle.png';
-import Ivonne from '../img/IvonneCircle.png';
-import Nithi from '../img/NithiCircle.png';
-import Ivy from '../img/IvyCircle.png';
-import LinkedIn from '../img/linkedin.svg';
-import Mail from '../img/mail.svg';
+import Larissa from '../img/team_pics/LarissaCircle.png';
+import Ivonne from '../img/team_pics/IvonneCircle.png';
+import Nithi from '../img/team_pics/NithiCircle.png';
+import Ivy from '../img/team_pics/IvyCircle.png';
+import LinkedIn from '../img/social_contact/Icon_LinkedIn.svg';
+import Mail from '../img/social_contact/Icon_Mail-03.svg';
 
 
 export default class Footer extends Component {
@@ -19,7 +19,7 @@ export default class Footer extends Component {
                     paddingTop: 55,
                     paddingBottom: 55
                   }}>
-                <h3 id="teamTitle">About the team</h3><br></br>
+                <h3 id="teamTitle">TEAM</h3><br></br>
                     <Row className="justify-content-md-center">
                         <Col sm={3} style={{
                             paddingBottom: 25,
@@ -30,7 +30,7 @@ export default class Footer extends Component {
                                     alt="Larissa"></img>
                             </div>
                             <h4 class="font-weight-bold dark-grey-text my-4">Larissa</h4>
-                            <p>developer • loves to dance, play board games, and garden</p>
+                            <p>Co-Founder</p>
 
                             <a href="https://www.linkedin.com/in/larissanguyen/">
                                 <img border="0"
