@@ -39,7 +39,11 @@ export default class LandingPage extends Component {
               minWidth: "350px"
             }}>
             <p id="aboutUs-body">
+<<<<<<< HEAD
               Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {" "}
+=======
+              Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at 
+>>>>>>> 682e9ae086d06bef69a03aa21551fe7b81d6df06
               <a style={{
                   color: "white"
                 }} href="mailto:hello@weareimpactful.org">
