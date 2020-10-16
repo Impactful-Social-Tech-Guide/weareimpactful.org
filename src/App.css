@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  /* background-color: blue; */
   color: white;
   background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
 }
@@ -16,19 +15,16 @@
 }
 
 .jobOpportunities {
-  /* height: 1310px; */
   background-color: #E6E6E6;
   box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
 }
 
 .organizations {
-  /* height: 1081px; */
   background-color: #E6E6E6;
   box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
 }
 
 .community {
-  /* height: 665px; */
   background-color: #E6E6E6;
   box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
 }
@@ -40,8 +36,6 @@
 
 
 .group-1 {
-  /* padding-top: 300px; */
-  /* height: 42px; */
   width: 250px;
   display: block;
   margin-left: auto;
