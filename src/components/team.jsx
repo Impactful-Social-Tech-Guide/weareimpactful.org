@@ -35,7 +35,7 @@ export default class Footer extends Component {
                             <a href="https://www.linkedin.com/in/larissanguyen/">
                                 <img border="0"
                                     class=" img-fluid"
-                                    alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                                    alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
                             <a style={{
                                 paddingLeft: 10,
@@ -43,7 +43,7 @@ export default class Footer extends Component {
                               }} href="mailto:larissa@weareimpactful.org">
                                 <img border="0"
                                     class=" img-fluid"
-                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
                         </Col>
                         <Col sm={3} style={{
@@ -57,7 +57,7 @@ export default class Footer extends Component {
                             <h4 class="font-weight-bold dark-grey-text my-4">Ivonne</h4>
                             <p>developer • loves birds, visual storytelling, & cooking</p>
                             <a href="https://www.linkedin.com/in/iguzmanl/">
-                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
 
                             <a style={{
@@ -65,7 +65,7 @@ export default class Footer extends Component {
                               }} href="mailto:ivonne@weareimpactful.org">
                                 <img border="0"
                                     class=" img-fluid"
-                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
 
                         </Col>
@@ -79,7 +79,7 @@ export default class Footer extends Component {
                             <h4 class="font-weight-bold dark-grey-text my-4">Nithi</h4>
                             <p>developer • loves dancing, traveling, and social impact</p>
                             <a href="https://www.linkedin.com/in/nithi-subbaian/">
-                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
                             <a style={{
                                 paddingLeft: 10,
@@ -87,12 +87,12 @@ export default class Footer extends Component {
                               }} href="mailto:nithi@weareimpactful.org">
                                 <img border="0"
                                     class=" img-fluid"
-                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
+                                    alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
 
                         </Col>
 
-                        <Col sm={3}>
+                        <Col  style={{maxWidth:"400px", paddingBottom: 25,}} sm={3}>
                             <div class="circular--portrait">
                                 <img src={Ivy}
                                     class="rounded img-fluid" alt="Ivy"></img>
@@ -100,16 +100,21 @@ export default class Footer extends Component {
                             <h4 class="font-weight-bold dark-grey-text my-4">Ivy</h4>
                             <p>designer •  loves typefaces, kimchi, and triangles</p>
                             <a href="https://www.linkedin.com/in/ivy-l-82214983/">
-                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                                <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
-                            <a style={{
-                                paddingLeft: 10,
-                                paddingBottom: 25,
-                              }} href="mailto:ivy@weareimpactful.org">
-                                <img border="0"
-                                    class=" img-fluid"
-                                    alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
-                            </a>
+                          
+                              <a style={{
+                                  paddingLeft: 10,
+                                  paddingBottom: 25,
+                                  height:"30px"
+                                  display:"inline-block"
+                                }} href="mailto:ivy@weareimpactful.org">
+                                  <img border="0"
+                                      class=" img-fluid"
+                                      alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
+                              </a>
+
+
 
                         </Col>
                     </Row>

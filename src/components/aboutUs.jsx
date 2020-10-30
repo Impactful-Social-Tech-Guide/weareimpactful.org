@@ -38,8 +38,8 @@ export default class LandingPage extends Component {
           <Col style={{
               minWidth: "350px"
             }}>
-            <p id="aboutUs-body">Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {" "}
-
+            <p id="aboutUs-body">
+              Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {" "}
               <a style={{
                   color: "white"
                 }} href="mailto:hello@weareimpactful.org">

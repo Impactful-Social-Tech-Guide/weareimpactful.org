@@ -3,7 +3,7 @@
   height: 30px;
   color: #1D00B5;
   font-size: 24px;
-  font-weight: 700;
+  /* font-weight: 700; */
   letter-spacing: 0.5px;
   line-height: 30px;
   text-align: left;
@@ -66,8 +66,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 110px;
-  padding-top: 120px;
+  padding-top: 15vh;
+  height:50vh;
   max-width: 520px;
   padding-left: 15px;
   padding-right: 15px;
@@ -85,6 +85,7 @@
   margin-right: auto;
   min-width: 250px;
   padding-bottom: 10px;
+  height: 5vh;
 }
 
 #aboutUs-heading {

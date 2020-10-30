@@ -10,28 +10,34 @@
   color: white;
   font-family: CircularStd;
   font-weight: Bold;
-  height: auto;
-  padding-top:55px;
+  height: 100vh;
 }
 
 .jobOpportunities {
   background-color: #E6E6E6;
   box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
+  font-family: CircularStd;
 }
 
 .organizations {
   background-color: #E6E6E6;
   box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
+  font-family: CircularStd;
+
 }
 
 .community {
   background-color: #E6E6E6;
   box-shadow: 7px 7px 30px 0 rgba(0, 0, 0, 0.16);
+  font-family: CircularStd;
+
 }
 
 .aboutUs {
   background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
   box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.16);
+  font-family: CircularStd;
+
 }
 
 
@@ -43,6 +49,7 @@
   vertical-align: bottom;
   padding-bottom: 30px;
   padding-top: 30px;
+  height: 15vh;
 }
 
 .landinglogo {

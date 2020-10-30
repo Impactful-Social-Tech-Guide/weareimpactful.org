@@ -12,7 +12,7 @@ import '../css/styles.css'
 export default class LandingPage extends Component {
   render() {
     return (<div className="landing">
-        <Row style={{maxWidth:"360px", marginLeft:"auto", marginRight:"auto"}} >
+        <Row style={{maxWidth:"360px", marginLeft:"auto", marginRight:"auto", paddingTop: "5vh", height:"20vh"}} >
           <img class="titleWithLogo" alt="Impactful" src={TitleWithLogo}/>
         </Row>
         <Row id="impactful-is-your-pl" className="justify-content-md-center">

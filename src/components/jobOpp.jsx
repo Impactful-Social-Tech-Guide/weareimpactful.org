@@ -10,7 +10,7 @@ export default class jobOpp extends Component {
                     <h1 id="page-smallHeading" >JOBS AND OPPORTUNITIES </h1>
                     <Row style={{paddingTop: 15, paddingBottom: 35}}>
                       <Col style={{minWidth:"350px"}}>
-                        <p id="page-body" > Whether you're just starting out or are looking
+                        <p id="page-body"> Whether you're just starting out or are looking
                           for your next job, we have opportunities for engineers, designers, and product managers.</p>
                       </Col>
                       <Col style={{minWidth:"350px"}}>
