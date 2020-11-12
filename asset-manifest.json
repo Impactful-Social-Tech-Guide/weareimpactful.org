@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0766fa49.chunk.css",
-    "main.js": "/static/js/main.07f18355.chunk.js",
-    "main.js.map": "/static/js/main.07f18355.chunk.js.map",
+    "main.css": "/static/css/main.b47d69f4.chunk.css",
+    "main.js": "/static/js/main.e9f6acf4.chunk.js",
+    "main.js.map": "/static/js/main.e9f6acf4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa04a44.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa04a44.js.map",
-    "static/js/2.95466601.chunk.js": "/static/js/2.95466601.chunk.js",
-    "static/js/2.95466601.chunk.js.map": "/static/js/2.95466601.chunk.js.map",
+    "static/js/2.0afe4725.chunk.js": "/static/js/2.0afe4725.chunk.js",
+    "static/js/2.0afe4725.chunk.js.map": "/static/js/2.0afe4725.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dcf27d11bc63aea3c07c6128d2a7df10.js": "/precache-manifest.dcf27d11bc63aea3c07c6128d2a7df10.js",
+    "precache-manifest.65f7ed30c7b45861753ce61e72d02589.js": "/precache-manifest.65f7ed30c7b45861753ce61e72d02589.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0766fa49.chunk.css.map": "/static/css/main.0766fa49.chunk.css.map",
-    "static/js/2.95466601.chunk.js.LICENSE.txt": "/static/js/2.95466601.chunk.js.LICENSE.txt",
+    "static/css/main.b47d69f4.chunk.css.map": "/static/css/main.b47d69f4.chunk.css.map",
+    "static/js/2.0afe4725.chunk.js.LICENSE.txt": "/static/js/2.0afe4725.chunk.js.LICENSE.txt",
     "static/media/CircularStd-Black.otf": "/static/media/CircularStd-Black.7f42d848.otf",
     "static/media/CircularStd-BlackItalic.otf": "/static/media/CircularStd-BlackItalic.0cda47fe.otf",
     "static/media/CircularStd-Bold.otf": "/static/media/CircularStd-Bold.6baed2bf.otf",
@@ -27,14 +27,16 @@
     "static/media/Icon_Twitter.svg": "/static/media/Icon_Twitter.a6eb2457.svg",
     "static/media/IvonneCircle.png": "/static/media/IvonneCircle.21852a70.png",
     "static/media/IvyCircle.png": "/static/media/IvyCircle.e8f9c9c2.png",
+    "static/media/KassandraCircle.png": "/static/media/KassandraCircle.3acdad28.png",
     "static/media/LarissaCircle.png": "/static/media/LarissaCircle.cda8626a.png",
     "static/media/NithiCircle.png": "/static/media/NithiCircle.9612c08c.png",
+    "static/media/RajeeCircle.png": "/static/media/RajeeCircle.0a5fb643.png",
     "static/media/title_with_logo.svg": "/static/media/title_with_logo.d2067744.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fa04a44.js",
-    "static/js/2.95466601.chunk.js",
-    "static/css/main.0766fa49.chunk.css",
-    "static/js/main.07f18355.chunk.js"
+    "static/js/2.0afe4725.chunk.js",
+    "static/css/main.b47d69f4.chunk.css",
+    "static/js/main.e9f6acf4.chunk.js"
   ]
 }
