@@ -13,6 +13,8 @@ import Larissa from '../img/team_pics/LarissaCircle.png';
 import Ivonne from '../img/team_pics/IvonneCircle.png';
 import Nithi from '../img/team_pics/NithiCircle.png';
 import Ivy from '../img/team_pics/IvyCircle.png';
+import Kassandra from '../img/team_pics/KassandraCircle.png';
+import Rajee from '../img/team_pics/RajeeCircle.png';
 import LinkedIn from '../img/social_contact/Icon_LinkedIn.svg';
 import Mail from '../img/social_contact/Icon_Mail-03.svg';
 
@@ -173,6 +175,8 @@ export default class LandingPage extends Component {
                     </a>
 
                 </Col>
+</Row>
+<Row className="justify-content-md-center">
 
                 <Col style={{
                     paddingBottom: 25,minWidth:"300px"
@@ -182,7 +186,7 @@ export default class LandingPage extends Component {
                             class="rounded img-fluid" alt="Ivy"></img>
                     </div>
                     <h4 id="aboutUs-team">IVY LI</h4>
-                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team">Product-Designer</p>
+                      <p id="aboutUs-team">Product Designer</p><p id="aboutUs-team">Researcher</p>
                     <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
@@ -196,6 +200,35 @@ export default class LandingPage extends Component {
                     </a>
 
                 </Col>
+
+                <Col style={{
+                    paddingBottom: 25,minWidth:"300px"
+                  }} >
+                    <div class="circular--portrait">
+                        <img src={Kassandra}
+                            class="rounded img-fluid" alt="Kassandra"></img>
+                    </div>
+                    <h4 id="aboutUs-team">KASSANDRA FRANCO</h4>
+                      <p id="aboutUs-team">Intern</p>
+                    <a href="https://www.linkedin.com/in/kassandra-franco/">
+                        <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                    </a>
+                </Col>
+
+                <Col style={{
+                    paddingBottom: 25,minWidth:"300px"
+                  }} >
+                    <div class="circular--portrait">
+                        <img src={Rajee}
+                            class="rounded img-fluid" alt="Rajee"></img>
+                    </div>
+                    <h4 id="aboutUs-team">RAJEE SHAH</h4>
+                      <p id="aboutUs-team">Intern</p>
+                    <a href="https://www.linkedin.com/in/rajeeshah/">
+                        <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                    </a>
+                </Col>
+
             </Row>
 
             <Row className="justify-content-md-center" style={{
