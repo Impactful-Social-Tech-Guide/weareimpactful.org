@@ -136,7 +136,7 @@ export default class LandingPage extends Component {
                             class="rounded center img-fluid"
                             alt="Ivonne"></img>
                     </div>
-                    <h4 id="aboutUs-team">IVONNE LEMUZ-GUZMAN</h4>
+                    <h4 id="aboutUs-team">IVONNE GUZMAN-LEMUZ</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team">Developer</p>
                     <a href="https://www.linkedin.com/in/iguzmanl/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
