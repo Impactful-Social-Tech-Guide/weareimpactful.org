@@ -7,9 +7,9 @@ export default class jobOpp extends Component {
   render() {
     return (
       <div className="organizations">
-        <Container style={{ paddingTop: 55, paddingBottom: 55 }}>
+        <Container style={{ paddingTop: 76, paddingBottom: 55 }}>
             <h1 id="page-smallHeading" >ORGANIZATIONS</h1>
-          <Row style={{paddingTop: 15, paddingBottom: 35}}>
+          <Row style={{paddingTop: 15, paddingBottom: 64}}>
             <Col style={{minWidth:"350px"}}>
               <p id="page-body" > If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list.</p>
             </Col>

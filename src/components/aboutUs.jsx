@@ -101,7 +101,9 @@ export default class LandingPage extends Component {
         <Container id="landing" style={{
             paddingTop: "100px",
           }}>
-        <h3 id="aboutUs-heading">TEAM</h3><br></br>
+        <h5 id="aboutUs-heading" style={{
+            marginBottom: "32px"
+          }}>TEAM</h5><br></br>
             <Row className="justify-content-md-center">
                 <Col style={{
                     paddingBottom: 25, minWidth:"300px"
@@ -112,7 +114,9 @@ export default class LandingPage extends Component {
                             alt="Larissa"></img>
                     </div>
                     <h4  id="aboutUs-team">LARISSA NGUYEN</h4>
-                    <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team">Product-Manager</p>
+                    <p id="aboutUs-team">Co-Founder</p><p style={{
+                        marginBottom: "24px"
+                      }} id="aboutUs-team">Product-Manager</p>
 
                     <a href="https://www.linkedin.com/in/larissanguyen/">
                         <img border="0"
@@ -137,7 +141,9 @@ export default class LandingPage extends Component {
                             alt="Ivonne"></img>
                     </div>
                     <h4 id="aboutUs-team">IVONNE LEMUZ-GUZMAN</h4>
-                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team">Developer</p>
+                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
+                          marginBottom: "24px"
+                        }}>Developer</p>
                     <a href="https://www.linkedin.com/in/iguzmanl/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
@@ -159,7 +165,9 @@ export default class LandingPage extends Component {
                             class="rounded img-fluid" alt="Nithi"></img>
                     </div>
                     <h4 id="aboutUs-team">NITHI SUBBAIAN</h4>
-                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team">Developer</p>
+                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
+                          marginBottom: "24px"
+                        }}>Developer</p>
                     <a href="https://www.linkedin.com/in/nithi-subbaian/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
@@ -182,7 +190,9 @@ export default class LandingPage extends Component {
                             class="rounded img-fluid" alt="Ivy"></img>
                     </div>
                     <h4 id="aboutUs-team">IVY LI</h4>
-                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team">Product-Designer</p>
+                      <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
+                          marginBottom: "24px"
+                        }}>Product-Designer</p>
                     <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
@@ -202,10 +212,10 @@ export default class LandingPage extends Component {
                 marginTop: "120px",
                 marginBottom: "24px"
               }}>
-              <Col  style={{minWidth:"350px", paddingBottom:"15px"}}>
+              <Col  style={{minWidth:"350px", paddingBottom:"15px", textAlign:"right"}}>
                 <a id="aboutUs-heading" href="#jobOpportunities" className="footerLink">Explore Jobs</a>
               </Col>
-              <Col style={{minWidth:"350px"}} >
+              <Col style={{minWidth:"350px", textAlign:"left"}} >
                 <a id="aboutUs-heading" href="#joinCommunity" className="footerLink">Join Our Community</a>
               </Col>
             </Row>

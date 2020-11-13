@@ -6,9 +6,9 @@ export default class jobOpp extends Component {
     render() {
         return (
             <div className = "jobOpportunities" id="jobOpportunities">
-                <Container style={{ paddingTop: 55, paddingBottom: 55}}>
+                <Container style={{ paddingTop: 76, paddingBottom: 55}}>
                     <h1 id="page-smallHeading" >JOBS AND OPPORTUNITIES </h1>
-                    <Row style={{paddingTop: 15, paddingBottom: 35}}>
+                    <Row style={{paddingTop: 15, paddingBottom: 64}}>
                       <Col style={{minWidth:"350px"}}>
                         <p id="page-body"> Whether you're just starting out or are looking
                           for your next job, we have opportunities for engineers, designers, and product managers.</p>
