@@ -13,6 +13,8 @@ import Larissa from '../img/team_pics/LarissaCircle.png';
 import Ivonne from '../img/team_pics/IvonneCircle.png';
 import Nithi from '../img/team_pics/NithiCircle.png';
 import Ivy from '../img/team_pics/IvyCircle.png';
+import Kassandra from '../img/team_pics/KassandraCircle.png';
+import Rajee from '../img/team_pics/RajeeCircle.png';
 import LinkedIn from '../img/social_contact/Icon_LinkedIn.svg';
 import Mail from '../img/social_contact/Icon_Mail-03.svg';
 
@@ -21,7 +23,7 @@ export default class LandingPage extends Component {
   render() {
     return (<div className="aboutUs" id="learnMore" >
       <Container id="rectangle-2" style={{
-          paddingTop: 55,
+          paddingTop: 76,
           paddingBottom: 55
         }}>
         <h5 id="aboutUs-heading">ABOUT US</h5>
@@ -98,22 +100,25 @@ export default class LandingPage extends Component {
             </Row>
           </Col>
         </Row>
-        <Container id="landing" style={{
-            paddingTop: "100px",
-          }}>
         <h5 id="aboutUs-heading" style={{
+            marginTop:"76px",
             marginBottom: "32px"
-          }}>TEAM</h5><br></br>
+          }}>TEAM</h5>
+        <Container id="landing" style={{
+          }}>
+        <br></br>
             <Row className="justify-content-md-center">
                 <Col style={{
-                    paddingBottom: 25, minWidth:"300px"
+                    paddingBottom: 25, minWidth:"300px", marginBottom:"60px"
                   }}>
                     <div class="circular--landscape">
                         <img src={Larissa}
                             class="rounded img-fluid"
                             alt="Larissa"></img>
                     </div>
-                    <h4  id="aboutUs-team">LARISSA NGUYEN</h4>
+                    <h4 style={{
+                      marginTop:"24px"
+                      }} id="aboutUs-team">LARISSA NGUYEN</h4>
                     <p id="aboutUs-team">Co-Founder</p><p style={{
                         marginBottom: "24px"
                       }} id="aboutUs-team">Product-Manager</p>
@@ -133,14 +138,16 @@ export default class LandingPage extends Component {
                     </a>
                 </Col>
                 <Col style={{
-                    paddingBottom: 25,minWidth:"300px"
+                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px",
                   }}>
                     <div class="circular--portrait">
                         <img src={Ivonne}
                             class="rounded center img-fluid"
                             alt="Ivonne"></img>
                     </div>
-                    <h4 id="aboutUs-team">IVONNE LEMUZ-GUZMAN</h4>
+                    <h4 style={{
+                      marginTop:"24px"
+                      }} id="aboutUs-team">IVONNE LEMUZ-GUZMAN</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Developer</p>
@@ -158,13 +165,15 @@ export default class LandingPage extends Component {
 
                 </Col>
                 <Col  style={{
-                    paddingBottom: 25,minWidth:"300px"
+                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
                   }}>
                     <div class="circular--portrait">
                         <img src={Nithi}
                             class="rounded img-fluid" alt="Nithi"></img>
                     </div>
-                    <h4 id="aboutUs-team">NITHI SUBBAIAN</h4>
+                    <h4 style={{
+                      marginTop:"24px"
+                      }} id="aboutUs-team">NITHI SUBBAIAN</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Developer</p>
@@ -181,15 +190,19 @@ export default class LandingPage extends Component {
                     </a>
 
                 </Col>
+</Row>
+<Row className="justify-content-md-center">
 
                 <Col style={{
-                    paddingBottom: 25,minWidth:"300px"
+                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
                   }} >
                     <div class="circular--portrait">
                         <img src={Ivy}
                             class="rounded img-fluid" alt="Ivy"></img>
                     </div>
-                    <h4 id="aboutUs-team">IVY LI</h4>
+                    <h4 style={{
+                      marginTop:"24px"
+                      }} id="aboutUs-team">IVY LI</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Product-Designer</p>
@@ -206,6 +219,43 @@ export default class LandingPage extends Component {
                     </a>
 
                 </Col>
+
+                <Col style={{
+                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
+                  }} >
+                    <div class="circular--portrait">
+                        <img src={Kassandra}
+                            class="rounded img-fluid" alt="Kassandra"></img>
+                    </div>
+                    <h4 style={{
+                      marginTop:"24px"
+                      }} id="aboutUs-team">KASSANDRA FRANCO</h4>
+                      <p id="aboutUs-team"  style={{
+                          marginBottom: "24px"
+                        }}>Intern</p>
+                    <a href="https://www.linkedin.com/in/kassandra-franco/">
+                        <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                    </a>
+                </Col>
+
+                <Col style={{
+                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
+                  }} >
+                    <div class="circular--portrait">
+                        <img src={Rajee}
+                            class="rounded img-fluid" alt="Rajee"></img>
+                    </div>
+                    <h4 style={{
+                      marginTop:"24px"
+                      }} id="aboutUs-team">RAJEE SHAH</h4>
+                      <p id="aboutUs-team"  style={{
+                          marginBottom: "24px"
+                        }}>Intern</p>
+                    <a href="https://www.linkedin.com/in/rajeeshah/">
+                        <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
+                    </a>
+                </Col>
+
             </Row>
 
             <Row className="justify-content-md-center" style={{

@@ -41,7 +41,7 @@
   background-color: #1D00B5;
   box-shadow: 2px 2px 4px 0 rgba(66,66,66,0.5);
   color: #FFF;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 30px;
@@ -68,7 +68,7 @@
   margin-right: auto;
   padding-top: 15vh;
   height:40vh;
-  max-width: 520px;
+  max-width: 600px;
   padding-left: 15px;
   padding-right: 15px;
 }
