@@ -5,6 +5,7 @@ Created on Tue Apr 28 11:35:04 2020
 @author: chrislovejoy
 """
 
+# FOR REFERENCE ONLY
 
 import urllib
 import requests
