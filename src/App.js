@@ -18,12 +18,15 @@ ReactGA.pageview(window.location.pathname + window.location.search);
   base('Opportunities').select({
       // Selecting the first 3 records in For Internal Use Only: Do Not Share:
       maxRecords: 15,
-      view: "For Internal Use Only: Do Not Share"
+      view: "For Internal Use Only: Do Not Share",
+      sort: [{field: "Modification Times", direction: "desc"}]
   }).eachPage(function page(records, fetchNextPage) {
       // This function (`page`) will get called for each page of records.
+      console.log("-------------OPPORTUNITIES-----------------");
 
       records.forEach(function(record) {
-          console.log(record.get('Name'), record.get('Opportunity Type'));
+          console.log(record.get('Name'), record.get('Role Type'),record.get( "Opportunity Type"),
+           record.get( "Location"),record.get( "Modification Times"));
       });
 
       // To fetch the next page of records, call `fetchNextPage`.
@@ -34,6 +37,26 @@ ReactGA.pageview(window.location.pathname + window.location.search);
   }, function done(err) {
       if (err) { console.error(err); return; }
   });
+
+base('Organizations').select({
+    // Selecting the first 3 records in For Private Use (DO NOT SHARE)):
+    maxRecords: 15,
+    view: "For Private Use (DO NOT SHARE))"
+}).eachPage(function page(records, fetchNextPage) {
+    // This function (`page`) will get called for each page of records.
+    console.log("-------------ORGANIZATIONS-----------------");
+    records.forEach(function(record) {
+        console.log(record.get('Organization Name'), "CAUSE:", record.get("Social Good Category"), "TYPE:",   record.get('Type of Organization'));
+    });
+
+    // To fetch the next page of records, call `fetchNextPage`.
+    // If there are more records, `page` will get called again.
+    // If there are no more records, `done` will get called.
+    fetchNextPage();
+
+}, function done(err) {
+    if (err) { console.error(err); return; }
+});
 
 class App extends React.Component {
 
