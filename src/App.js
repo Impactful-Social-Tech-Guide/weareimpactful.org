@@ -17,7 +17,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
   base('Opportunities').select({
       // Selecting the first 3 records in For Internal Use Only: Do Not Share:
-      maxRecords: 15,
+      maxRecords: 7,
       view: "For Internal Use Only: Do Not Share",
       sort: [{field: "Modification Times", direction: "desc"}]
   }).eachPage(function page(records, fetchNextPage) {
@@ -25,8 +25,8 @@ ReactGA.pageview(window.location.pathname + window.location.search);
       console.log("-------------OPPORTUNITIES-----------------");
 
       records.forEach(function(record) {
-          console.log(record.get('Name'), record.get('Role Type'),record.get( "Opportunity Type"),
-           record.get( "Location"),record.get( "Modification Times"));
+          console.log(record.get('Name'), "ROLE TYPE:", record.get('Role Type'), "OPPORTUNITY TYPE:",record.get( "Opportunity Type"), "LOCATION:",
+           record.get( "Location"), "MODIFICATION TIME:", record.get( "Modification Times"));
       });
 
       // To fetch the next page of records, call `fetchNextPage`.
@@ -40,7 +40,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 base('Organizations').select({
     // Selecting the first 3 records in For Private Use (DO NOT SHARE)):
-    maxRecords: 15,
+    maxRecords: 7,
     view: "For Private Use (DO NOT SHARE))"
 }).eachPage(function page(records, fetchNextPage) {
     // This function (`page`) will get called for each page of records.
