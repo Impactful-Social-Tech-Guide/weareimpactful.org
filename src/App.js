@@ -13,7 +13,6 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 
   var Airtable = require('airtable');
-  var base = new Airtable({apiKey: 'keyc3AwPXakaUbISa'}).base('applLdgY5HJ2u1nLN');
 
   base('Opportunities').select({
       // Selecting the first 3 records in For Internal Use Only: Do Not Share:
