@@ -23,8 +23,10 @@
 }
 
 .jobOpportunities {
-  background-color: #E6E6E6;
+  background-color: #FFFFFF;
   box-shadow: 7px 0px 30px 0 rgba(0, 0, 0, 0.16);
+  min-height: 100vh;
+
 }
 
 .organizations {

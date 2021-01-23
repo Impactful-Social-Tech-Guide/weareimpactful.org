@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
+import Opportunities from './components/opportunities.jsx'
 import MetaTags from 'react-meta-tags';
 import Landing from './components/landing'
 import OurCommunity from './components/ourcommunity'
@@ -11,8 +12,8 @@ import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-
   var Airtable = require('airtable');
+  /// FIGURE OUT HOW TO ADD THIS
   var base = new Airtable({apiKey: 'keyc3AwPXakaUbISa'}).base('applLdgY5HJ2u1nLN');
 
   base('Opportunities').select({
@@ -22,11 +23,11 @@ ReactGA.pageview(window.location.pathname + window.location.search);
       sort: [{field: "Modification Times", direction: "desc"}]
   }).eachPage(function page(records, fetchNextPage) {
       // This function (`page`) will get called for each page of records.
-      console.log("-------------OPPORTUNITIES-----------------");
-
+      // console.log("-------------OPPORTUNITIES-----------------");
+      // console.log(records)
       records.forEach(function(record) {
-          console.log(record.get('Name'), "ROLE TYPE:", record.get('Role Type'), "OPPORTUNITY TYPE:",record.get( "Opportunity Type"), "LOCATION:",
-           record.get( "Location"), "MODIFICATION TIME:", record.get( "Modification Times"));
+          // console.log(record.get('Name'), "ROLE TYPE:", record.get('Role Type'), "OPPORTUNITY TYPE:",record.get( "Opportunity Type"), "LOCATION:",
+          //  record.get( "Location"), "MODIFICATION TIME:", record.get( "Modification Times"));
       });
 
       // To fetch the next page of records, call `fetchNextPage`.
@@ -44,9 +45,9 @@ base('Organizations').select({
     view: "For Private Use (DO NOT SHARE))"
 }).eachPage(function page(records, fetchNextPage) {
     // This function (`page`) will get called for each page of records.
-    console.log("-------------ORGANIZATIONS-----------------");
+    // console.log("-------------ORGANIZATIONS-----------------");
     records.forEach(function(record) {
-        console.log(record.get('Organization Name'), "CAUSE:", record.get("Social Good Category"), "TYPE:",   record.get('Type of Organization'));
+        // console.log(record.get('Organization Name'), "CAUSE:", record.get("Social Good Category"), "TYPE:",   record.get('Type of Organization'));
     });
 
     // To fetch the next page of records, call `fetchNextPage`.
@@ -72,8 +73,8 @@ render() {
       </MetaTags>
 
       <div className = "MainPage">
-        <Landing></Landing>
-        <JobOpp></JobOpp>
+        <Landing ></Landing>
+          <Opportunities></Opportunities>
         <Organizations></Organizations>
         <OurCommunity></OurCommunity>
         <AboutUs></AboutUs>

@@ -1,32 +1,94 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Iframe from 'react-iframe'
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
+import {makeStyles} from '@material-ui/core/styles';
+import Chip from '@material-ui/core/Chip';
+import Grid from '@material-ui/core/Grid';
+import Divider from '@material-ui/core/Divider';
+import Typography from '@material-ui/core/Typography';
 
-export default class jobOpp extends Component {
-    render() {
-        return (
-            <div className = "jobOpportunities" id="jobOpportunities">
-                <Container style={{ paddingTop: 76, paddingBottom: 55}}>
-                    <h1 id="page-smallHeading" >JOBS AND OPPORTUNITIES </h1>
-                    <Row style={{paddingTop: 15, paddingBottom: 64}}>
-                      <Col style={{minWidth:"350px"}}>
-                        <p id="page-body"> Whether you're just starting out or are looking
-                          for your next job, we have opportunities for engineers, designers, and product managers.</p>
-                      </Col>
-                      <Col style={{minWidth:"350px"}}>
-                      <p id="page-body" >If you are an organization or business looking for talent, submit a posting here: </p>
-                          <a class="float-left" href="https://airtable.com/shrVNKcOkg25ndQT0" target="_blank">
-                              <Button id="page-button"  bsClass="flat" size="lg">Submit opportunity</Button>
-                          </a>
-                      </Col>
-                    </Row>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">
-                        <Iframe class="airtable-embed" src="https://airtable.com/embed/shrUY2UUvj3qsSI8N?backgroundColor=orange&viewControls=on"
-                            frameborder="0" onmousewheel="" width="100%" height="833" style={{ background: "transparent", border: " 1 solid #ccc" }}></Iframe>
-                    </div>
-                </Container>
-            </div>
-        )
+var Airtable = require('airtable');
+var base = new Airtable({apiKey: 'keyc3AwPXakaUbISa'}).base('applLdgY5HJ2u1nLN');
+var jobRecording = [];
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: '#FFFFFF'
+  },
+  chip: {
+    margin: theme.spacing(0.5)
+  },
+  section1: {
+    margin: theme.spacing(3, 2)
+  },
+  section2: {
+    margin: theme.spacing(2)
+  },
+  section3: {
+    margin: theme.spacing(3, 1, 1)
+  }
+}));
+
+export default function MiddleDividers(props) {
+  const classes = useStyles();
+  console.log("HELLO");
+
+  base('Opportunities').select({
+    maxRecords: 7,
+    view: "For Internal Use Only: Do Not Share",
+    sort: [
+      {
+        field: "Modification Times",
+        direction: "desc"
+      }
+    ]
+  }).eachPage(function page(records, fetchNextPage) {
+    console.log("-------------OPPORTUNITIES -here-----------------");
+    // console.log(records)
+    records.forEach(function(record) {
+      // console.log(record.get('Name'), "ROLE TYPE:", record.get('Role Type'), "OPPORTUNITY TYPE:", record.get("Opportunity Type"), "LOCATION:", record.get("Location"), "MODIFICATION TIME:", record.get("Modification Times"));
+    jobRecording.push(record.fields);
+
+    });
+
+
+    fetchNextPage();
+    console.log(jobRecording);
+
+  }, function done(err) {
+    if (err) {
+      console.error(err);
+      return;
     }
+  });
 
+  const listItems = jobRecording.map((number) =>
+                <> <p id="Position"> { number.Name  }</p>
+              <p id="Location" > { number.Location  }</p>
+                < Divider variant = "middle" />
+              </>
+                  );
+  return (<div className="jobOpportunities" id="jobOpportunities">
+    <Container style={{
+        paddingTop: 76,
+        paddingBottom: 55
+      }}>
+      <p id="LatestOpportunities">Latest Opportunities</p>
+      <div style={{
+          textAlign: "left",
+          marginLeft: 40,
+          marginBottom: 5
+        }}>
+        <Chip className={classes.chip} label="Software Engineering"/>
+        <Chip className={classes.chip} color="primary" label="Product Manager"/>
+        <Chip className={classes.chip} label="Data Science"/>
+        <Chip className={classes.chip} label="Research"/>
+      </div>
+
+      <Divider variant="middle"/> {listItems}
+
+    </Container>
+  </div>);
 }
