@@ -36,7 +36,7 @@ export default class LandingPage extends Component {
           <a >FOLLOW US</a>
         </Row>
         <Row style={{
-            paddingTop: "10px"
+            marginTop: "10px"
           }} className="justify-content-md-center">
           <Col>
             <a href="https://www.facebook.com/impactful.tech">

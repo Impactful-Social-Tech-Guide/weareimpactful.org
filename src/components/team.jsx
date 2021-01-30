@@ -20,10 +20,9 @@ export default class Footer extends Component {
                     paddingBottom: 55
                   }}>
                 <h3 id="teamTitle">TEAM</h3><br></br>
-                    <Row className="justify-content-md-center">
-                        <Col sm={3} style={{
-                            paddingBottom: 25,
-                          }}>
+                    <Row >
+                          <div  class="col-md-4">
+
                             <div class="circular--landscape">
                                 <img src={Larissa}
                                     class="rounded img-fluid"
@@ -45,10 +44,8 @@ export default class Footer extends Component {
                                     class=" img-fluid"
                                     alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
-                        </Col>
-                        <Col sm={3} style={{
-                            paddingBottom: 25,
-                          }}>
+                        </div>
+                    <div  class="col-md-4">
                             <div class="circular--portrait">
                                 <img src={Ivonne}
                                     class="rounded center img-fluid"
@@ -68,10 +65,8 @@ export default class Footer extends Component {
                                     alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
 
-                        </Col>
-                        <Col sm={3} style={{
-                            paddingBottom: 25,
-                          }}>
+                        </div>
+                <div  class="col-md-4">
                             <div class="circular--portrait">
                                 <img src={Nithi}
                                     class="rounded img-fluid" alt="Nithi"></img>
@@ -90,9 +85,9 @@ export default class Footer extends Component {
                                     alt="Mail Logo" src={Mail} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
 
-                        </Col>
+                        </div>
 
-                        <Col  style={{maxWidth:"400px", paddingBottom: 25,}} sm={3}>
+                        <div  class="col-md-4">
                             <div class="circular--portrait">
                                 <img src={Ivy}
                                     class="rounded img-fluid" alt="Ivy"></img>
@@ -102,7 +97,7 @@ export default class Footer extends Component {
                             <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
                             </a>
-                          
+
                               <a style={{
                                   paddingLeft: 10,
                                   paddingBottom: 25,
@@ -116,7 +111,7 @@ export default class Footer extends Component {
 
 
 
-                        </Col>
+                        </div>
                     </Row>
                     <br></br>
                 </Container>

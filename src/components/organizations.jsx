@@ -10,15 +10,15 @@ export default class jobOpp extends Component {
         <Container style={{ paddingTop: 76, paddingBottom: 55 }}>
             <h1 id="page-smallHeading" >ORGANIZATIONS</h1>
           <Row style={{paddingTop: 15, paddingBottom: 64}}>
-            <Col style={{minWidth:"350px"}}>
+            <div class="col-md-6">
               <p id="page-body" > If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list.</p>
-            </Col>
-            <Col style={{minWidth:"350px"}}>
+            </div>
+            <div class="col-md-6">
             <p id="page-body" > If you would like to publicize an organization on impactful, submit a posting here: </p>
                 <a class="float-left" href="https://airtable.com/shrMuN5t9SWMLGSiF" target="_blank">
                   <Button id="page-button" bsClass="flat" size="lg">Submit organization</Button>
                 </a>
-            </Col>
+            </div>
           </Row>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className="airtable-embed">
           <Iframe class="airtable-embed"

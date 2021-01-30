@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
 import Opportunities from './components/opportunities.jsx'
 import MetaTags from 'react-meta-tags';
@@ -11,53 +10,6 @@ import AboutUs from './components/aboutUs'
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
-
-  var Airtable = require('airtable');
-  /// FIGURE OUT HOW TO ADD THIS
-  var base = new Airtable({apiKey: '9080980'}).base('applLdgY5HJ2u1nLN');
-
-  base('Opportunities').select({
-      // Selecting the first 3 records in For Internal Use Only: Do Not Share:
-      maxRecords: 7,
-      view: "For Internal Use Only: Do Not Share",
-      sort: [{field: "Modification Times", direction: "desc"}]
-  }).eachPage(function page(records, fetchNextPage) {
-      // This function (`page`) will get called for each page of records.
-      // console.log("-------------OPPORTUNITIES-----------------");
-      // console.log(records)
-      records.forEach(function(record) {
-          // console.log(record.get('Name'), "ROLE TYPE:", record.get('Role Type'), "OPPORTUNITY TYPE:",record.get( "Opportunity Type"), "LOCATION:",
-          //  record.get( "Location"), "MODIFICATION TIME:", record.get( "Modification Times"));
-      });
-
-      // To fetch the next page of records, call `fetchNextPage`.
-      // If there are more records, `page` will get called again.
-      // If there are no more records, `done` will get called.
-      fetchNextPage();
-
-  }, function done(err) {
-      if (err) { console.error(err); return; }
-  });
-
-base('Organizations').select({
-    // Selecting the first 3 records in For Private Use (DO NOT SHARE)):
-    maxRecords: 7,
-    view: "For Private Use (DO NOT SHARE))"
-}).eachPage(function page(records, fetchNextPage) {
-    // This function (`page`) will get called for each page of records.
-    // console.log("-------------ORGANIZATIONS-----------------");
-    records.forEach(function(record) {
-        // console.log(record.get('Organization Name'), "CAUSE:", record.get("Social Good Category"), "TYPE:",   record.get('Type of Organization'));
-    });
-
-    // To fetch the next page of records, call `fetchNextPage`.
-    // If there are more records, `page` will get called again.
-    // If there are no more records, `done` will get called.
-    fetchNextPage();
-
-}, function done(err) {
-    if (err) { console.error(err); return; }
-});
 
 class App extends React.Component {
 

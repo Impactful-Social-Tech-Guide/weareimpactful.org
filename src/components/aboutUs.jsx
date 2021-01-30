@@ -28,18 +28,16 @@ export default class LandingPage extends Component {
         }}>
         <h5 id="aboutUs-heading">ABOUT US</h5>
         <Row>
-          <Col style={{
-              minWidth: "350px"
-            }}>
+          <div  class="col-md-6">
+
             <p id="aboutUs-body">
               Impactful bridges the gap between job-seekers and opportunities in public interest technology, and brings together a group of like-minded thinkers interested in exploring and learning more about technology and social impact.</p>
             <p id="aboutUs-body">
               Founded in 2020, we are backed by Mozilla's Spring MVP Lab and The New America Foundation.
             </p>
-          </Col>
-          <Col style={{
-              minWidth: "350px"
-            }}>
+          </div>
+          <div  class="col-md-6">
+
             <p id="aboutUs-body">
               Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {" "}
               <a style={{
@@ -98,7 +96,7 @@ export default class LandingPage extends Component {
                 </a>
               </Col>
             </Row>
-          </Col>
+          </div>
         </Row>
         <h5 id="aboutUs-heading" style={{
             marginTop:"76px",
@@ -108,9 +106,11 @@ export default class LandingPage extends Component {
           }}>
         <br></br>
             <Row className="justify-content-md-center">
-                <Col style={{
-                    paddingBottom: 25, minWidth:"300px", marginBottom:"60px"
-                  }}>
+
+                  <div  style={{
+                      paddingBottom: 25, marginBottom:"60px"
+                    }} class="col-md-4">
+
                     <div class="circular--landscape">
                         <img src={Larissa}
                             class="rounded img-fluid"
@@ -136,10 +136,10 @@ export default class LandingPage extends Component {
                             class=" img-fluid"
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
-                </Col>
-                <Col style={{
-                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px",
-                  }}>
+                </div>
+                <div  style={{
+                    paddingBottom: 25, marginBottom:"60px"
+                  }} class="col-md-4">
                     <div class="circular--portrait">
                         <img src={Ivonne}
                             class="rounded center img-fluid"
@@ -163,10 +163,10 @@ export default class LandingPage extends Component {
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
 
-                </Col>
-                <Col  style={{
-                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
-                  }}>
+                </div>
+                <div  style={{
+                    paddingBottom: 25, marginBottom:"60px"
+                  }} class="col-md-4">
                     <div class="circular--portrait">
                         <img src={Nithi}
                             class="rounded img-fluid" alt="Nithi"></img>
@@ -189,13 +189,13 @@ export default class LandingPage extends Component {
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
 
-                </Col>
+                </div>
 </Row>
 <Row className="justify-content-md-center">
 
-                <Col style={{
-                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
-                  }} >
+  <div  style={{
+      paddingBottom: 25, marginBottom:"60px"
+    }} class="col-md-4">
                     <div class="circular--portrait">
                         <img src={Ivy}
                             class="rounded img-fluid" alt="Ivy"></img>
@@ -218,11 +218,11 @@ export default class LandingPage extends Component {
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
 
-                </Col>
+                </div>
 
-                <Col style={{
-                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
-                  }} >
+                <div  style={{
+                    paddingBottom: 25, marginBottom:"60px"
+                  }} class="col-md-4">
                     <div class="circular--portrait">
                         <img src={Kassandra}
                             class="rounded img-fluid" alt="Kassandra"></img>
@@ -236,11 +236,11 @@ export default class LandingPage extends Component {
                     <a href="https://www.linkedin.com/in/kassandra-franco/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
-                </Col>
+                </div>
 
-                <Col style={{
-                    paddingBottom: 25,minWidth:"300px", marginBottom:"60px"
-                  }} >
+                <div  style={{
+                    paddingBottom: 25, marginBottom:"60px"
+                  }} class="col-md-4">
                     <div class="circular--portrait">
                         <img src={Rajee}
                             class="rounded img-fluid" alt="Rajee"></img>
@@ -254,7 +254,7 @@ export default class LandingPage extends Component {
                     <a href="https://www.linkedin.com/in/rajeeshah/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
-                </Col>
+                </div>
 
             </Row>
 
@@ -262,12 +262,15 @@ export default class LandingPage extends Component {
                 marginTop: "120px",
                 marginBottom: "24px"
               }}>
-              <Col  style={{minWidth:"350px", paddingBottom:"15px", textAlign:"right"}}>
+                <div  style={{
+                    paddingBottom:"15px", 
+                  }} class="col-md-4">
                 <a id="aboutUs-heading" href="#jobOpportunities" className="footerLink">Explore Jobs</a>
-              </Col>
-              <Col style={{minWidth:"350px", textAlign:"left"}} >
-                <a id="aboutUs-heading" href="#joinCommunity" className="footerLink">Join Our Community</a>
-              </Col>
+              </div>
+              <div  style={{
+                  paddingBottom:"15px",
+                }} class="col-md-4">                <a id="aboutUs-heading" href="#joinCommunity" className="footerLink">Join Our Community</a>
+            </div>
             </Row>
           </Container>
       </Container>

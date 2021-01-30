@@ -19,7 +19,7 @@
   background: linear-gradient(180deg, #7C3ECC 0%, #6240FF 100%);
   color: white;
   font-weight: Bold;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .jobOpportunities {
@@ -53,8 +53,8 @@
   margin-left: auto;
   margin-right: auto;
   vertical-align: bottom;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   height: 15vh;
   font-family: CircularStdBold;
 
@@ -93,7 +93,6 @@
 
 #page-largeheading {
   height: 52.81px;
-  width: 340px;
   color: #1D00B5;
   font-size: 48px;
   font-weight: 500;
@@ -105,22 +104,9 @@
 
 }
 
-#page-body {
-  color: #1D00B5;
-  opacity: 0.9;
-    color: #1D00B5;
-    font-size: 24px;
-    font-family: CircularStdBook;
-    letter-spacing: 0.5px;
-    line-height: 30px;
-  text-align: left;
-  padding-bottom: 30px;
-  min-width: 300px;
-}
 
 #page-button  {
   height: 80px;
-  width: 299px;
   border-radius: 10px;
   background-color: #1D00B5;
   box-shadow: 2px 2px 4px 0 rgba(66,66,66,0.5);
@@ -140,26 +126,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 250px;
-}
-
-#impactful-is-your-pl {
-  opacity: 0.9;
-  color: #FFF;
-  font-size: 36px;
-  font-weight: 300;
-  letter-spacing: 0.99px;
-  line-height: 52px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15vh;
-  height:50vh;
-  max-width: 520px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-family: CircularStdBook;
-
 }
 
 #explore-jobs {
@@ -187,18 +153,6 @@
   text-align: left;
 }
 
-#aboutUs-body {
-  padding-top: 15px;
-  opacity: 0.9;
-  color: #FFF;
-  font-size: 24px;
-  font-family: CircularStdBook;
-  letter-spacing: 0.5px;
-  line-height: 32px;
-  min-width: 300px;
- text-align: left;
-}
-
 #aboutUs-team {
   opacity: 0.9;
   color: #FFF;
@@ -206,11 +160,9 @@
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 32px;
-  min-width: 300px;
  text-align: center;
  margin-bottom: 0px;
  font-family: CircularStdBook;
-
 }
 
 .circular--landscape {
