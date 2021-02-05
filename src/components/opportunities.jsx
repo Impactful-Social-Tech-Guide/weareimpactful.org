@@ -24,8 +24,8 @@ class Opportunities extends Component {
   componentDidMount() {
 
 /* ADD THE API KEY WHERE IT SAYS AAAAAAAAAAAAAAAAAAAAAAA*/
-    fetch('https://api.airtable.com/v0/applLdgY5HJ2u1nLN/Opportunities?api_key=AAAAAAAAAAAAAAAAAAAAAa&filterByFormula=NOT%28%7BName%7D%20%3D%20%27%27%29&sort%5B0%5D%5Bfield%5D=Created&sort%5B0%5D%5Bdirection%5D=desc').then((resp) => resp.json()).then(data => {
-      console.log('Hello', data);
+    fetch('https://api.airtable.com/v0/applLdgY5HJ2u1nLN/Opportunities?api_key=keygiRMAeJP3E7U18&filterByFormula=NOT%28%7BName%7D%20%3D%20%27%27%29&sort%5B0%5D%5Bfield%5D=Created&sort%5B0%5D%5Bdirection%5D=desc').then((resp) => resp.json()).then(data => {
+      console.log('Hello!', data);
       this.setState({movies: data.records});
     }).catch(err => {
       this.setState({movies: []});
@@ -33,7 +33,17 @@ class Opportunities extends Component {
 
   }
 
+
+
   render() {
+    let display_val;
+
+    if (this.state.movies.length === 0) {
+      display_val = <p> Loading...</p>
+    } else {
+    display_val =  <p></p>
+   }
+
     return (<div className="jobOpportunities" id="jobOpportunities">
       <Container style={{
           paddingTop: 76,
@@ -62,23 +72,32 @@ class Opportunities extends Component {
             (movie) =>
           <>
           < div class = "container" style = {{marginTop: 13, marginBottom:13, paddingLeft:40}} > <div class="row">
-            <div class="col-sm-6" style={{textAlign: "left"}}>
-              <a class="Position" href={movie.fields.Link}> {movie.fields.Name},  <strong>{movie.fields['Org Name']}</strong></a>
+            <div class="col-sm-5" style={{textAlign: "left"}}>
+              <a class="Position" href={movie.fields.Link}>
+                {movie.fields.Name}, <strong>{movie.fields['Org Name']? movie.fields['Org Name'] :""}</strong></a>
               <p id="Location">
                 {movie.fields.Location} </p>
             </div>
-            <div class="col-sm-4" style={{  display: "flex", flexDirection: "column", justifyContent: "center"}}>
-              <p class="RoleType" >{(movie.fields['Role Type']).map(function(val) {return val;}).join(', ')} </p>
+            <div class="col-sm-3" style={{  display: "flex", flexDirection: "column", justifyContent: "center"}}>
+              <p class="RoleType" >{(  movie.fields["Role Type"]? (movie.fields['Role Type']).map(function(val) {return val;}).join(', ') : "")} </p>
+            </div>
+            <div class="col-sm-2" style={{  display: "flex", flexDirection: "column", justifyContent: "center"}}>
+              <p class="RoleType" >{( movie.fields["Opportunity Type"]?  (movie.fields['Opportunity Type']).map(function(val) {return val;}).join(', '):"")} </p>
             </div>
             <div class="col-sm-2" style={{ textAlign: 'center', display: "flex", flexDirection: "column", justifyContent: "center"}}>
               <p id="LastModified">
-                {moment(movie.fields['Modification Times']).startOf('hour').fromNow()}</p>
+                { movie.fields['Modification Times']? moment(movie.fields['Modification Times']).startOf('hour').fromNow() : ""}</p>
             </div>
           </div>
         </div>
         <Divider variant="middle"/>
       </>)
         }
+
+        <div style= {{textAlign: "center", color:"black"}}>
+
+          {display_val}
+        </div>
 
         <div class="seeAllJobs"  style= {{textAlign: "right"}}>
           <a class="seeAllJobs" href="https://airtable.com/shrYHEJU5lTBOA7rk/tblRNKqmtte2IVL7x">
