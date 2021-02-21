@@ -5,9 +5,7 @@ export default class jobOpp extends Component {
   render() {
     return (<div className="community" id="joinCommunity">
       <Container id="landing" style={{ paddingTop: 76, paddingBottom: 55 }}>
-        <Row>
         <h1 id="page-smallHeading">OUR COMMUNITY</h1>
-        </Row>
 
         <Row>
           <div  style={{paddingTop:"20px", paddingBottom:"10px"}} class="col-md-6">
