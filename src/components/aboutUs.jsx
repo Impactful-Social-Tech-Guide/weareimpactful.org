@@ -19,6 +19,7 @@ import LinkedIn from '../img/social_contact/Icon_LinkedIn.svg';
 import Mail from '../img/social_contact/Icon_Mail-03.svg';
 
 
+
 export default class LandingPage extends Component {
   render() {
     return (<div className="aboutUs" id="learnMore" >
@@ -53,7 +54,8 @@ export default class LandingPage extends Component {
                 paddingTop: "10px"
               }} className="justify-content-md-center">
               <Col>
-                <a href="https://www.facebook.com/impactful.tech">
+                <a href="https://www.facebook.com/impactful.tech"
+                  target="_blank"  rel="noopener noreferrer" >
                 <img style={{
                     height: "36.24px",
                     width: "35.95px"
@@ -61,7 +63,9 @@ export default class LandingPage extends Component {
                   </a>
               </Col>
               <Col>
-                <a href="https://www.instagram.com/impactful.tech/">
+                <a href="https://www.instagram.com/impactful.tech/"
+                  target="_blank"  rel="noopener noreferrer" >
+
                 <img style={{
                     height: "36.24px",
                     width: "35.95px"
@@ -70,7 +74,8 @@ export default class LandingPage extends Component {
 
               </Col>
               <Col>
-                <a href="https://twitter.com/impactful_tech">
+                <a href="https://twitter.com/impactful_tech"
+                  target="_blank"  rel="noopener noreferrer" >
                 <img style={{
                     height: "36.24px",
                     width: "35.95px"
@@ -79,7 +84,8 @@ export default class LandingPage extends Component {
 
               </Col>
               <Col>
-                <a href="https://www.linkedin.com/company/impactfultech/">
+                <a href="https://www.linkedin.com/company/impactfultech/"
+                  target="_blank"  rel="noopener noreferrer" >
                 <img style={{
                     height: "36.24px",
                     width: "35.95px"
@@ -118,10 +124,10 @@ export default class LandingPage extends Component {
                     </div>
                     <h4 style={{
                       marginTop:"24px"
-                      }} id="aboutUs-team">LARISSA NGUYEN</h4>
+                    }} id="aboutUs-team">LARISSA NGUYEN (she/her)</h4>
                     <p id="aboutUs-team">Co-Founder</p><p style={{
                         marginBottom: "24px"
-                      }} id="aboutUs-team">Product-Manager</p>
+                      }} id="aboutUs-team">Product Manager</p>
 
                     <a href="https://www.linkedin.com/in/larissanguyen/">
                         <img border="0"
@@ -147,7 +153,7 @@ export default class LandingPage extends Component {
                     </div>
                     <h4 style={{
                       marginTop:"24px"
-                      }} id="aboutUs-team">IVONNE LEMUZ-GUZMAN</h4>
+                    }} id="aboutUs-team">IVONNE GUZMAN-LEMUZ (she/they)</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Developer</p>
@@ -173,7 +179,7 @@ export default class LandingPage extends Component {
                     </div>
                     <h4 style={{
                       marginTop:"24px"
-                      }} id="aboutUs-team">NITHI SUBBAIAN</h4>
+                    }} id="aboutUs-team">NITHI SUBBAIAN (she/her)</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Developer</p>
@@ -202,10 +208,10 @@ export default class LandingPage extends Component {
                     </div>
                     <h4 style={{
                       marginTop:"24px"
-                      }} id="aboutUs-team">IVY LI</h4>
+                    }} id="aboutUs-team">IVY LI (she/her)</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
                           marginBottom: "24px"
-                        }}>Product-Designer</p>
+                        }}>Product Designer</p>
                     <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
@@ -229,7 +235,7 @@ export default class LandingPage extends Component {
                     </div>
                     <h4 style={{
                       marginTop:"24px"
-                      }} id="aboutUs-team">KASSANDRA FRANCO</h4>
+                    }} id="aboutUs-team">KASSANDRA FRANCO (she/her)</h4>
                       <p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Intern</p>
@@ -247,7 +253,7 @@ export default class LandingPage extends Component {
                     </div>
                     <h4 style={{
                       marginTop:"24px"
-                      }} id="aboutUs-team">RAJEE SHAH</h4>
+                    }} id="aboutUs-team">RAJEE SHAH (she/her)</h4>
                       <p id="aboutUs-team"  style={{
                           marginBottom: "24px"
                         }}>Intern</p>
@@ -263,7 +269,7 @@ export default class LandingPage extends Component {
                 marginBottom: "24px"
               }}>
                 <div  style={{
-                    paddingBottom:"15px", 
+                    paddingBottom:"15px",
                   }} class="col-md-4">
                 <a id="aboutUs-heading" href="#jobOpportunities" className="footerLink">Explore Jobs</a>
               </div>

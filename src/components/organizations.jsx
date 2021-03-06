@@ -14,8 +14,8 @@ export default class jobOpp extends Component {
               <p id="page-body" > If you'd like to explore the work that socially impactful organizations and companies are doing, here is our recommended list.</p>
             </div>
             <div class="col-md-6">
-            <p id="page-body" > If you would like to publicize an organization on impactful, submit a posting here: </p>
-                <a class="float-left" href="https://airtable.com/shrMuN5t9SWMLGSiF" target="_blank">
+            <p id="page-body" > If you would like to publicize an organization on Impactful, submit a posting here: </p>
+                <a class="float-left" href="https://airtable.com/shrMuN5t9SWMLGSiF" target="_blank"  rel="noopener noreferrer" >
                   <Button id="page-button" bsClass="flat" size="lg">Submit organization</Button>
                 </a>
             </div>

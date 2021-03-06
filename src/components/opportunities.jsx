@@ -14,7 +14,16 @@ const handleClick = () => {
 var Airtable = require('airtable');
 var base = new Airtable({apiKey: 'keygiRMAeJP3E7U18'}).base('applLdgY5HJ2u1nLN');
 
+var windowObjectReference = null; // global variable
 
+function openRequestedPopup(url, windowName) {
+  if(windowObjectReference == null || windowObjectReference.closed) {
+    windowObjectReference = window.open(url, windowName,
+           "resizable,scrollbars,status");
+  } else {
+    windowObjectReference.focus();
+  };
+}
 
 
 class Opportunities extends Component {
@@ -24,23 +33,14 @@ class Opportunities extends Component {
     this.state = {
       recordlist: [],
       roleType: "",
-      color: ["secondary","secondary","secondary","secondary","secondary","secondary", "secondary" ]
+      color: ["secondary","secondary","secondary","secondary","secondary","secondary", "secondary" ],
+      JobsLink:"https://airtable.com/shrUY2UUvj3qsSI8N"
     }
     this.listRecords = this.listRecords.bind(this);
 }
 
 
   componentDidMount() {
-
-/*
-    fetch('https://api.airtable.com/v0/applLdgY5HJ2u1nLN/Opportunities?api_key=keygiRMAeJP3E7U18&filterByFormula=NOT%28%7BName%7D%20%3D%20%27%27%29&sort%5B0%5D%5Bfield%5D=Created&sort%5B0%5D%5Bdirection%5D=desc').then((resp) => resp.json()).then(data => {
-      console.log('Hello!', data);
-      this.setState({records: data.records});
-    }).catch(err => {
-      this.setState({records: []});
-    });
-    */
-
     this.listRecords();
 }
 
@@ -81,13 +81,26 @@ listRecords(){
             marginLeft: 40,
             marginBottom: 15
           }}>
-          <Chip  style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="All" component="a"  clickable           color={this.state.color[0]}    onClick={() => this.setState({ roleType: "", color: ["primary","secondary","secondary","secondary","secondary","secondary", "secondary" ]})}/>
-          <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Software Engineering" component="a"  clickable           color={this.state.color[1]}    onClick={() => this.setState({ roleType: "software engineering", color: ["secondary","primary","secondary","secondary","secondary","secondary", "secondary" ] })}/>
-          <Chip  style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Product Manager"  component="a"  clickable           color={this.state.color[2]}     onClick={() => this.setState({ roleType: "product", color: ["secondary","secondary", "primary","secondary","secondary","secondary", "secondary" ] })}/>
-          <Chip  style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Data Science"  component="a"  clickable            color={this.state.color[3]}     onClick={() => this.setState({ roleType: "data", color: ["secondary","secondary","secondary","primary","secondary","secondary", "secondary" ] })}/>
-          <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Research"  component="a"  clickable            color={this.state.color[4]}    onClick={() => this.setState({ roleType: "research", color: ["secondary","secondary","secondary","secondary","primary","secondary", "secondary" ] })}/>
-          <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Design"  component="a"  clickable            color={this.state.color[5]}     onClick={() => this.setState({ roleType: "design", color: ["secondary","secondary","secondary","secondary","secondary", "primary","secondary" ] })}/>
-          <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Tech policy"  component="a"  clickable            color={this.state.color[6]}     onClick={() => this.setState({ roleType: "tech policy/consulting", color: ["secondary","secondary","secondary","secondary","secondary", "secondary","primary" ] })}/>
+          <Chip  style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="All" component="a"  clickable           color={this.state.color[0]}
+                  onClick={() => this.setState({ roleType: "", color: ["primary","secondary","secondary","secondary","secondary","secondary", "secondary" ], JobsLink:"https://airtable.com/shrUY2UUvj3qsSI8N"})}/>
+
+        <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Software Engineering" component="a"  clickable           color={this.state.color[1]}
+                  onClick={() => this.setState({ roleType: "software engineering", color: ["secondary","primary","secondary","secondary","secondary","secondary", "secondary" ], JobsLink:"https://airtable.com/shrX19MB3QbHq1xn2" })}/>
+
+        <Chip  style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Product Manager"  component="a"  clickable           color={this.state.color[2]}
+                onClick={() => this.setState({ roleType: "product", color: ["secondary","secondary", "primary","secondary","secondary","secondary", "secondary" ], JobsLink:"https://airtable.com/shrWjgSevDgzwrNCC" })}/>
+
+        <Chip  style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Data Science"  component="a"  clickable            color={this.state.color[3]}
+                onClick={() => this.setState({ roleType: "data", color: ["secondary","secondary","secondary","primary","secondary","secondary", "secondary" ], JobsLink:"https://airtable.com/shraAZY80n1bKmTQY" })}/>
+
+        <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Research"  component="a"  clickable            color={this.state.color[4]}
+                onClick={() => this.setState({ roleType: "research", color: ["secondary","secondary","secondary","secondary","primary","secondary", "secondary" ], JobsLink:"https://airtable.com/shrRxcrt7gpMdLEft" })}/>
+
+        <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Design"  component="a"  clickable            color={this.state.color[5]}
+                onClick={() => this.setState({ roleType: "design", color: ["secondary","secondary","secondary","secondary","secondary", "primary","secondary" ],JobsLink:"https://airtable.com/shrc53jN6WWJ7h2SR/tblRNKqmtte2IVL7x" })}/>
+
+        <Chip   style={{ marginLeft: 5, justifyContent: 'center',   flexWrap: 'wrap', marginTop:2, marginBottom:2, fontFamily: "CircularStdBook" }} label="Tech policy"  component="a"  clickable            color={this.state.color[6]}
+                onClick={() => this.setState({ roleType: "tech policy/consulting", color: ["secondary","secondary","secondary","secondary","secondary", "secondary","primary" ], JobsLink:"https://airtable.com/shrlEa7APK7Y8iNtA" })}/>
         </div>
 
         <Divider variant="middle"/>
@@ -126,9 +139,14 @@ listRecords(){
         </div>
 
         <div class="seeAllJobs"  style= {{textAlign: "right"}}>
-          <a class="seeAllJobs" href="https://airtable.com/shrUY2UUvj3qsSI8N">
-            See all Jobs >>
+          <a class="seeAllJobs" href= {this.state.JobsLink}
+            target="PromoteFirefoxWindow"
+            onclick="openRequestedPopup(this.href, this.target); return false;"
+            >
+            See All Jobs >>
           </a>
+
+
         </div>
 
       </Container>

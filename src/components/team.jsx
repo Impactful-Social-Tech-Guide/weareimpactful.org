@@ -28,7 +28,7 @@ export default class Footer extends Component {
                                     class="rounded img-fluid"
                                     alt="Larissa"></img>
                             </div>
-                            <h4 class="font-weight-bold dark-grey-text my-4">Larissa</h4>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Larissa (she/her)</h4>
                             <p>Co-Founder</p>
 
                             <a href="https://www.linkedin.com/in/larissanguyen/">
@@ -51,7 +51,7 @@ export default class Footer extends Component {
                                     class="rounded center img-fluid"
                                     alt="Ivonne"></img>
                             </div>
-                            <h4 class="font-weight-bold dark-grey-text my-4">Ivonne</h4>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Ivonne (she/they)</h4>
                             <p>developer • loves birds, visual storytelling, & cooking</p>
                             <a href="https://www.linkedin.com/in/iguzmanl/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
@@ -71,7 +71,7 @@ export default class Footer extends Component {
                                 <img src={Nithi}
                                     class="rounded img-fluid" alt="Nithi"></img>
                             </div>
-                            <h4 class="font-weight-bold dark-grey-text my-4">Nithi</h4>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Nithi (she/her)</h4>
                             <p>developer • loves dancing, traveling, and social impact</p>
                             <a href="https://www.linkedin.com/in/nithi-subbaian/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
@@ -92,7 +92,7 @@ export default class Footer extends Component {
                                 <img src={Ivy}
                                     class="rounded img-fluid" alt="Ivy"></img>
                             </div>
-                            <h4 class="font-weight-bold dark-grey-text my-4">Ivy</h4>
+                            <h4 class="font-weight-bold dark-grey-text my-4">Ivy </h4>
                             <p>designer •  loves typefaces, kimchi, and triangles</p>
                             <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                                 <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%" style={{height:"30px"}}></img>
