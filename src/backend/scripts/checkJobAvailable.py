@@ -1,7 +1,5 @@
 # Larissa Nguyen
-
 import urllib2
-
 
 # Steps
 # 1. Open Up website

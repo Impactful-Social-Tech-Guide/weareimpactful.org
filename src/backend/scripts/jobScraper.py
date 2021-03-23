@@ -1,13 +1,16 @@
 import urllib
 import requests
 from bs4 import BeautifulSoup
-import selenium
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 import pandas as pd
 import os
 import pprint
 import re
+
+import checkExperience
+
+import selenium
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
 
 # order of coding
 # - choose a site to scrape from
@@ -34,37 +37,6 @@ import re
 
 # PULLING FROM FAST FORWARD
 
-
-def remove_higher_level_jobs(jobs_list):
-    keywords = ['director', 'senior', 'mid-level']
-    trimmed_jobs_list = []
-
-    for job in jobs_list:
-        to_add = True
-        for keyword in keywords:
-            # print(keyword, job)
-            if job['job'].casefold().find(keyword) is not -1:
-                to_add = False 
-        if to_add is True:
-            trimmed_jobs_list.append(job)
-    return trimmed_jobs_list
-
-def extract_all_jobs_from_ffwd():
-    roles = ['product','engineer', 'engineering', 'design']
-    exp_lvls = ['full-time-job', 'internship']
-    jobs_list = []
-
-    for level in exp_lvls:
-        for role in roles:
-            jobs_html_list = load_ffwd_jobs(role, level)
-            if jobs_html_list is None:
-                continue
-            for job_html in jobs_html_list:
-                extracted_job = extract_one_job_ffwd(job_html, role)
-                jobs_list.append(extracted_job)
-    
-    return jobs_list
-
 def load_ffwd_jobs(role = '', exp_lvl = 'full-time-job,internship'):
     url = 'https://www.ffwd.org/tech-nonprofit-jobs/opportunities/?_sft_position_type=' + exp_lvl
     if role is not '':
@@ -73,8 +45,6 @@ def load_ffwd_jobs(role = '', exp_lvl = 'full-time-job,internship'):
     page = requests.get(url)
     soup = BeautifulSoup(page.content, "html.parser")
     job_soup = soup.find(class_="sf-result")
-    # job_list = job_soup.find_all("li")
-
     return job_soup
 
 def extract_one_job_ffwd(html_list_item, role = ''):    
@@ -98,6 +68,36 @@ def extract_one_job_ffwd(html_list_item, role = ''):
            'role' : role}
 
     return job
+
+def extract_all_jobs_from_ffwd():
+    roles = ['product','engineer', 'engineering', 'design']
+    exp_lvls = ['full-time-job', 'internship']
+    jobs_list = []
+
+    for level in exp_lvls:
+        for role in roles:
+            jobs_html_list = load_ffwd_jobs(role, level)
+            if jobs_html_list is None:
+                continue
+            for job_html in jobs_html_list:
+                extracted_job = extract_one_job_ffwd(job_html, role)
+                jobs_list.append(extracted_job)
+    
+    return jobs_list
+
+def remove_higher_level_jobs(jobs_list) -> list:
+    keywords = ['director', 'senior', 'mid-level']
+    trimmed_jobs_list = []
+
+    for job in jobs_list:
+        to_add = True
+        for keyword in keywords:
+            if job['job'].casefold().find(keyword) is not -1:
+                to_add = False 
+        if to_add is True:
+            trimmed_jobs_list.append(job)
+    return trimmed_jobs_list
+
 
 def reformat_job_list_for_df(job_list):
     titles = []
@@ -142,9 +142,9 @@ def find_jobs_from_tech_jobs_for_good():
 
 def output_jobs(jobs_list, num_listings, website, filename='results.xls'):
     jobs_list_for_df = reformat_job_list_for_df(jobs_list)
-    final_jobs_list = save_jobs_to_excel(jobs_list_for_df, filename)
     print('{} new job postings retrieved from {}. Stored in {}.'.format(num_listings, 
                                                                           website, filename))
+    return save_jobs_to_excel(jobs_list_for_df, filename)
 
 def find_relevant_jobs():
     jobs_list = extract_all_jobs_from_ffwd()
