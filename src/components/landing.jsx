@@ -13,7 +13,7 @@ export default class LandingPage extends Component {
   render() {
     return (<div className="landing">
         <Row style={{maxWidth:"370px", marginLeft:"auto", marginRight:"auto", paddingTop: "5vh", height:"18vh"}} >
-          <img class="titleWithLogo" alt="Impactful" src={TitleWithLogo}/>
+          <img className="titleWithLogo" alt="Impactful" src={TitleWithLogo}/>
         </Row>
         <Row id="impactful-is-your-pl" className="justify-content-md-center">
           <p>impactful is your place to search for opportunities in social impact technology. </p>

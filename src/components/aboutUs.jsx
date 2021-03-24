@@ -29,7 +29,7 @@ export default class LandingPage extends Component {
         }}>
         <h5 id="aboutUs-heading">ABOUT US</h5>
         <Row>
-          <div  class="col-md-6">
+          <div  className="col-md-6">
 
             <p id="aboutUs-body">
               Impactful bridges the gap between job-seekers and opportunities in public interest technology, and brings together a group of like-minded thinkers interested in exploring and learning more about technology and social impact.</p>
@@ -37,7 +37,7 @@ export default class LandingPage extends Component {
               Founded in 2020, we are backed by Mozilla's Spring MVP Lab and The New America Foundation.
             </p>
           </div>
-          <div  class="col-md-6">
+          <div  className="col-md-6">
 
             <p id="aboutUs-body">
               Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {" "}
@@ -115,11 +115,11 @@ export default class LandingPage extends Component {
 
                   <div  style={{
                       paddingBottom: 25, marginBottom:"60px"
-                    }} class="col-md-4">
+                    }} className="col-md-4">
 
-                    <div class="circular--landscape">
+                    <div className="circular--landscape">
                         <img src={Larissa}
-                            class="rounded img-fluid"
+                            className="rounded img-fluid"
                             alt="Larissa"></img>
                     </div>
                     <h4 style={{
@@ -131,7 +131,7 @@ export default class LandingPage extends Component {
 
                     <a href="https://www.linkedin.com/in/larissanguyen/">
                         <img border="0"
-                            class=" img-fluid"
+                            className=" img-fluid"
                             alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
                     </a>
                     <a style={{
@@ -139,16 +139,16 @@ export default class LandingPage extends Component {
                         paddingBottom: 25,
                       }} href="mailto:larissa@weareimpactful.org">
                         <img border="0"
-                            class=" img-fluid"
+                            className=" img-fluid"
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
                 </div>
                 <div  style={{
                     paddingBottom: 25, marginBottom:"60px"
-                  }} class="col-md-4">
-                    <div class="circular--portrait">
+                  }} className="col-md-4">
+                    <div className="circular--portrait">
                         <img src={Ivonne}
-                            class="rounded center img-fluid"
+                            className="rounded center img-fluid"
                             alt="Ivonne"></img>
                     </div>
                     <h4 style={{
@@ -165,17 +165,17 @@ export default class LandingPage extends Component {
                         paddingLeft: 10,
                       }} href="mailto:ivonne@weareimpactful.org">
                         <img border="0"
-                            class=" img-fluid"
+                            className=" img-fluid"
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
 
                 </div>
                 <div  style={{
                     paddingBottom: 25, marginBottom:"60px"
-                  }} class="col-md-4">
-                    <div class="circular--portrait">
+                  }} className="col-md-4">
+                    <div className="circular--portrait">
                         <img src={Nithi}
-                            class="rounded img-fluid" alt="Nithi"></img>
+                            className="rounded img-fluid" alt="Nithi"></img>
                     </div>
                     <h4 style={{
                       marginTop:"24px"
@@ -191,7 +191,7 @@ export default class LandingPage extends Component {
                         paddingBottom: 25,
                       }} href="mailto:nithi@weareimpactful.org">
                         <img border="0"
-                            class=" img-fluid"
+                            className=" img-fluid"
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
 
@@ -201,10 +201,10 @@ export default class LandingPage extends Component {
 
   <div  style={{
       paddingBottom: 25, marginBottom:"60px"
-    }} class="col-md-4">
-                    <div class="circular--portrait">
+    }} className="col-md-4">
+                    <div className="circular--portrait">
                         <img src={Ivy}
-                            class="rounded img-fluid" alt="Ivy"></img>
+                            className="rounded img-fluid" alt="Ivy"></img>
                     </div>
                     <h4 style={{
                       marginTop:"24px"
@@ -220,7 +220,7 @@ export default class LandingPage extends Component {
                         paddingBottom: 25,
                       }} href="mailto:ivy@weareimpactful.org">
                         <img border="0"
-                            class=" img-fluid"
+                            className=" img-fluid"
                             alt="Mail Logo" src={Mail} width="10%" height="10%"></img>
                     </a>
 
@@ -228,10 +228,10 @@ export default class LandingPage extends Component {
 
                 <div  style={{
                     paddingBottom: 25, marginBottom:"60px"
-                  }} class="col-md-4">
-                    <div class="circular--portrait">
+                  }} className="col-md-4">
+                    <div className="circular--portrait">
                         <img src={Kassandra}
-                            class="rounded img-fluid" alt="Kassandra"></img>
+                            className="rounded img-fluid" alt="Kassandra"></img>
                     </div>
                     <h4 style={{
                       marginTop:"24px"
@@ -246,10 +246,10 @@ export default class LandingPage extends Component {
 
                 <div  style={{
                     paddingBottom: 25, marginBottom:"60px"
-                  }} class="col-md-4">
-                    <div class="circular--portrait">
+                  }} className="col-md-4">
+                    <div className="circular--portrait">
                         <img src={Rajee}
-                            class="rounded img-fluid" alt="Rajee"></img>
+                            className="rounded img-fluid" alt="Rajee"></img>
                     </div>
                     <h4 style={{
                       marginTop:"24px"
@@ -270,12 +270,12 @@ export default class LandingPage extends Component {
               }}>
                 <div  style={{
                     paddingBottom:"15px",
-                  }} class="col-md-4">
+                  }} className="col-md-4">
                 <a id="aboutUs-heading" href="#jobOpportunities" className="footerLink">Explore Jobs</a>
               </div>
               <div  style={{
                   paddingBottom:"15px",
-                }} class="col-md-4">                <a id="aboutUs-heading" href="#joinCommunity" className="footerLink">Join Our Community</a>
+                }} className="col-md-4">                <a id="aboutUs-heading" href="#joinCommunity" className="footerLink">Join Our Community</a>
             </div>
             </Row>
           </Container>
