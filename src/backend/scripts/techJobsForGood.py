@@ -26,7 +26,7 @@ def load_tjfg(role = '', exp_lvl = ''):
     elif role == "engineering":
         url += '&job_function=Engineering'
 
-    if exp_lvl == "entry":
+    if exp_lvl == "full-time":
         url += '&seniority=Entry+Level'
     elif exp_lvl == "intern":
         url += '&seniority=Intern'
@@ -52,7 +52,7 @@ def extract_one_job_tjfg(job_html, role = '', exp_lvl = ''):
 
 def extract_all_jobs_from_tjfg():
     roles = ['product','data', 'engineering', 'design']
-    exp_lvls = ['entry', 'intern']
+    exp_lvls = ['full-time', 'intern']
     
     jobs_list = []
 
@@ -72,6 +72,5 @@ def tech_jobs_output():
     jobs = extract_all_jobs_from_tjfg()
     jobs = remove_higher_level_jobs(jobs)
     output_jobs(jobs, len(jobs), 'Tech Jobs for Good', 'TJFG_results.xls')
-    pass
 
 tech_jobs_output()
