@@ -1,16 +1,8 @@
-import urllib
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import os
 import pprint
-import re
-
 import checkExperience
-
-import selenium
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 
 # order of coding
 # - choose a site to scrape from
@@ -37,15 +29,30 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 # PULLING FROM FAST FORWARD
 
+def load_jobs_from_one_site(url = '', html_attr = ''):
+        if url is not '':
+            print(url)
+            page = requests.get(url)
+            soup = BeautifulSoup(page.content, "html.parser")
+            job_soup = soup.find(class_= html_attr)
+            return job_soup
+
+# def load_ffwd_jobs(role = '', exp_lvl = 'full-time-job,internship'):
+#     url = 'https://www.ffwd.org/tech-nonprofit-jobs/opportunities/?_sft_position_type=' + exp_lvl
+#     if role is not '':
+#         url = url + '&_sft_position_category=' + role
+#     print(url)
+#     page = requests.get(url)
+#     soup = BeautifulSoup(page.content, "html.parser")
+#     job_soup = soup.find(class_="sf-result")
+#     return job_soup
+
 def load_ffwd_jobs(role = '', exp_lvl = 'full-time-job,internship'):
     url = 'https://www.ffwd.org/tech-nonprofit-jobs/opportunities/?_sft_position_type=' + exp_lvl
     if role is not '':
         url = url + '&_sft_position_category=' + role
-    print(url)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, "html.parser")
-    job_soup = soup.find(class_="sf-result")
-    return job_soup
+    attr = "sf-result"
+    return load_jobs_from_one_site(url, attr)
 
 def extract_one_job_ffwd(html_list_item, role = ''):    
     a_link = html_list_item.find('a')
