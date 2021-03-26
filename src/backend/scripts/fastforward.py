@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import pprint
 import checkExperience
-from jobScraper import load_jobs_from_one_site, job_info_to_json, remove_higher_level_jobs, reformat_job_list_for_df, save_jobs_to_excel
+from jobScraper import load_jobs_from_one_site, job_info_to_json, remove_higher_level_jobs, reformat_job_list_for_df, save_jobs_to_excel, output_jobs
 
 # Fast Forward Specific
 
@@ -14,7 +14,7 @@ def load_ffwd_jobs(role = '', exp_lvl = 'full-time-job,internship'):
     attr = "sf-result"
     return load_jobs_from_one_site(url, attr)
 
-def extract_one_job_ffwd(html_list_item, role = ''):    
+def extract_one_job_ffwd(html_list_item, role = '', exp_lvl = ''):    
     a_link = html_list_item.find('a')
     job_name = a_link.text
     url = a_link.get('href')
@@ -26,7 +26,7 @@ def extract_one_job_ffwd(html_list_item, role = ''):
     if role is 'engineering' or role is 'engineer':
         role = 'software engineering'
 
-    job = job_info_to_json(job_name, url,  date, organization, location, role)
+    job = job_info_to_json(job_name, url,  date, organization, location, role, exp_lvl)
 
     return job
 
@@ -42,7 +42,7 @@ def extract_all_jobs_from_ffwd():
                 continue
             for job_html in jobs_html_list:
                 # pprint.pprint(job_html)
-                extracted_job = extract_one_job_ffwd(job_html, role)
+                extracted_job = extract_one_job_ffwd(job_html, role, level)
                 jobs_list.append(extracted_job)
     
     return jobs_list
@@ -56,15 +56,10 @@ def find_last_page():
 def find_jobs_from_tech_jobs_for_good():
     pass
 
-def output_jobs(jobs_list, num_listings, website, filename='results.xls'):
-    jobs_list_for_df = reformat_job_list_for_df(jobs_list)
-    print('{} new job postings retrieved from {}. Stored in {}.'.format(num_listings, 
-                                                                          website, filename))
-    return save_jobs_to_excel(jobs_list_for_df, filename)
 
 def find_relevant_jobs():
     jobs_list = extract_all_jobs_from_ffwd()
     jobs_list = remove_higher_level_jobs(jobs_list)
-    output_jobs(jobs_list, len(jobs_list), 'Fast Forward')
+    output_jobs(jobs_list, len(jobs_list), 'Fast Forward', 'FFWD_results.xls')
 
 find_relevant_jobs()

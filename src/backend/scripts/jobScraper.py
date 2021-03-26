@@ -45,14 +45,16 @@ def job_info_to_json(job_name,
                      date, 
                      organization, 
                      location, 
-                     role):
+                     role,
+                     exp_lvl):
 
     job = {'job' : job_name,
            'link' : url,
            'date_posted' : date,
            'org' : organization,
            'location' : location,
-           'role' : role}
+           'role' : role,
+           'exp' : exp_lvl}
 
     return job   
 
@@ -78,6 +80,7 @@ def reformat_job_list_for_df(job_list):
     locations = []
     # imgs = []
     roles = []
+    experience = []
 
     for job in job_list:
         titles.append(job['job'])
@@ -87,6 +90,7 @@ def reformat_job_list_for_df(job_list):
         locations.append(job['location'])
         # imgs.append(job['img_link'])
         roles.append(job['role'])
+        experience.append(job['exp'])
 
     jobs_list_for_df = {'job title' : titles,
                         'link' : links,
@@ -94,7 +98,8 @@ def reformat_job_list_for_df(job_list):
                         'org' : orgs,
                         'location' : locations,
                         # 'imgs' : imgs, 
-                        'role' : roles}
+                        'role' : roles,
+                        'experience': experience}
 
     return jobs_list_for_df
 
@@ -102,6 +107,10 @@ def save_jobs_to_excel(jobs_list_for_df, filename):
     jobs = pd.DataFrame(jobs_list_for_df)
     jobs.to_excel(filename)
 
-
+def output_jobs(jobs_list, num_listings, website, filename='results.xls'):
+    jobs_list_for_df = reformat_job_list_for_df(jobs_list)
+    print('{} new job postings retrieved from {}. Stored in {}.'.format(num_listings, 
+                                                                          website, filename))
+    return save_jobs_to_excel(jobs_list_for_df, filename)
              
 
