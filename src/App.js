@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import JobOpp from './components/jobOpp.jsx'
 import Organizations from './components/organizations.jsx'
+import Opportunities from './components/opportunities.jsx'
 import MetaTags from 'react-meta-tags';
 import Landing from './components/landing'
 import OurCommunity from './components/ourcommunity'
@@ -11,8 +11,10 @@ import ReactGA from 'react-ga';
 ReactGA.initialize('UA-167361197-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-function App() {
-  return (
+class App extends React.Component {
+
+render() {
+  return(
 
     <div className="App">
       <MetaTags>
@@ -23,14 +25,15 @@ function App() {
       </MetaTags>
 
       <div className = "MainPage">
-        <Landing></Landing>
-        <JobOpp></JobOpp>
+        <Landing ></Landing>
+          <Opportunities></Opportunities>
         <Organizations></Organizations>
         <OurCommunity></OurCommunity>
         <AboutUs></AboutUs>
       </div>
     </div>
   );
+  }
 }
 
 export default App;

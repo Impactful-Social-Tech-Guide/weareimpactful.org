@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "airtable": "^0.10.1",
     "bootstrap": "^4.5.0",
-    "eslint_d": "^8.1.1",
+    "moment": "^2.29.1",
     "object-assign": "^4.1.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
@@ -23,12 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -43,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "gh-pages": "^2.2.0"
   }
 }

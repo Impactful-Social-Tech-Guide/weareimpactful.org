@@ -9,9 +9,125 @@
   text-align: left;
 }
 
+#LatestOpportunities{
+  font-family: CircularStdBook;
+  text-align: left;
+margin-left: 40px;
+left: 141px;
+top: 1572px;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+color: #363636;
+}
+
+a.Position{
+  font-family: CircularStdBook;
+  text-align: left;
+left: 141px;
+top: 1640px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #005FEE;
+margin-bottom: 0px;
+}
+
+
+a.Position strong {
+  font-weight: 500;
+
+color: black;
+}
+
+#Location{
+  font-family: CircularStdBook;
+  text-align: left;
+left: 141px;
+top: 1680px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+left: 141px;
+color: #363636;
+text-overflow: ellipsis;
+overflow: hidden;
+max-width: 300px;
+max-height: 24px;
+white-space: nowrap;
+}
+
+a.seeAllJobs{
+text-align: right;
+left: 899px;
+top: 2226px;
+margin-right: 50px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #005FEE;
+}
+
+p.RoleType{
+font-family: CircularStdBook;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+left: 141px;
+top: 50%;
+  left: 50%;
+/* Paragraph 2 (16 px) */
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+/* or 150% */
+letter-spacing: 0.01em;
+font-feature-settings: 'ss03' on;
+
+text-overflow: ellipsis;
+overflow: hidden;
+max-width: 350px;
+max-height: 24px;
+white-space: nowrap;
+
+color: #000000;
+}
+
+#LastModified{
+  font-family: CircularStdBook;
+left: 929px;
+top: 1888px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+align-items: center;
+letter-spacing: 0.02em;
+font-feature-settings: 'ss03' on;
+text-align: left;
+
+
+text-overflow: ellipsis;
+overflow: hidden;
+max-height: 24px;
+white-space: nowrap;
+
+color: #868484;
+}
+
+
 #page-largeheading {
   height: 52.81px;
-  width: 340px;
   color: #1D00B5;
   font-size: 32px;
   font-weight: 500;
@@ -27,16 +143,16 @@
     color: #1D00B5;
     font-size: 18px;
     font-weight: 300;
+    font-family: CircularStdBook;
+
     letter-spacing: 0.5px;
     line-height: 24px;
   text-align: left;
   padding-bottom: 30px;
-  min-width: 300px;
 }
 
 #page-button  {
   height: 64px;
-  width: 221px;
   border-radius: 10px;
   background-color: #1D00B5;
   box-shadow: 2px 2px 4px 0 rgba(66,66,66,0.5);
@@ -66,11 +182,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15vh;
-  height:40vh;
+  margin-top: 15vh;
+  height:25vh;
   max-width: 600px;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 270px;
+
 }
 
 #explore-jobs {
@@ -102,12 +220,12 @@
   padding-top: 15px;
   opacity: 0.9;
   color: #FFF;
-  font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 24px;
-  min-width: 300px;
  text-align: left;
+ font-size: 18px;
+ font-family: CircularStdBook;
 }
 
 #aboutUs-team {
@@ -117,7 +235,6 @@
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 26px;
-  min-width: 300px;
  text-align: center;
  margin-bottom: 0px;
 }
