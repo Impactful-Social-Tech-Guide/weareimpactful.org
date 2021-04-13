@@ -40,25 +40,25 @@ export default class LandingPage extends Component {
           <div  className="col-md-6">
 
             <p id="aboutUs-body">
-              Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {" "}
+              Have any feedback, questions, or comments about our platform? Looking to collaborate or join our team? Please drop us a line at {' '}
               <a style={{
-                  color: "white"
+                  color: 'white'
                 }} href="mailto:hello@weareimpactful.org">
                 hello@weareimpactful.org</a>
             </p>
             <p id="aboutUs-body" style={{
-                paddingTop: "30px"
+                paddingTop: '30px'
               }}>Find us on socials:</p>
 
-            <Row style={{width:"250px",
-                paddingTop: "10px"
+            <Row style={{width:'250px',
+                paddingTop: '10px'
               }} className="justify-content-md-center">
               <Col>
                 <a href="https://www.facebook.com/impactful.tech"
                   target="_blank"  rel="noopener noreferrer" >
                 <img style={{
-                    height: "36.24px",
-                    width: "35.95px"
+                    height: '36.24px',
+                    width: '35.95px'
                   }} alt="Facebook" src={facebookIcon}/>
                   </a>
               </Col>
@@ -67,8 +67,8 @@ export default class LandingPage extends Component {
                   target="_blank"  rel="noopener noreferrer" >
 
                 <img style={{
-                    height: "36.24px",
-                    width: "35.95px"
+                    height: '36.24px',
+                    width: '35.95px'
                   }} alt="Instagram" src={instagramIcon}/>
                 </a>
 
@@ -77,8 +77,8 @@ export default class LandingPage extends Component {
                 <a href="https://twitter.com/impactful_tech"
                   target="_blank"  rel="noopener noreferrer" >
                 <img style={{
-                    height: "36.24px",
-                    width: "35.95px"
+                    height: '36.24px',
+                    width: '35.95px'
                   }} alt="Twitter" src={twitterIcon}/>
                 </a>
 
@@ -87,8 +87,8 @@ export default class LandingPage extends Component {
                 <a href="https://www.linkedin.com/company/impactfultech/"
                   target="_blank"  rel="noopener noreferrer" >
                 <img style={{
-                    height: "36.24px",
-                    width: "35.95px"
+                    height: '36.24px',
+                    width: '35.95px'
                   }} alt="LinkedIn" src={linkedinIcon}/>
                 </a>
 
@@ -96,8 +96,8 @@ export default class LandingPage extends Component {
               <Col>
                 <a href="mailto:hello@weareimpactful.org">
                 <img style={{
-                    height: "36.24px",
-                    width: "35.95px"
+                    height: '36.24px',
+                    width: '35.95px'
                   }} alt="Mail" src={MailIcon}/>
                 </a>
               </Col>
@@ -105,8 +105,8 @@ export default class LandingPage extends Component {
           </div>
         </Row>
         <h5 id="aboutUs-heading" style={{
-            marginTop:"76px",
-            marginBottom: "32px"
+            marginTop:'76px',
+            marginBottom: '32px'
           }}>TEAM</h5>
         <Container id="landing" style={{
           }}>
@@ -114,7 +114,7 @@ export default class LandingPage extends Component {
             <Row className="justify-content-md-center">
 
                   <div  style={{
-                      paddingBottom: 25, marginBottom:"60px"
+                      paddingBottom: 25, marginBottom:'60px'
                     }} className="col-md-4">
 
                     <div className="circular--landscape">
@@ -123,10 +123,10 @@ export default class LandingPage extends Component {
                             alt="Larissa"></img>
                     </div>
                     <h4 style={{
-                      marginTop:"24px"
+                      marginTop:'24px'
                     }} id="aboutUs-team">LARISSA NGUYEN (she/her)</h4>
                     <p id="aboutUs-team">Co-Founder</p><p style={{
-                        marginBottom: "24px"
+                        marginBottom: '24px'
                       }} id="aboutUs-team">Product Manager</p>
 
                     <a href="https://www.linkedin.com/in/larissanguyen/">
@@ -144,7 +144,7 @@ export default class LandingPage extends Component {
                     </a>
                 </div>
                 <div  style={{
-                    paddingBottom: 25, marginBottom:"60px"
+                    paddingBottom: 25, marginBottom:'60px'
                   }} className="col-md-4">
                     <div className="circular--portrait">
                         <img src={Ivonne}
@@ -152,10 +152,10 @@ export default class LandingPage extends Component {
                             alt="Ivonne"></img>
                     </div>
                     <h4 style={{
-                      marginTop:"24px"
+                      marginTop:'24px'
                     }} id="aboutUs-team">IVONNE GUZMAN-LEMUZ (she/they)</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
-                          marginBottom: "24px"
+                          marginBottom: '24px'
                         }}>Developer</p>
                     <a href="https://www.linkedin.com/in/iguzmanl/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
@@ -171,17 +171,17 @@ export default class LandingPage extends Component {
 
                 </div>
                 <div  style={{
-                    paddingBottom: 25, marginBottom:"60px"
+                    paddingBottom: 25, marginBottom:'60px'
                   }} className="col-md-4">
                     <div className="circular--portrait">
                         <img src={Nithi}
                             className="rounded img-fluid" alt="Nithi"></img>
                     </div>
                     <h4 style={{
-                      marginTop:"24px"
+                      marginTop:'24px'
                     }} id="aboutUs-team">NITHI SUBBAIAN (she/her)</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
-                          marginBottom: "24px"
+                          marginBottom: '24px'
                         }}>Developer</p>
                     <a href="https://www.linkedin.com/in/nithi-subbaian/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
@@ -200,17 +200,17 @@ export default class LandingPage extends Component {
 <Row className="justify-content-md-center">
 
   <div  style={{
-      paddingBottom: 25, marginBottom:"60px"
+      paddingBottom: 25, marginBottom:'60px'
     }} className="col-md-4">
                     <div className="circular--portrait">
                         <img src={Ivy}
                             className="rounded img-fluid" alt="Ivy"></img>
                     </div>
                     <h4 style={{
-                      marginTop:"24px"
+                      marginTop:'24px'
                     }} id="aboutUs-team">IVY LI (she/her)</h4>
                       <p id="aboutUs-team">Co-Founder</p><p id="aboutUs-team"  style={{
-                          marginBottom: "24px"
+                          marginBottom: '24px'
                         }}>Product Designer</p>
                     <a href="https://www.linkedin.com/in/ivy-l-82214983/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
@@ -227,17 +227,17 @@ export default class LandingPage extends Component {
                 </div>
 
                 <div  style={{
-                    paddingBottom: 25, marginBottom:"60px"
+                    paddingBottom: 25, marginBottom:'60px'
                   }} className="col-md-4">
                     <div className="circular--portrait">
                         <img src={Kassandra}
                             className="rounded img-fluid" alt="Kassandra"></img>
                     </div>
                     <h4 style={{
-                      marginTop:"24px"
+                      marginTop:'24px'
                     }} id="aboutUs-team">KASSANDRA FRANCO (she/her)</h4>
                       <p id="aboutUs-team"  style={{
-                          marginBottom: "24px"
+                          marginBottom: '24px'
                         }}>Intern</p>
                     <a href="https://www.linkedin.com/in/kassandra-franco/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
@@ -245,17 +245,17 @@ export default class LandingPage extends Component {
                 </div>
 
                 <div  style={{
-                    paddingBottom: 25, marginBottom:"60px"
+                    paddingBottom: 25, marginBottom:'60px'
                   }} className="col-md-4">
                     <div className="circular--portrait">
                         <img src={Rajee}
                             className="rounded img-fluid" alt="Rajee"></img>
                     </div>
                     <h4 style={{
-                      marginTop:"24px"
+                      marginTop:'24px'
                     }} id="aboutUs-team">RAJEE SHAH (she/her)</h4>
                       <p id="aboutUs-team"  style={{
-                          marginBottom: "24px"
+                          marginBottom: '24px'
                         }}>Intern</p>
                     <a href="https://www.linkedin.com/in/rajeeshah/">
                         <img border="0" alt="LinkedIn Logo" src={LinkedIn} width="10%" height="10%"></img>
@@ -265,16 +265,16 @@ export default class LandingPage extends Component {
             </Row>
 
             <Row className="justify-content-md-center" style={{
-                marginTop: "120px",
-                marginBottom: "24px"
+                marginTop: '120px',
+                marginBottom: '24px'
               }}>
                 <div  style={{
-                    paddingBottom:"15px",
+                    paddingBottom:'15px',
                   }} className="col-md-4">
                 <a id="aboutUs-heading" href="#jobOpportunities" className="footerLink">Explore Jobs</a>
               </div>
               <div  style={{
-                  paddingBottom:"15px",
+                  paddingBottom:'15px',
                 }} className="col-md-4">                <a id="aboutUs-heading" href="#joinCommunity" className="footerLink">Join Our Community</a>
             </div>
             </Row>

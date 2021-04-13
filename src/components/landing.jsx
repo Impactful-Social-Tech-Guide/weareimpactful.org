@@ -12,7 +12,7 @@ import '../css/styles.css'
 export default class LandingPage extends Component {
   render() {
     return (<div className="landing">
-        <Row style={{maxWidth:"370px", marginLeft:"auto", marginRight:"auto", paddingTop: "5vh", height:"18vh"}} >
+        <Row style={{maxWidth:'370px', marginLeft:'auto', marginRight:'auto', paddingTop: '5vh', height:'18vh'}} >
           <img className="titleWithLogo" alt="Impactful" src={TitleWithLogo}/>
         </Row>
         <Row id="impactful-is-your-pl" className="justify-content-md-center">
@@ -21,13 +21,13 @@ export default class LandingPage extends Component {
 
 
         <Row id="explore-jobs" className="justify-content-md-center">
-          <a style={{ color: "#FFFFFF" }} href="#jobOpportunities">Explore Jobs</a>
+          <a style={{ color: '#FFFFFF' }} href="#jobOpportunities">Explore Jobs</a>
         </Row>
         <Row id="explore-jobs" className="justify-content-md-center">
-          <a style={{ color: "#FFFFFF" }} href="#joinCommunity">Join Our Community</a>
+          <a style={{ color: '#FFFFFF' }} href="#joinCommunity">Join Our Community</a>
         </Row>
         <Row id="explore-jobs" className="justify-content-md-center">
-          <a style={{ color: "#FFFFFF" }} href="#learnMore">Learn More</a>
+          <a style={{ color: '#FFFFFF' }} href="#learnMore">Learn More</a>
         </Row>
 
 
@@ -36,21 +36,21 @@ export default class LandingPage extends Component {
           <a >FOLLOW US</a>
         </Row>
         <Row style={{
-            marginTop: "10px"
+            marginTop: '10px'
           }} className="justify-content-md-center">
           <Col>
             <a href="https://www.facebook.com/impactful.tech">
             <img style={{
-                height: "36.24px",
-                width: "35.95px"
+                height: '36.24px',
+                width: '35.95px'
               }} alt="Facebook" src={facebookIcon}/>
               </a>
           </Col>
           <Col>
             <a href="https://www.instagram.com/impactful.tech/">
             <img style={{
-                height: "36.24px",
-                width: "35.95px"
+                height: '36.24px',
+                width: '35.95px'
               }} alt="Instagram" src={instagramIcon}/>
             </a>
 
@@ -58,8 +58,8 @@ export default class LandingPage extends Component {
           <Col>
             <a href="https://twitter.com/impactful_tech">
             <img style={{
-                height: "36.24px",
-                width: "35.95px"
+                height: '36.24px',
+                width: '35.95px'
               }} alt="Twitter" src={twitterIcon}/>
             </a>
 
@@ -67,8 +67,8 @@ export default class LandingPage extends Component {
           <Col>
             <a href="https://www.linkedin.com/company/impactfultech/">
             <img style={{
-                height: "36.24px",
-                width: "35.95px"
+                height: '36.24px',
+                width: '35.95px'
               }} alt="Linkedin" src={linkedinIcon}/>
             </a>
 
@@ -76,8 +76,8 @@ export default class LandingPage extends Component {
           <Col>
             <a href="mailto:hello@weareimpactful.org">
             <img style={{
-                height: "36.24px",
-                width: "35.95px"
+                height: '36.24px',
+                width: '35.95px'
               }} alt="Mail" src={MailIcon}/>
             </a>
           </Col>
